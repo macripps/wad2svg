@@ -1,0 +1,3 @@
+# Doom WAD -> SVG
+
+`go run cmd/wad2svg/main.go [path to wad] [map name]`
