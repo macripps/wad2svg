@@ -241,18 +241,15 @@ func (m *Map) renderSector(s Sector) {
 	if s.isSecret() {
 		stroke = "aqua"
 		fill = "aqua"
-		opacity = 0.3
 	} else if s.isDamage() {
 		stroke = "red"
 		fill = "red"
-		opacity = 0.3
 	} else {
 		stroke = "black"
 		fill = "white"
-		opacity = 0.3
 	}
 	fmt.Fprintf(os.Stdout, "    <!-- Sector type %d -->\n", s.sectorType)
-	fmt.Fprintf(os.Stdout, "    <g stroke=\"%s\" fill=\"%s\" fill-opacity=\"%f\" stroke-width=\"%d\">\n", stroke, fill, opacity, strokeWidth)
+	fmt.Fprintf(os.Stdout, "    <g stroke=\"%s\" fill=\"%s\" opacity=\"%f\" stroke-width=\"%d\">\n", stroke, fill, opacity, strokeWidth)
 	sectorLineDefs := make([]LineDef, 0)
 	for sd := 0; sd < len(m.SideDefs); sd++ {
 		sidedef := m.SideDefs[sd]
@@ -276,12 +273,21 @@ func (m *Map) renderAllLineDefs(lds []LineDef, stroke string) {
 	sectorLineDefs := make([]LineDef, len(lds))
 	copy(sectorLineDefs, lds)
 	var linedefs []LineDef
+	path := strings.Builder{}
 	for len(sectorLineDefs) > 0 {
 		linedefs, sectorLineDefs = selectLineDef(sectorLineDefs, func(ld1, ld2 LineDef) bool {
 			return true
 		})
-		m.renderPolyline(linedefs, stroke, 1)
+		linedef := linedefs[0]
+		start := m.Vertexes[linedef.start]
+		end := m.Vertexes[linedef.end]
+		path.WriteString(fmt.Sprintf(" M %d %d L %d,%d", start.x, start.y, end.x, end.y))
+		for i := 1; i < len(linedefs); i++ {
+			v := m.Vertexes[linedefs[i].end]
+			path.WriteString(fmt.Sprintf(" L %d,%d", v.x, v.y))
+		}
 	}
+	fmt.Fprintf(os.Stdout, "    <path d=\"%s\" stroke=\"%s\" fill-rule=\"evenodd\" stroke-width=\"%d\"/>\n", path.String(), stroke, 1)
 }
 
 func (m *Map) renderSpecialLineDefs(lds []LineDef) {
@@ -308,23 +314,10 @@ func (m *Map) renderSpecialLineDefs(lds []LineDef) {
 			start := m.Vertexes[linedef.start]
 			end := m.Vertexes[linedef.end]
 
+			fmt.Fprintf(os.Stdout, "    <!-- Type %d -->\n", linedef.specialType)
 			fmt.Fprintf(os.Stdout, "    <path d=\"M %d %d L %d %d\" stroke=\"%s\" stroke-width=\"%d\" />", start.x, start.y, end.x, end.y, stroke, strokeWidth)
 		}
 	}
-}
-
-func (m *Map) renderPolyline(linedefs []LineDef, stroke string, strokeWidth int) {
-	linedef := linedefs[0]
-	path := strings.Builder{}
-	start := m.Vertexes[linedef.start]
-	end := m.Vertexes[linedef.end]
-	path.WriteString(fmt.Sprintf("%d,%d %d,%d", start.x, start.y, end.x, end.y))
-	for i := 1; i < len(linedefs); i++ {
-		v := m.Vertexes[linedefs[i].end]
-		path.WriteString(fmt.Sprintf(" %d,%d", v.x, v.y))
-	}
-	fmt.Fprintf(os.Stdout, "    <!-- Type %d -->\n", linedef.specialType)
-	fmt.Fprintf(os.Stdout, "    <polyline points=\"%s\" stroke=\"%s\" stroke-width=\"%d\"/>\n", path.String(), stroke, strokeWidth)
 }
 
 func selectLineDef(lineDefs []LineDef, shouldInclude func(LineDef, LineDef) bool) ([]LineDef, []LineDef) {
