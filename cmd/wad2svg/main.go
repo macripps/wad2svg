@@ -221,7 +221,8 @@ func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, 
 	sort.SliceStable(sectors, func(i, j int) bool {
 		return sectors[i].floorHeight < sectors[j].floorHeight
 	})
-	for _, sector := range sectors {
+	for i, sector := range sectors {
+		fmt.Fprintf(os.Stderr, "Rendering sector #%d/%d\n", i+1, len(sectors))
 		m.renderSector(sector)
 	}
 
@@ -252,7 +253,6 @@ func (m *Map) renderSector(s Sector) {
 	}
 	fmt.Fprintf(os.Stdout, "    <!-- Sector type %d -->\n", s.sectorType)
 	fmt.Fprintf(os.Stdout, "    <g stroke=\"%s\" fill=\"%s\" fill-opacity=\"%f\" stroke-width=\"%d\">\n", stroke, fill, opacity, strokeWidth)
-	fmt.Fprintf(os.Stderr, "Rendering sector with floorheight %d\n", s.floorHeight)
 	sectorLineDefs := make([]LineDef, 0)
 	for sd := 0; sd < len(m.SideDefs); sd++ {
 		sidedef := m.SideDefs[sd]

@@ -1,14 +1,21 @@
 <?xml version="1.0" standalone="no"?>
-<svg width="640px" height="480px" viewBox="-384 0 786 384" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="1024" viewBox="-384 0 786 384" xmlns="http://www.w3.org/2000/svg">
   <title>ORIGWAD.PWD - E1M1</title>
   <g>
-    <polyline points="0,256 0,384 -384,384 -384,0 0,0 0,128" fill="none" stroke="black" stroke-width="3"/>
-    <polyline points="402,224 402,384 18,384 18,256" fill="none" stroke="black" stroke-width="3"/>
-    <polyline points="18,128 18,0 402,0 402,160" fill="none" stroke="black" stroke-width="3"/>
-    <polyline points="18,256 18,128" fill="none" stroke="green" stroke-width="3"/>
-    <polyline points="18,256 0,256" fill="none" stroke="black" stroke-width="3"/>
-    <polyline points="402,160 402,224" fill="none" stroke="purple" stroke-width="3"/>
-    <polyline points="0,128 18,128" fill="none" stroke="black" stroke-width="3"/>
-    <polyline points="0,128 0,256" fill="none" stroke="green" stroke-width="3"/>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="0,256 0,384 -384,384 -384,0 0,0 0,128 0,256" stroke="black" stroke-width="1"/>
+    <path d="M 0 128 L 0 256" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 1 -->
+    <polyline points="18,256 18,128 0,128 0,256 18,256" stroke="black" stroke-width="1"/>
+    <path d="M 0 128 L 0 256" stroke="green" stroke-width="3" />    <path d="M 18 256 L 18 128" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 11 -->
+    <polyline points="402,160 402,224 402,384 18,384 18,256 18,128 18,0 402,0 402,160" stroke="black" stroke-width="1"/>
+    <path d="M 18 256 L 18 128" stroke="green" stroke-width="3" />    <path d="M 402 160 L 402 224" stroke="purple" stroke-width="3" />    </g>
   </g>
 </svg>
