@@ -2,11 +2,11 @@ package cmd
 
 import (
 	"encoding/binary"
+	"errors"
 	"fmt"
 	"io"
 	"os"
 	"path/filepath"
-	"strconv"
 	"strings"
 
 	"github.com/spf13/cobra"
@@ -15,29 +15,19 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "wad2svg",
 	Short: "wad2svg generates SVG files from Doom and Doom2 WAD files",
-	Run: func(cmd *cobra.Command, args []string) {
-		if len(args) < 2 {
-			fmt.Fprintln(os.Stderr, "Usage: wad2svg file map [imageWidth=1280] [imageHeight=1024]")
-			os.Exit(1)
+	Args: func(cmd *cobra.Command, args []string) error {
+		if len(args) < 1 {
+			return errors.New("requires a path to a WAD file")
 		}
+		if len(args) < 2 {
+			return errors.New("requires a map name")
+		}
+		return nil
+	},
+	Run: func(cmd *cobra.Command, args []string) {
 		var fileName = args[0]
 		var wadName = filepath.Base(fileName)
 		var mapName = args[1]
-		imageWidth := 1280
-		imageHeight := 1024
-		var err error
-		if len(args) > 2 {
-			imageWidth, err = strconv.Atoi(args[2])
-			if err != nil {
-				panic(err)
-			}
-		}
-		if len(args) > 3 {
-			imageHeight, err = strconv.Atoi(args[3])
-			if err != nil {
-				panic(err)
-			}
-		}
 		f, err := os.Open(fileName)
 		if err != nil {
 			panic(err)
@@ -45,6 +35,14 @@ var rootCmd = &cobra.Command{
 		m := ReadMap(f, mapName)
 		m.render(os.Stdout, wadName, mapName, imageWidth, imageHeight)
 	},
+}
+
+var imageWidth int
+var imageHeight int
+
+func init() {
+	rootCmd.LocalFlags().IntVar(&imageWidth, "image_width", 1280, "Width of generated SVG image")
+	rootCmd.LocalFlags().IntVar(&imageHeight, "image_height", 1024, "Height of generated SVG image")
 }
 
 type Map struct {
