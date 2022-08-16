@@ -2,7 +2,6 @@ package cmd
 
 import (
 	"encoding/binary"
-	"errors"
 	"fmt"
 	"io"
 	"os"
@@ -15,14 +14,16 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "wad2svg wad_file map_name",
 	Short: "wad2svg generates SVG files from Doom and Doom2 WAD files",
-	Args: func(cmd *cobra.Command, args []string) error {
-		if len(args) < 1 {
-			return errors.New("requires a path to a WAD file")
+	Args:  cobra.ExactArgs(2),
+	ValidArgsFunction: func(cmd *cobra.Command, args []string, toComplete string) ([]string, cobra.ShellCompDirective) {
+		var comps []string
+		if len(args) == 0 {
+			comps = cobra.AppendActiveHelp(comps, "requires a path to a WAD file")
 		}
 		if len(args) < 2 {
-			return errors.New("requires a map name")
+			comps = cobra.AppendActiveHelp(comps, "requires a map name")
 		}
-		return nil
+		return comps, cobra.ShellCompDirectiveDefault
 	},
 	Run: func(cmd *cobra.Command, args []string) {
 		var fileName = args[0]
@@ -94,7 +95,7 @@ func (m *Map) parseSectors(r io.ReaderAt, size uint32, offset int64) {
 	fmt.Fprintf(os.Stderr, "Reading %d sectors\n", numSectors)
 	var s Sector
 	for numSectors > 0 {
-		s, offset = ReadSectorFrom(r, int(size/26-numSectors), offset)
+		s, offset = ReadSectorFrom(r, offset)
 		m.Sectors = append(m.Sectors, s)
 		numSectors--
 	}
@@ -179,9 +180,8 @@ type Vertex struct {
 }
 
 type Sector struct {
-	sectorNumber   int
 	floorHeight    int16
-	ceilingHeight  uint16
+	ceilingHeight  int16
 	floorTexture   string
 	ceilingTexture string
 	lightLevel     uint16
@@ -202,7 +202,7 @@ var sectorStroke = []string{"black", "black", "black", "black", "red", "red", "u
 var sectorOpacity = []string{"1.0", "1.0", "1.0", "1.0", "0.2", "0.1", "unused", "0.05", "1.0", "0.5", "1.0", "1.0", "1.0", "1.0", "1.0", "unused", "0.2", "1.0"}
 
 func (s *Sector) ToSvgAttributeString() string {
-	return fmt.Sprintf("fill=\"%s\" stroke=\"%s\" opacity=\"%s\" stroke-width=\"1\"", sectorFill[s.sectorType], sectorStroke[s.sectorType], sectorOpacity[s.sectorType])
+	return fmt.Sprintf("fill=\"%s\" stroke=\"%s\" fill-opacity=\"%s\" stroke-width=\"1\"", sectorFill[s.sectorType], sectorStroke[s.sectorType], sectorOpacity[s.sectorType])
 }
 
 func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, imageHeight int) {
@@ -233,17 +233,14 @@ func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, 
 		fmt.Fprintf(os.Stderr, "Rendering sector #%d/%d\n", i+1, len(sectors))
 		m.renderSector(sector, i)
 	}
-
-	linedefsToDraw := make([]LineDef, len(m.LineDefs))
-	copy(linedefsToDraw, m.LineDefs)
-
 	fmt.Fprintln(os.Stdout, "  </g>")
 	fmt.Fprintln(os.Stdout, "</svg>")
 }
 
 func (m *Map) renderSector(s Sector, i int) {
-	fmt.Fprintf(os.Stdout, "    <!-- Sector type %d -->\n", s.sectorType)
 	fmt.Fprintf(os.Stdout, "    <g %s>\n", s.ToSvgAttributeString())
+	fmt.Fprintf(os.Stdout, "      <title>Sector %d</title>\n", i)
+	fmt.Fprintf(os.Stdout, "      <desc>Sector Type: %d</desc>\n", s.sectorType)
 	sectorLineDefs := make([]LineDef, 0)
 	for sd := 0; sd < len(m.SideDefs); sd++ {
 		sidedef := m.SideDefs[sd]
@@ -465,12 +462,16 @@ func ReadVertexFrom(r io.ReaderAt, offset int64) (Vertex, int64) {
 
 var sector = make([]byte, 26)
 
-func ReadSectorFrom(r io.ReaderAt, idx int, offset int64) (Sector, int64) {
+func ReadSectorFrom(r io.ReaderAt, offset int64) (Sector, int64) {
 	r.ReadAt(sector, offset)
 	s := Sector{
-		sectorNumber: idx,
-		floorHeight:  int16(sector[0]) | int16(sector[1])<<8,
-		sectorType:   binary.LittleEndian.Uint16(sector[22:24]),
+		floorHeight:    int16(sector[0]) | int16(sector[1])<<8,
+		ceilingHeight:  int16(sector[2]) | int16(sector[3])<<8,
+		floorTexture:   string(sector[4:12]),
+		ceilingTexture: string(sector[12:20]),
+		lightLevel:     binary.LittleEndian.Uint16(sector[20:22]),
+		sectorType:     binary.LittleEndian.Uint16(sector[22:24]),
+		tagNumber:      binary.LittleEndian.Uint16(sector[24:26]),
 	}
 	return s, offset + 26
 }
