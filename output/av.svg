@@ -1,1361 +1,846 @@
 <?xml version="1.0" standalone="no"?>
-<svg width="640px" height="480px" viewBox="-1737 -1628 4002 4660" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="1024" viewBox="-1737 -1628 4002 4660" xmlns="http://www.w3.org/2000/svg">
   <title>AV.WAD - MAP07</title>
   <g>
-    <path d="M -256 -560 L -240 -576" stroke="black" stroke-width="3"/>
-    <path d="M 816 -576 L 832 -560" stroke="black" stroke-width="3"/>
-    <path d="M 832 496 L 816 512" stroke="black" stroke-width="3"/>
-    <path d="M -256 496 L -256 -560" stroke="black" stroke-width="3"/>
-    <path d="M -128 -448 L 32 -448" stroke="black" stroke-width="3"/>
-    <path d="M 32 -448 L 32 -288" stroke="black" stroke-width="3"/>
-    <path d="M 32 -288 L -128 -288" stroke="black" stroke-width="3"/>
-    <path d="M -128 -288 L -128 -448" stroke="black" stroke-width="3"/>
-    <path d="M -320 -624 L -304 -640" stroke="black" stroke-width="3"/>
-    <path d="M 880 -640 L 896 -624" stroke="black" stroke-width="3"/>
-    <path d="M 896 560 L 880 576" stroke="black" stroke-width="3"/>
-    <path d="M -320 560 L -320 -624" stroke="black" stroke-width="3"/>
-    <path d="M -384 -688 L -368 -704" stroke="black" stroke-width="3"/>
-    <path d="M 944 -704 L 960 -688" stroke="black" stroke-width="3"/>
-    <path d="M 960 624 L 944 640" stroke="black" stroke-width="3"/>
-    <path d="M -384 624 L -384 -688" stroke="black" stroke-width="3"/>
-    <path d="M -448 -752 L -432 -768" stroke="black" stroke-width="3"/>
-    <path d="M 1008 -768 L 1024 -752" stroke="black" stroke-width="3"/>
-    <path d="M 1024 688 L 1008 704" stroke="black" stroke-width="3"/>
-    <path d="M -448 688 L -448 -752" stroke="black" stroke-width="3"/>
-    <path d="M 1072 -832 L 1088 -816" stroke="black" stroke-width="3"/>
-    <path d="M 1088 752 L 1072 768" stroke="black" stroke-width="3"/>
-    <path d="M -512 752 L -512 352" stroke="black" stroke-width="3"/>
-    <path d="M -544 784 L -520 800" stroke="black" stroke-width="3"/>
-    <path d="M -528 -896 L -544 -880" stroke="black" stroke-width="3"/>
-    <path d="M 480 -768 L 1008 -768" stroke="black" stroke-width="3"/>
-    <path d="M 480 -704 L 944 -704" stroke="black" stroke-width="3"/>
-    <path d="M 480 -640 L 496 -640" stroke="black" stroke-width="3"/>
-    <path d="M 80 -592 L 80 -640" stroke="black" stroke-width="3"/>
-    <path d="M 480 -896 L 480 -904" stroke="black" stroke-width="3"/>
-    <path d="M 96 -640 L 128 -640" stroke="black" stroke-width="3"/>
-    <path d="M 96 -704 L 96 -640" stroke="black" stroke-width="3"/>
-    <path d="M 480 -768 L 480 -832" stroke="black" stroke-width="3"/>
-    <path d="M 480 -704 L 480 -768" stroke="black" stroke-width="3"/>
-    <path d="M 480 -640 L 480 -704" stroke="black" stroke-width="3"/>
-    <path d="M 96 -768 L 96 -704" stroke="black" stroke-width="3"/>
-    <path d="M 96 -832 L 96 -768" stroke="black" stroke-width="3"/>
-    <path d="M 128 -976 L 112 -976" stroke="black" stroke-width="3"/>
-    <path d="M 480 -960 L 464 -976" stroke="black" stroke-width="3"/>
-    <path d="M 208 -640 L 224 -656" stroke="black" stroke-width="3"/>
-    <path d="M 368 -640 L 384 -640" stroke="black" stroke-width="3"/>
-    <path d="M 352 -736 L 352 -688" stroke="black" stroke-width="3"/>
-    <path d="M 352 -736 L 224 -736" stroke="black" stroke-width="3"/>
-    <path d="M 224 -960 L 208 -976" stroke="black" stroke-width="3"/>
-    <path d="M 224 -848 L 224 -896" stroke="black" stroke-width="3"/>
-    <path d="M 368 -976 L 352 -960" stroke="black" stroke-width="3"/>
-    <path d="M 96 -960 L 96 -904" stroke="black" stroke-width="3"/>
-    <path d="M 208 -976 L 192 -976" stroke="black" stroke-width="3"/>
-    <path d="M 352 -960 L 352 -896" stroke="black" stroke-width="3"/>
-    <path d="M 464 -976 L 448 -976" stroke="black" stroke-width="3"/>
-    <path d="M 224 -656 L 224 -688" stroke="black" stroke-width="3"/>
-    <path d="M 352 -656 L 368 -640" stroke="black" stroke-width="3"/>
-    <path d="M 544 -288 L 544 -448" stroke="black" stroke-width="3"/>
-    <path d="M 704 -288 L 544 -288" stroke="black" stroke-width="3"/>
-    <path d="M 704 -448 L 704 -288" stroke="black" stroke-width="3"/>
-    <path d="M 544 -448 L 704 -448" stroke="black" stroke-width="3"/>
-    <path d="M 544 224 L 704 224" stroke="black" stroke-width="3"/>
-    <path d="M 704 224 L 704 384" stroke="black" stroke-width="3"/>
-    <path d="M 704 384 L 544 384" stroke="black" stroke-width="3"/>
-    <path d="M 544 384 L 544 224" stroke="black" stroke-width="3"/>
-    <path d="M -128 384 L -128 224" stroke="black" stroke-width="3"/>
-    <path d="M 32 384 L -128 384" stroke="black" stroke-width="3"/>
-    <path d="M 32 224 L 32 384" stroke="black" stroke-width="3"/>
-    <path d="M -128 224 L 32 224" stroke="black" stroke-width="3"/>
-    <path d="M 352 -896 L 224 -896" stroke="black" stroke-width="3"/>
-    <path d="M 352 -896 L 352 -848" stroke="black" stroke-width="3"/>
-    <path d="M 224 -896 L 224 -960" stroke="black" stroke-width="3"/>
-    <path d="M 224 -688 L 352 -688" stroke="black" stroke-width="3"/>
-    <path d="M 224 -688 L 224 -736" stroke="black" stroke-width="3"/>
-    <path d="M 352 -688 L 352 -656" stroke="black" stroke-width="3"/>
-    <path d="M 1120 -880 L 1104 -896" stroke="black" stroke-width="3"/>
-    <path d="M 1088 800 L 1124 784" stroke="black" stroke-width="3"/>
-    <path d="M 80 -640 L 96 -640" stroke="black" stroke-width="3"/>
-    <path d="M 96 -640 L 96 -576" stroke="black" stroke-width="3"/>
-    <path d="M 96 -576 L 80 -560" stroke="black" stroke-width="3"/>
-    <path d="M -240 -544 L -240 496" stroke="black" stroke-width="3"/>
-    <path d="M -240 496 L -224 496" stroke="black" stroke-width="3"/>
-    <path d="M 816 480 L 816 -544" stroke="black" stroke-width="3"/>
-    <path d="M 800 -560 L 496 -560" stroke="black" stroke-width="3"/>
-    <path d="M 480 -576 L 480 -640" stroke="black" stroke-width="3"/>
-    <path d="M 496 -640 L 496 -592" stroke="black" stroke-width="3"/>
-    <path d="M 496 -592 L 512 -576" stroke="black" stroke-width="3"/>
-    <path d="M 496 -640 L 880 -640" stroke="black" stroke-width="3"/>
-    <path d="M -432 -768 L 96 -768" stroke="black" stroke-width="3"/>
-    <path d="M -368 -704 L 96 -704" stroke="black" stroke-width="3"/>
-    <path d="M -304 -640 L 80 -640" stroke="black" stroke-width="3"/>
-    <path d="M -240 -576 L 64 -576" stroke="black" stroke-width="3"/>
-    <path d="M -224 -560 L -240 -544" stroke="black" stroke-width="3"/>
-    <path d="M 80 -560 L -224 -560" stroke="black" stroke-width="3"/>
-    <path d="M 64 -576 L 80 -592" stroke="black" stroke-width="3"/>
-    <path d="M 496 -560 L 480 -576" stroke="black" stroke-width="3"/>
-    <path d="M 512 -576 L 816 -576" stroke="black" stroke-width="3"/>
-    <path d="M 816 -544 L 800 -560" stroke="black" stroke-width="3"/>
-    <path d="M 896 -624 L 896 560" stroke="black" stroke-width="3"/>
-    <path d="M 960 -688 L 960 624" stroke="black" stroke-width="3"/>
-    <path d="M 1024 -752 L 1024 688" stroke="black" stroke-width="3"/>
-    <path d="M 1088 -816 L 1088 -416" stroke="black" stroke-width="3"/>
-    <path d="M 1072 768 L 712 768" stroke="black" stroke-width="3"/>
-    <path d="M 1008 704 L -432 704" stroke="black" stroke-width="3"/>
-    <path d="M 944 640 L -368 640" stroke="black" stroke-width="3"/>
-    <path d="M 880 576 L -304 576" stroke="black" stroke-width="3"/>
-    <path d="M 816 512 L -240 512" stroke="black" stroke-width="3"/>
-    <path d="M 800 496 L 816 480" stroke="black" stroke-width="3"/>
-    <path d="M -496 768 L -512 752" stroke="black" stroke-width="3"/>
-    <path d="M -432 704 L -448 688" stroke="black" stroke-width="3"/>
-    <path d="M -368 640 L -384 624" stroke="black" stroke-width="3"/>
-    <path d="M -304 576 L -320 560" stroke="black" stroke-width="3"/>
-    <path d="M -240 512 L -256 496" stroke="black" stroke-width="3"/>
-    <path d="M -224 496 L 800 496" stroke="black" stroke-width="3"/>
-    <path d="M -512 -816 L -496 -832" stroke="black" stroke-width="3"/>
-    <path d="M 352 -848 L 224 -848" stroke="orange" stroke-width="3"/>
-    <path d="M 352 -848 L 352 -736" stroke="black" stroke-width="3"/>
-    <path d="M 224 -736 L 224 -848" stroke="black" stroke-width="3"/>
-    <path d="M 96 -896 L -16 -896" stroke="black" stroke-width="3"/>
-    <path d="M 1104 -896 L 1008 -896" stroke="black" stroke-width="3"/>
-    <path d="M 192 -976 L 128 -976" stroke="black" stroke-width="3"/>
-    <path d="M 192 -976 L 192 -960" stroke="black" stroke-width="3"/>
-    <path d="M 192 -960 L 128 -960" stroke="black" stroke-width="3"/>
-    <path d="M 128 -960 L 128 -976" stroke="black" stroke-width="3"/>
-    <path d="M 112 -976 L 96 -960" stroke="black" stroke-width="3"/>
-    <path d="M 384 -960 L 384 -976" stroke="black" stroke-width="3"/>
-    <path d="M 448 -960 L 384 -960" stroke="black" stroke-width="3"/>
-    <path d="M 448 -976 L 448 -960" stroke="black" stroke-width="3"/>
-    <path d="M 448 -976 L 384 -976" stroke="black" stroke-width="3"/>
-    <path d="M 384 -976 L 368 -976" stroke="black" stroke-width="3"/>
-    <path d="M 480 -832 L 1072 -832" stroke="black" stroke-width="3"/>
-    <path d="M -496 -832 L 96 -832" stroke="black" stroke-width="3"/>
-    <path d="M 448 -656 L 448 -640" stroke="black" stroke-width="3"/>
-    <path d="M 384 -656 L 448 -656" stroke="black" stroke-width="3"/>
-    <path d="M 384 -640 L 384 -656" stroke="black" stroke-width="3"/>
-    <path d="M 384 -640 L 448 -640" stroke="black" stroke-width="3"/>
-    <path d="M 128 -640 L 192 -640" stroke="black" stroke-width="3"/>
-    <path d="M 128 -640 L 128 -656" stroke="black" stroke-width="3"/>
-    <path d="M 128 -656 L 192 -656" stroke="black" stroke-width="3"/>
-    <path d="M 192 -656 L 192 -640" stroke="black" stroke-width="3"/>
-    <path d="M 192 -640 L 208 -640" stroke="black" stroke-width="3"/>
-    <path d="M 448 -640 L 480 -640" stroke="black" stroke-width="3"/>
-    <path d="M -528 -416 L -512 -416" stroke="black" stroke-width="3"/>
-    <path d="M -512 -288 L -512 -416" stroke="black" stroke-width="3"/>
-    <path d="M -512 -288 L -528 -288" stroke="black" stroke-width="3"/>
-    <path d="M -528 -288 L -528 -416" stroke="black" stroke-width="3"/>
-    <path d="M -512 -416 L -512 -816" stroke="black" stroke-width="3"/>
-    <path d="M -528 352 L -528 224" stroke="black" stroke-width="3"/>
-    <path d="M -512 352 L -528 352" stroke="black" stroke-width="3"/>
-    <path d="M -512 352 L -512 224" stroke="black" stroke-width="3"/>
-    <path d="M -528 224 L -512 224" stroke="black" stroke-width="3"/>
-    <path d="M -512 224 L -512 -288" stroke="black" stroke-width="3"/>
-    <path d="M 1104 224 L 1104 352" stroke="black" stroke-width="3"/>
-    <path d="M 1088 224 L 1104 224" stroke="black" stroke-width="3"/>
-    <path d="M 1088 224 L 1088 352" stroke="black" stroke-width="3"/>
-    <path d="M 1104 352 L 1088 352" stroke="black" stroke-width="3"/>
-    <path d="M 832 -560 L 832 496" stroke="black" stroke-width="3"/>
-    <path d="M 1088 352 L 1088 752" stroke="black" stroke-width="3"/>
-    <path d="M 1104 -288 L 1088 -288" stroke="black" stroke-width="3"/>
-    <path d="M 1088 -416 L 1088 -288" stroke="black" stroke-width="3"/>
-    <path d="M 1088 -416 L 1104 -416" stroke="black" stroke-width="3"/>
-    <path d="M 1104 -416 L 1104 -288" stroke="black" stroke-width="3"/>
-    <path d="M 1088 -288 L 1088 224" stroke="black" stroke-width="3"/>
-    <path d="M -136 784 L -136 768" stroke="black" stroke-width="3"/>
-    <path d="M -8 768 L -136 768" stroke="black" stroke-width="3"/>
-    <path d="M -8 768 L -8 784" stroke="black" stroke-width="3"/>
-    <path d="M -8 784 L -136 784" stroke="black" stroke-width="3"/>
-    <path d="M -136 768 L -496 768" stroke="black" stroke-width="3"/>
-    <path d="M 712 784 L 584 784" stroke="black" stroke-width="3"/>
-    <path d="M 712 768 L 712 784" stroke="black" stroke-width="3"/>
-    <path d="M 712 768 L 584 768" stroke="black" stroke-width="3"/>
-    <path d="M 584 784 L 584 768" stroke="black" stroke-width="3"/>
-    <path d="M 584 768 L 336 768" stroke="black" stroke-width="3"/>
-    <path d="M 320 -64 L 256 -64" stroke="red" stroke-width="3"/>
-    <path d="M 320 0 L 320 -64" stroke="red" stroke-width="3"/>
-    <path d="M 256 0 L 320 0" stroke="red" stroke-width="3"/>
-    <path d="M 256 -64 L 256 0" stroke="red" stroke-width="3"/>
-    <path d="M -1211 -835 L -1151 -950" stroke="black" stroke-width="3"/>
-    <path d="M -736 928 L -864 1024" stroke="black" stroke-width="3"/>
-    <path d="M -700 -1220 L -632 -1264" stroke="black" stroke-width="3"/>
-    <path d="M 1317 -1205 L 1376 -1072" stroke="black" stroke-width="3"/>
-    <path d="M 224 -1248 L 232 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 352 -960 L 352 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 352 -1248 L 368 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 208 -976 L 208 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 208 -1248 L 224 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 368 -1248 L 368 -976" stroke="black" stroke-width="3"/>
-    <path d="M 368 -1248 L 376 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 224 -1248 L 224 -960" stroke="black" stroke-width="3"/>
-    <path d="M 232 -1280 L 200 -1280" stroke="black" stroke-width="3"/>
-    <path d="M 232 -1248 L 232 -1280" stroke="black" stroke-width="3"/>
-    <path d="M 200 -1280 L 200 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 232 -1248 L 344 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 200 -1248 L 208 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 344 -1248 L 352 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 376 -1248 L 376 -1280" stroke="black" stroke-width="3"/>
-    <path d="M 376 -1280 L 344 -1280" stroke="black" stroke-width="3"/>
-    <path d="M 344 -1280 L 344 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 376 -1248 L 420 -1244" stroke="black" stroke-width="3"/>
-    <path d="M -307 -1231 L -188 -1240" stroke="black" stroke-width="3"/>
-    <path d="M -408 -1248 L -307 -1231" stroke="black" stroke-width="3"/>
-    <path d="M -480 -1264 L -408 -1248" stroke="black" stroke-width="3"/>
-    <path d="M -784 -1028 L -756 -1156" stroke="black" stroke-width="3"/>
-    <path d="M -632 -1264 L -528 -1280" stroke="black" stroke-width="3"/>
-    <path d="M -528 -1280 L -480 -1264" stroke="black" stroke-width="3"/>
-    <path d="M -756 -1156 L -700 -1220" stroke="black" stroke-width="3"/>
-    <path d="M -796 -920 L -784 -1028" stroke="black" stroke-width="3"/>
-    <path d="M -800 -832 L -796 -920" stroke="black" stroke-width="3"/>
-    <path d="M -808 -520 L -784 -592" stroke="black" stroke-width="3"/>
-    <path d="M -944 -464 L -808 -520" stroke="black" stroke-width="3"/>
-    <path d="M -1024 -448 L -944 -464" stroke="black" stroke-width="3"/>
-    <path d="M -1104 -416 L -1024 -448" stroke="black" stroke-width="3"/>
-    <path d="M -1120 -336 L -1104 -416" stroke="black" stroke-width="3"/>
-    <path d="M -840 448 L -904 412" stroke="black" stroke-width="3"/>
-    <path d="M -803 525 L -840 448" stroke="black" stroke-width="3"/>
-    <path d="M -838 647 L -803 525" stroke="black" stroke-width="3"/>
-    <path d="M -812 797 L -838 647" stroke="black" stroke-width="3"/>
-    <path d="M -736 928 L -812 797" stroke="black" stroke-width="3"/>
-    <path d="M -784 -592 L -792 -688" stroke="black" stroke-width="3"/>
-    <path d="M 420 -1244 L 468 -1240" stroke="black" stroke-width="3"/>
-    <path d="M 556 -1232 L 596 -1232" stroke="black" stroke-width="3"/>
-    <path d="M 772 -1264 L 1029 -1312" stroke="black" stroke-width="3"/>
-    <path d="M 1029 -1312 L 1158 -1288" stroke="black" stroke-width="3"/>
-    <path d="M 1158 -1288 L 1280 -1248" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -1248 L 1317 -1205" stroke="black" stroke-width="3"/>
-    <path d="M 1376 -1072 L 1392 -960" stroke="black" stroke-width="3"/>
-    <path d="M 1392 -960 L 1472 -440" stroke="black" stroke-width="3"/>
-    <path d="M 1472 -440 L 1568 -392" stroke="black" stroke-width="3"/>
-    <path d="M 1656 -352 L 1696 -272" stroke="black" stroke-width="3"/>
-    <path d="M 1696 272 L 1672 376" stroke="black" stroke-width="3"/>
-    <path d="M 1672 376 L 1552 456" stroke="black" stroke-width="3"/>
-    <path d="M 1520 536 L 1440 800" stroke="black" stroke-width="3"/>
-    <path d="M -16 -896 L -16 -904" stroke="black" stroke-width="3"/>
-    <path d="M -16 -928 L -80 -928" stroke="black" stroke-width="3"/>
-    <path d="M -80 -928 L -80 -904" stroke="black" stroke-width="3"/>
-    <path d="M -192 -896 L -192 -904" stroke="black" stroke-width="3"/>
-    <path d="M -256 -896 L -288 -896" stroke="black" stroke-width="3"/>
-    <path d="M -256 -928 L -256 -904" stroke="black" stroke-width="3"/>
-    <path d="M -192 -928 L -256 -928" stroke="black" stroke-width="3"/>
-    <path d="M -368 -896 L -368 -904" stroke="black" stroke-width="3"/>
-    <path d="M -432 -896 L -528 -896" stroke="black" stroke-width="3"/>
-    <path d="M -368 -928 L -432 -928" stroke="black" stroke-width="3"/>
-    <path d="M -432 -928 L -432 -904" stroke="black" stroke-width="3"/>
-    <path d="M 592 -896 L 480 -896" stroke="black" stroke-width="3"/>
-    <path d="M 656 -896 L 656 -904" stroke="black" stroke-width="3"/>
-    <path d="M 592 -928 L 592 -904" stroke="black" stroke-width="3"/>
-    <path d="M 832 -896 L 832 -904" stroke="black" stroke-width="3"/>
-    <path d="M 768 -928 L 768 -904" stroke="black" stroke-width="3"/>
-    <path d="M 832 -928 L 768 -928" stroke="black" stroke-width="3"/>
-    <path d="M 1008 -896 L 1008 -904" stroke="black" stroke-width="3"/>
-    <path d="M 944 -928 L 944 -904" stroke="black" stroke-width="3"/>
-    <path d="M 1008 -928 L 944 -928" stroke="black" stroke-width="3"/>
-    <path d="M 656 -928 L 592 -928" stroke="black" stroke-width="3"/>
-    <path d="M 480 -904 L 592 -904" stroke="black" stroke-width="3"/>
-    <path d="M 480 -904 L 480 -960" stroke="black" stroke-width="3"/>
-    <path d="M 592 -904 L 592 -896" stroke="black" stroke-width="3"/>
-    <path d="M 656 -904 L 656 -928" stroke="black" stroke-width="3"/>
-    <path d="M 768 -904 L 768 -896" stroke="black" stroke-width="3"/>
-    <path d="M 832 -904 L 832 -928" stroke="black" stroke-width="3"/>
-    <path d="M 944 -904 L 944 -896" stroke="black" stroke-width="3"/>
-    <path d="M 1008 -904 L 1104 -904" stroke="black" stroke-width="3"/>
-    <path d="M 1008 -904 L 1008 -928" stroke="black" stroke-width="3"/>
-    <path d="M 1104 -904 L 1104 -896" stroke="black" stroke-width="3"/>
-    <path d="M -16 -904 L 96 -904" stroke="black" stroke-width="3"/>
-    <path d="M -368 -904 L -256 -904" stroke="black" stroke-width="3"/>
-    <path d="M -528 -896 L -528 -904" stroke="black" stroke-width="3"/>
-    <path d="M -432 -904 L -432 -896" stroke="black" stroke-width="3"/>
-    <path d="M -368 -904 L -368 -928" stroke="black" stroke-width="3"/>
-    <path d="M -256 -904 L -256 -896" stroke="black" stroke-width="3"/>
-    <path d="M -80 -904 L -80 -896" stroke="black" stroke-width="3"/>
-    <path d="M -192 -904 L -192 -928" stroke="black" stroke-width="3"/>
-    <path d="M -16 -904 L -16 -928" stroke="black" stroke-width="3"/>
-    <path d="M 96 -904 L 96 -896" stroke="black" stroke-width="3"/>
-    <path d="M -528 -904 L -432 -904" stroke="black" stroke-width="3"/>
-    <path d="M -192 -904 L -80 -904" stroke="black" stroke-width="3"/>
-    <path d="M 656 -904 L 768 -904" stroke="black" stroke-width="3"/>
-    <path d="M 832 -904 L 944 -904" stroke="black" stroke-width="3"/>
-    <path d="M 224 -96 L 352 -96" stroke="black" stroke-width="3"/>
-    <path d="M 352 -96 L 352 32" stroke="black" stroke-width="3"/>
-    <path d="M 352 32 L 224 32" stroke="black" stroke-width="3"/>
-    <path d="M 224 32 L 224 -96" stroke="black" stroke-width="3"/>
-    <path d="M 192 -128 L 384 -128" stroke="black" stroke-width="3"/>
-    <path d="M 384 -128 L 384 64" stroke="black" stroke-width="3"/>
-    <path d="M 384 64 L 192 64" stroke="black" stroke-width="3"/>
-    <path d="M 192 64 L 192 -128" stroke="black" stroke-width="3"/>
-    <path d="M 160 -160 L 416 -160" stroke="black" stroke-width="3"/>
-    <path d="M 416 -160 L 416 96" stroke="black" stroke-width="3"/>
-    <path d="M 416 96 L 160 96" stroke="black" stroke-width="3"/>
-    <path d="M 160 96 L 160 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -848 L 1152 -864" stroke="black" stroke-width="3"/>
-    <path d="M 1120 -848 L 1136 -848" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -880 L 1120 -880" stroke="black" stroke-width="3"/>
-    <path d="M 1136 -848 L 1152 -848" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -864 L 1280 -864" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -864 L 1152 -880" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -864 L 1280 -848" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -880 L 1280 -864" stroke="black" stroke-width="3"/>
-    <path d="M 1312 -880 L 1280 -880" stroke="black" stroke-width="3"/>
-    <path d="M 1312 -848 L 1312 -880" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -848 L 1296 -848" stroke="black" stroke-width="3"/>
-    <path d="M 1296 -848 L 1296 -720" stroke="black" stroke-width="3"/>
-    <path d="M 1296 -848 L 1312 -848" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -720 L 1136 -720" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -688 L 1152 -704" stroke="black" stroke-width="3"/>
-    <path d="M 1120 -688 L 1152 -688" stroke="black" stroke-width="3"/>
-    <path d="M 1136 -720 L 1136 -848" stroke="black" stroke-width="3"/>
-    <path d="M 1136 -720 L 1120 -720" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -704 L 1152 -720" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -720 L 1280 -704" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -688 L 1312 -688" stroke="black" stroke-width="3"/>
-    <path d="M 1312 -688 L 1312 -720" stroke="black" stroke-width="3"/>
-    <path d="M 1312 -720 L 1296 -720" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -704 L 1152 -704" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -704 L 1280 -688" stroke="black" stroke-width="3"/>
-    <path d="M 1296 -720 L 1280 -720" stroke="black" stroke-width="3"/>
-    <path d="M -560 -720 L -576 -720" stroke="black" stroke-width="3"/>
-    <path d="M -576 -704 L -576 -688" stroke="black" stroke-width="3"/>
-    <path d="M -576 -704 L -704 -704" stroke="black" stroke-width="3"/>
-    <path d="M -544 -720 L -560 -720" stroke="black" stroke-width="3"/>
-    <path d="M -576 -688 L -544 -688" stroke="black" stroke-width="3"/>
-    <path d="M -576 -720 L -576 -704" stroke="black" stroke-width="3"/>
-    <path d="M -704 -704 L -704 -720" stroke="black" stroke-width="3"/>
-    <path d="M -720 -720 L -736 -720" stroke="black" stroke-width="3"/>
-    <path d="M -720 -720 L -720 -848" stroke="black" stroke-width="3"/>
-    <path d="M -736 -720 L -736 -688" stroke="black" stroke-width="3"/>
-    <path d="M -736 -688 L -704 -688" stroke="black" stroke-width="3"/>
-    <path d="M -704 -688 L -704 -704" stroke="black" stroke-width="3"/>
-    <path d="M -704 -720 L -720 -720" stroke="black" stroke-width="3"/>
-    <path d="M -560 -848 L -544 -848" stroke="black" stroke-width="3"/>
-    <path d="M -560 -848 L -560 -720" stroke="black" stroke-width="3"/>
-    <path d="M -576 -848 L -560 -848" stroke="black" stroke-width="3"/>
-    <path d="M -544 -880 L -576 -880" stroke="black" stroke-width="3"/>
-    <path d="M -576 -880 L -576 -864" stroke="black" stroke-width="3"/>
-    <path d="M -576 -864 L -576 -848" stroke="black" stroke-width="3"/>
-    <path d="M -704 -864 L -704 -880" stroke="black" stroke-width="3"/>
-    <path d="M -704 -864 L -576 -864" stroke="black" stroke-width="3"/>
-    <path d="M -720 -848 L -704 -848" stroke="black" stroke-width="3"/>
-    <path d="M -704 -880 L -736 -880" stroke="black" stroke-width="3"/>
-    <path d="M -736 -880 L -736 -848" stroke="black" stroke-width="3"/>
-    <path d="M -736 -848 L -720 -848" stroke="black" stroke-width="3"/>
-    <path d="M -704 -848 L -704 -864" stroke="black" stroke-width="3"/>
-    <path d="M -288 -896 L -336 -896" stroke="black" stroke-width="3"/>
-    <path d="M -288 -896 L -288 -880" stroke="black" stroke-width="3"/>
-    <path d="M -288 -840 L -336 -840" stroke="black" stroke-width="3"/>
-    <path d="M -336 -840 L -336 -880" stroke="black" stroke-width="3"/>
-    <path d="M -336 -896 L -368 -896" stroke="black" stroke-width="3"/>
-    <path d="M -336 -880 L -336 -896" stroke="black" stroke-width="3"/>
-    <path d="M -288 -880 L -288 -840" stroke="black" stroke-width="3"/>
-    <path d="M -112 -840 L -160 -840" stroke="black" stroke-width="3"/>
-    <path d="M -112 -880 L -112 -840" stroke="black" stroke-width="3"/>
-    <path d="M -112 -896 L -112 -880" stroke="black" stroke-width="3"/>
-    <path d="M -80 -896 L -112 -896" stroke="black" stroke-width="3"/>
-    <path d="M -112 -896 L -160 -896" stroke="black" stroke-width="3"/>
-    <path d="M -160 -880 L -160 -896" stroke="black" stroke-width="3"/>
-    <path d="M -160 -840 L -160 -880" stroke="black" stroke-width="3"/>
-    <path d="M -160 -896 L -192 -896" stroke="black" stroke-width="3"/>
-    <path d="M 736 -840 L 688 -840" stroke="black" stroke-width="3"/>
-    <path d="M 736 -880 L 736 -840" stroke="black" stroke-width="3"/>
-    <path d="M 736 -896 L 736 -880" stroke="black" stroke-width="3"/>
-    <path d="M 768 -896 L 736 -896" stroke="black" stroke-width="3"/>
-    <path d="M 736 -896 L 688 -896" stroke="black" stroke-width="3"/>
-    <path d="M 688 -880 L 688 -896" stroke="black" stroke-width="3"/>
-    <path d="M 688 -840 L 688 -880" stroke="black" stroke-width="3"/>
-    <path d="M 688 -896 L 656 -896" stroke="black" stroke-width="3"/>
-    <path d="M 912 -840 L 864 -840" stroke="black" stroke-width="3"/>
-    <path d="M 912 -880 L 912 -840" stroke="black" stroke-width="3"/>
-    <path d="M 912 -896 L 912 -880" stroke="black" stroke-width="3"/>
-    <path d="M 944 -896 L 912 -896" stroke="black" stroke-width="3"/>
-    <path d="M 912 -896 L 864 -896" stroke="black" stroke-width="3"/>
-    <path d="M 864 -880 L 864 -896" stroke="black" stroke-width="3"/>
-    <path d="M 864 -840 L 864 -880" stroke="black" stroke-width="3"/>
-    <path d="M 864 -896 L 832 -896" stroke="black" stroke-width="3"/>
-    <path d="M 468 -1240 L 464 -1216" stroke="black" stroke-width="3"/>
-    <path d="M 464 -1216 L 428 -1216" stroke="black" stroke-width="3"/>
-    <path d="M 428 -1216 L 420 -1244" stroke="black" stroke-width="3"/>
-    <path d="M 468 -1240 L 516 -1236" stroke="black" stroke-width="3"/>
-    <path d="M 516 -1212 L 464 -1216" stroke="black" stroke-width="3"/>
-    <path d="M 516 -1236 L 516 -1212" stroke="black" stroke-width="3"/>
-    <path d="M 516 -1236 L 556 -1232" stroke="black" stroke-width="3"/>
-    <path d="M 556 -1232 L 560 -1208" stroke="black" stroke-width="3"/>
-    <path d="M 560 -1208 L 516 -1212" stroke="black" stroke-width="3"/>
-    <path d="M 600 -1208 L 560 -1208" stroke="black" stroke-width="3"/>
-    <path d="M 596 -1232 L 600 -1208" stroke="black" stroke-width="3"/>
-    <path d="M 596 -1232 L 636 -1232" stroke="black" stroke-width="3"/>
-    <path d="M 636 -1232 L 640 -1208" stroke="black" stroke-width="3"/>
-    <path d="M 640 -1208 L 600 -1208" stroke="black" stroke-width="3"/>
-    <path d="M 684 -1212 L 640 -1208" stroke="black" stroke-width="3"/>
-    <path d="M 680 -1236 L 684 -1212" stroke="black" stroke-width="3"/>
-    <path d="M 636 -1232 L 680 -1236" stroke="black" stroke-width="3"/>
-    <path d="M 736 -1224 L 684 -1212" stroke="black" stroke-width="3"/>
-    <path d="M 680 -1236 L 732 -1252" stroke="black" stroke-width="3"/>
-    <path d="M 768 -1232 L 736 -1224" stroke="black" stroke-width="3"/>
-    <path d="M 732 -1252 L 772 -1264" stroke="black" stroke-width="3"/>
-    <path d="M 732 -1252 L 736 -1224" stroke="black" stroke-width="3"/>
-    <path d="M 772 -1264 L 768 -1232" stroke="black" stroke-width="3"/>
-    <path d="M -144 -1208 L -192 -1216" stroke="black" stroke-width="3"/>
-    <path d="M -192 -1216 L -188 -1240" stroke="black" stroke-width="3"/>
-    <path d="M -144 -1208 L -148 -1232" stroke="black" stroke-width="3"/>
-    <path d="M -188 -1240 L -148 -1232" stroke="black" stroke-width="3"/>
-    <path d="M -92 -1204 L -144 -1208" stroke="black" stroke-width="3"/>
-    <path d="M -148 -1232 L -96 -1228" stroke="black" stroke-width="3"/>
-    <path d="M -52 -1200 L -92 -1204" stroke="black" stroke-width="3"/>
-    <path d="M -92 -1204 L -96 -1228" stroke="black" stroke-width="3"/>
-    <path d="M -96 -1228 L -52 -1224" stroke="black" stroke-width="3"/>
-    <path d="M -52 -1224 L -12 -1220" stroke="black" stroke-width="3"/>
-    <path d="M -52 -1200 L -52 -1224" stroke="black" stroke-width="3"/>
-    <path d="M -12 -1196 L -52 -1200" stroke="black" stroke-width="3"/>
-    <path d="M -12 -1196 L -12 -1220" stroke="black" stroke-width="3"/>
-    <path d="M -12 -1220 L 32 -1220" stroke="black" stroke-width="3"/>
-    <path d="M 32 -1220 L 68 -1228" stroke="black" stroke-width="3"/>
-    <path d="M 36 -1196 L 32 -1220" stroke="black" stroke-width="3"/>
-    <path d="M 76 -1204 L 36 -1196" stroke="black" stroke-width="3"/>
-    <path d="M 76 -1204 L 68 -1228" stroke="black" stroke-width="3"/>
-    <path d="M 68 -1228 L 120 -1240" stroke="black" stroke-width="3"/>
-    <path d="M 120 -1216 L 76 -1204" stroke="black" stroke-width="3"/>
-    <path d="M 160 -1244 L 168 -1224" stroke="black" stroke-width="3"/>
-    <path d="M 120 -1240 L 160 -1244" stroke="black" stroke-width="3"/>
-    <path d="M 120 -1216 L 120 -1240" stroke="black" stroke-width="3"/>
-    <path d="M 36 -1196 L -12 -1196" stroke="black" stroke-width="3"/>
-    <path d="M 168 -1224 L 120 -1216" stroke="black" stroke-width="3"/>
-    <path d="M 160 -1244 L 200 -1248" stroke="black" stroke-width="3"/>
-    <path d="M -544 48 L -544 96" stroke="black" stroke-width="3"/>
-    <path d="M -1456 -240 L -1456 -216" stroke="black" stroke-width="3"/>
-    <path d="M -1120 -336 L -1120 -240" stroke="black" stroke-width="3"/>
-    <path d="M -992 208 L -992 96" stroke="black" stroke-width="3"/>
-    <path d="M -992 48 L -904 48" stroke="black" stroke-width="3"/>
-    <path d="M -992 -336 L -1032 -336" stroke="black" stroke-width="3"/>
-    <path d="M -544 -176 L -576 -176" stroke="black" stroke-width="3"/>
-    <path d="M -992 -176 L -992 -224" stroke="black" stroke-width="3"/>
-    <path d="M -992 -160 L -904 -160" stroke="black" stroke-width="3"/>
-    <path d="M -544 -144 L -544 -96" stroke="black" stroke-width="3"/>
-    <path d="M -544 16 L -576 32" stroke="black" stroke-width="3"/>
-    <path d="M -992 32 L -992 -16" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -224 L -1056 -184" stroke="black" stroke-width="3"/>
-    <path d="M -1056 96 L -1136 96" stroke="black" stroke-width="3"/>
-    <path d="M -1264 96 L -1264 80" stroke="black" stroke-width="3"/>
-    <path d="M -1456 -160 L -1408 -160" stroke="black" stroke-width="3"/>
-    <path d="M -1456 32 L -1456 56" stroke="black" stroke-width="3"/>
-    <path d="M -1312 32 L -1344 32" stroke="black" stroke-width="3"/>
-    <path d="M -1312 -160 L -1312 -128" stroke="black" stroke-width="3"/>
-    <path d="M -1008 -96 L -992 -96" stroke="black" stroke-width="3"/>
-    <path d="M -992 -32 L -992 -96" stroke="black" stroke-width="3"/>
-    <path d="M -992 -32 L -1008 -32" stroke="black" stroke-width="3"/>
-    <path d="M -1008 -96 L -1008 -32" stroke="black" stroke-width="3"/>
-    <path d="M -992 -96 L -984 -96" stroke="black" stroke-width="3"/>
-    <path d="M -1024 -96 L -1024 -32" stroke="black" stroke-width="3"/>
-    <path d="M -1008 -32 L -1024 -32" stroke="black" stroke-width="3"/>
-    <path d="M -1024 -96 L -1008 -96" stroke="black" stroke-width="3"/>
-    <path d="M -1040 -96 L -1024 -96" stroke="black" stroke-width="3"/>
-    <path d="M -1024 -32 L -1040 -32" stroke="black" stroke-width="3"/>
-    <path d="M -1040 -96 L -1040 -32" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -96 L -1056 -32" stroke="black" stroke-width="3"/>
-    <path d="M -1040 -32 L -1056 -32" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -96 L -1040 -96" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -32 L -1072 -32" stroke="black" stroke-width="3"/>
-    <path d="M -576 -176 L -648 -176" stroke="black" stroke-width="3"/>
-    <path d="M -576 -176 L -576 -160" stroke="black" stroke-width="3"/>
-    <path d="M -648 -160 L -576 -160" stroke="black" stroke-width="3"/>
-    <path d="M -648 -160 L -648 -176" stroke="black" stroke-width="3"/>
-    <path d="M -576 -160 L -544 -144" stroke="black" stroke-width="3"/>
-    <path d="M -648 -176 L -704 -176" stroke="black" stroke-width="3"/>
-    <path d="M -1312 -128 L -1296 -128" stroke="black" stroke-width="3"/>
-    <path d="M -1296 -128 L -1296 0" stroke="green" stroke-width="3"/>
-    <path d="M -1296 0 L -1312 0" stroke="black" stroke-width="3"/>
-    <path d="M -1312 -128 L -1312 0" stroke="black" stroke-width="3"/>
-    <path d="M -1312 0 L -1312 32" stroke="black" stroke-width="3"/>
-    <path d="M -1280 0 L -1296 0" stroke="black" stroke-width="3"/>
-    <path d="M -1280 0 L -1280 -128" stroke="green" stroke-width="3"/>
-    <path d="M -1296 -128 L -1280 -128" stroke="black" stroke-width="3"/>
-    <path d="M -1280 -128 L -1264 -128" stroke="black" stroke-width="3"/>
-    <path d="M -1264 0 L -1264 -32" stroke="black" stroke-width="3"/>
-    <path d="M -1264 0 L -1280 0" stroke="black" stroke-width="3"/>
-    <path d="M -1264 -128 L -1248 -128" stroke="black" stroke-width="3"/>
-    <path d="M -1120 320 L -1136 272" stroke="black" stroke-width="3"/>
-    <path d="M -992 -224 L -544 -224" stroke="black" stroke-width="3"/>
-    <path d="M -992 -224 L -992 -336" stroke="black" stroke-width="3"/>
-    <path d="M -544 -224 L -544 -176" stroke="black" stroke-width="3"/>
-    <path d="M -544 96 L -992 96" stroke="black" stroke-width="3"/>
-    <path d="M -992 96 L -992 48" stroke="black" stroke-width="3"/>
-    <path d="M -544 96 L -544 592" stroke="black" stroke-width="3"/>
-    <path d="M -576 32 L -576 48" stroke="black" stroke-width="3"/>
-    <path d="M -648 48 L -648 32" stroke="black" stroke-width="3"/>
-    <path d="M -576 32 L -648 32" stroke="black" stroke-width="3"/>
-    <path d="M -648 48 L -576 48" stroke="black" stroke-width="3"/>
-    <path d="M -576 48 L -544 48" stroke="black" stroke-width="3"/>
-    <path d="M -648 32 L -704 32" stroke="black" stroke-width="3"/>
-    <path d="M -1264 -224 L -1216 -224" stroke="black" stroke-width="3"/>
-    <path d="M -1136 -240 L -1216 -240" stroke="black" stroke-width="3"/>
-    <path d="M -1136 -240 L -1136 -224" stroke="black" stroke-width="3"/>
-    <path d="M -1216 -224 L -1168 -224" stroke="black" stroke-width="3"/>
-    <path d="M -1216 -224 L -1216 -240" stroke="black" stroke-width="3"/>
-    <path d="M -1216 -240 L -1280 -240" stroke="black" stroke-width="3"/>
-    <path d="M -1136 -224 L -1056 -224" stroke="black" stroke-width="3"/>
-    <path d="M -1136 96 L -1136 112" stroke="black" stroke-width="3"/>
-    <path d="M -1216 112 L -1216 96" stroke="black" stroke-width="3"/>
-    <path d="M -1216 112 L -1136 112" stroke="black" stroke-width="3"/>
-    <path d="M -1136 112 L -1120 112" stroke="black" stroke-width="3"/>
-    <path d="M -1216 96 L -1264 96" stroke="black" stroke-width="3"/>
-    <path d="M -936 -96 L -600 -96" stroke="black" stroke-width="3"/>
-    <path d="M -600 -96 L -600 -32" stroke="black" stroke-width="3"/>
-    <path d="M -600 -32 L -936 -32" stroke="black" stroke-width="3"/>
-    <path d="M -936 -32 L -936 -96" stroke="black" stroke-width="3"/>
-    <path d="M -940 -100 L -596 -100" stroke="black" stroke-width="3"/>
-    <path d="M -596 -100 L -596 -28" stroke="black" stroke-width="3"/>
-    <path d="M -596 -28 L -940 -28" stroke="black" stroke-width="3"/>
-    <path d="M -940 -28 L -940 -100" stroke="black" stroke-width="3"/>
-    <path d="M -944 -104 L -592 -104" stroke="black" stroke-width="3"/>
-    <path d="M -592 -104 L -592 -24" stroke="black" stroke-width="3"/>
-    <path d="M -592 -24 L -944 -24" stroke="black" stroke-width="3"/>
-    <path d="M -944 -24 L -944 -104" stroke="black" stroke-width="3"/>
-    <path d="M -948 -108 L -588 -108" stroke="black" stroke-width="3"/>
-    <path d="M -588 -108 L -588 -20" stroke="black" stroke-width="3"/>
-    <path d="M -588 -20 L -948 -20" stroke="black" stroke-width="3"/>
-    <path d="M -948 -20 L -948 -108" stroke="black" stroke-width="3"/>
-    <path d="M -544 -96 L -528 -96" stroke="black" stroke-width="3"/>
-    <path d="M -528 -96 L -528 -32" stroke="orange" stroke-width="3"/>
-    <path d="M -528 -32 L -544 -32" stroke="black" stroke-width="3"/>
-    <path d="M -544 -96 L -544 -32" stroke="black" stroke-width="3"/>
-    <path d="M -544 -32 L -544 16" stroke="black" stroke-width="3"/>
-    <path d="M -1072 -96 L -1056 -96" stroke="black" stroke-width="3"/>
-    <path d="M -1072 -128 L -1072 -96" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -128 L -1072 -128" stroke="black" stroke-width="3"/>
-    <path d="M -1072 0 L -1056 0" stroke="black" stroke-width="3"/>
-    <path d="M -1056 0 L -1056 40" stroke="black" stroke-width="3"/>
-    <path d="M -1072 -32 L -1072 0" stroke="black" stroke-width="3"/>
-    <path d="M -1264 32 L -1248 32" stroke="black" stroke-width="3"/>
-    <path d="M -1248 32 L -1248 16" stroke="black" stroke-width="3"/>
-    <path d="M -1248 0 L -1264 0" stroke="black" stroke-width="3"/>
-    <path d="M -1248 -128 L -1248 -144" stroke="black" stroke-width="3"/>
-    <path d="M -1248 -160 L -1264 -160" stroke="black" stroke-width="3"/>
-    <path d="M -1264 -160 L -1264 -208" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -184 L -1040 -184" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -168 L -1056 -128" stroke="black" stroke-width="3"/>
-    <path d="M -1040 -168 L -1056 -168" stroke="black" stroke-width="3"/>
-    <path d="M -1040 -184 L -1040 -168" stroke="black" stroke-width="3"/>
-    <path d="M -1264 -224 L -1056 -184" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -168 L -1248 -144" stroke="black" stroke-width="3"/>
-    <path d="M -1248 -144 L -1248 -160" stroke="black" stroke-width="3"/>
-    <path d="M -1264 -208 L -1056 -184" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -168 L -1248 -160" stroke="black" stroke-width="3"/>
-    <path d="M -1264 -208 L -1264 -224" stroke="black" stroke-width="3"/>
-    <path d="M -1168 -224 L -1056 -184" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -168 L -1248 -128" stroke="black" stroke-width="3"/>
-    <path d="M -1168 -224 L -1136 -224" stroke="black" stroke-width="3"/>
-    <path d="M -1136 -224 L -1056 -184" stroke="black" stroke-width="3"/>
-    <path d="M -1056 -168 L -1264 -96" stroke="black" stroke-width="3"/>
-    <path d="M -1264 -96 L -1264 -128" stroke="black" stroke-width="3"/>
-    <path d="M -1056 56 L -1136 96" stroke="black" stroke-width="3"/>
-    <path d="M -1056 56 L -1168 96" stroke="black" stroke-width="3"/>
-    <path d="M -1056 56 L -1264 96" stroke="black" stroke-width="3"/>
-    <path d="M -1056 56 L -1264 80" stroke="black" stroke-width="3"/>
-    <path d="M -1248 0 L -1056 40" stroke="black" stroke-width="3"/>
-    <path d="M -1248 16 L -1056 40" stroke="black" stroke-width="3"/>
-    <path d="M -1264 -32 L -1056 40" stroke="black" stroke-width="3"/>
-    <path d="M -1040 40 L -1040 56" stroke="black" stroke-width="3"/>
-    <path d="M -1040 56 L -1056 56" stroke="black" stroke-width="3"/>
-    <path d="M -1056 40 L -1040 40" stroke="black" stroke-width="3"/>
-    <path d="M -1056 56 L -1056 96" stroke="black" stroke-width="3"/>
-    <path d="M -1264 80 L -1264 32" stroke="black" stroke-width="3"/>
-    <path d="M -1248 32 L -1056 40" stroke="black" stroke-width="3"/>
-    <path d="M -1248 16 L -1248 0" stroke="black" stroke-width="3"/>
-    <path d="M -1264 -32 L -1264 -96" stroke="black" stroke-width="3"/>
-    <path d="M -1136 96 L -1168 96" stroke="black" stroke-width="3"/>
-    <path d="M -1168 96 L -1216 96" stroke="black" stroke-width="3"/>
-    <path d="M -1456 112 L -1408 112" stroke="black" stroke-width="3"/>
-    <path d="M -1120 208 L -1080 208" stroke="black" stroke-width="3"/>
-    <path d="M -992 -112 L -992 -160" stroke="black" stroke-width="3"/>
-    <path d="M -984 -96 L -984 -112" stroke="black" stroke-width="3"/>
-    <path d="M -984 -112 L -992 -112" stroke="black" stroke-width="3"/>
-    <path d="M -992 -16 L -984 -16" stroke="black" stroke-width="3"/>
-    <path d="M -984 -32 L -992 -32" stroke="black" stroke-width="3"/>
-    <path d="M -984 -16 L -984 -32" stroke="black" stroke-width="3"/>
-    <path d="M -1384 -200 L -1344 -200" stroke="black" stroke-width="3"/>
-    <path d="M -1344 -200 L -1344 -160" stroke="black" stroke-width="3"/>
-    <path d="M -1384 -160 L -1344 -160" stroke="black" stroke-width="3"/>
-    <path d="M -1384 -160 L -1384 -200" stroke="black" stroke-width="3"/>
-    <path d="M -1344 -160 L -1312 -160" stroke="black" stroke-width="3"/>
-    <path d="M -1408 -160 L -1408 32" stroke="black" stroke-width="3"/>
-    <path d="M -1408 -160 L -1384 -160" stroke="black" stroke-width="3"/>
-    <path d="M -1408 32 L -1456 32" stroke="black" stroke-width="3"/>
-    <path d="M -1344 32 L -1384 32" stroke="black" stroke-width="3"/>
-    <path d="M -1384 72 L -1384 32" stroke="black" stroke-width="3"/>
-    <path d="M -1344 72 L -1384 72" stroke="black" stroke-width="3"/>
-    <path d="M -1344 32 L -1344 72" stroke="black" stroke-width="3"/>
-    <path d="M -1384 32 L -1408 32" stroke="black" stroke-width="3"/>
-    <path d="M -1004 368 L -1036 348" stroke="black" stroke-width="3"/>
-    <path d="M -904 412 L -960 400" stroke="black" stroke-width="3"/>
-    <path d="M -1036 348 L -1120 320" stroke="black" stroke-width="3"/>
-    <path d="M -1136 272 L -1120 208" stroke="black" stroke-width="3"/>
-    <path d="M -792 -688 L -800 -832" stroke="black" stroke-width="3"/>
-    <path d="M -1120 112 L -1120 208" stroke="black" stroke-width="3"/>
-    <path d="M -1120 -240 L -1136 -240" stroke="black" stroke-width="3"/>
-    <path d="M -704 -176 L -776 -176" stroke="black" stroke-width="3"/>
-    <path d="M -704 -176 L -704 -160" stroke="black" stroke-width="3"/>
-    <path d="M -776 -160 L -704 -160" stroke="black" stroke-width="3"/>
-    <path d="M -776 -160 L -776 -176" stroke="black" stroke-width="3"/>
-    <path d="M -776 48 L -704 48" stroke="black" stroke-width="3"/>
-    <path d="M -704 32 L -776 32" stroke="black" stroke-width="3"/>
-    <path d="M -776 48 L -776 32" stroke="black" stroke-width="3"/>
-    <path d="M -704 32 L -704 48" stroke="black" stroke-width="3"/>
-    <path d="M -832 -176 L -904 -176" stroke="black" stroke-width="3"/>
-    <path d="M -832 -176 L -832 -160" stroke="black" stroke-width="3"/>
-    <path d="M -904 -160 L -832 -160" stroke="black" stroke-width="3"/>
-    <path d="M -904 -160 L -904 -176" stroke="black" stroke-width="3"/>
-    <path d="M -904 48 L -832 48" stroke="black" stroke-width="3"/>
-    <path d="M -832 32 L -904 32" stroke="black" stroke-width="3"/>
-    <path d="M -904 48 L -904 32" stroke="black" stroke-width="3"/>
-    <path d="M -832 32 L -832 48" stroke="black" stroke-width="3"/>
-    <path d="M -704 48 L -648 48" stroke="black" stroke-width="3"/>
-    <path d="M -904 -176 L -992 -176" stroke="black" stroke-width="3"/>
-    <path d="M -832 -160 L -776 -160" stroke="black" stroke-width="3"/>
-    <path d="M -832 48 L -776 48" stroke="black" stroke-width="3"/>
-    <path d="M -904 32 L -992 32" stroke="black" stroke-width="3"/>
-    <path d="M -776 -176 L -832 -176" stroke="black" stroke-width="3"/>
-    <path d="M -704 -160 L -648 -160" stroke="black" stroke-width="3"/>
-    <path d="M -776 32 L -832 32" stroke="black" stroke-width="3"/>
-    <path d="M -1032 -336 L -1080 -336" stroke="black" stroke-width="3"/>
-    <path d="M -1080 -320 L -1080 -336" stroke="black" stroke-width="3"/>
-    <path d="M -1032 -336 L -1032 -320" stroke="black" stroke-width="3"/>
-    <path d="M -1032 -320 L -1032 -280" stroke="black" stroke-width="3"/>
-    <path d="M -1032 -280 L -1080 -280" stroke="black" stroke-width="3"/>
-    <path d="M -1080 -280 L -1080 -320" stroke="black" stroke-width="3"/>
-    <path d="M -1080 -336 L -1120 -336" stroke="black" stroke-width="3"/>
-    <path d="M -1080 208 L -1032 208" stroke="black" stroke-width="3"/>
-    <path d="M -1032 192 L -1032 208" stroke="black" stroke-width="3"/>
-    <path d="M -1032 152 L -1032 192" stroke="black" stroke-width="3"/>
-    <path d="M -1080 152 L -1032 152" stroke="black" stroke-width="3"/>
-    <path d="M -1080 192 L -1080 152" stroke="black" stroke-width="3"/>
-    <path d="M -1080 208 L -1080 192" stroke="black" stroke-width="3"/>
-    <path d="M -1032 208 L -992 208" stroke="black" stroke-width="3"/>
-    <path d="M -1456 -216 L -1472 -216" stroke="black" stroke-width="3"/>
-    <path d="M -1456 -184 L -1456 -160" stroke="black" stroke-width="3"/>
-    <path d="M -1472 -184 L -1456 -184" stroke="black" stroke-width="3"/>
-    <path d="M -1472 -216 L -1480 -208" stroke="black" stroke-width="3"/>
-    <path d="M -1456 56 L -1472 56" stroke="black" stroke-width="3"/>
-    <path d="M -1456 88 L -1456 112" stroke="black" stroke-width="3"/>
-    <path d="M -1472 88 L -1456 88" stroke="black" stroke-width="3"/>
-    <path d="M -1472 56 L -1480 64" stroke="black" stroke-width="3"/>
-    <path d="M -1480 -208 L -1480 -192" stroke="black" stroke-width="3"/>
-    <path d="M -1480 -192 L -1472 -184" stroke="black" stroke-width="3"/>
-    <path d="M -1480 64 L -1480 80" stroke="black" stroke-width="3"/>
-    <path d="M -1480 80 L -1472 88" stroke="black" stroke-width="3"/>
-    <path d="M -1408 -224 L -1408 -240" stroke="black" stroke-width="3"/>
-    <path d="M -1280 -240 L -1408 -240" stroke="black" stroke-width="3"/>
-    <path d="M -1280 -240 L -1280 -224" stroke="black" stroke-width="3"/>
-    <path d="M -1280 -224 L -1408 -224" stroke="black" stroke-width="3"/>
-    <path d="M -1408 -240 L -1456 -240" stroke="black" stroke-width="3"/>
-    <path d="M -1408 112 L -1280 112" stroke="black" stroke-width="3"/>
-    <path d="M -1280 96 L -1280 112" stroke="black" stroke-width="3"/>
-    <path d="M -1408 96 L -1280 96" stroke="black" stroke-width="3"/>
-    <path d="M -1408 112 L -1408 96" stroke="black" stroke-width="3"/>
-    <path d="M -1280 112 L -1216 112" stroke="black" stroke-width="3"/>
-    <path d="M -544 -688 L -544 -224" stroke="black" stroke-width="3"/>
-    <path d="M -544 -848 L -544 -720" stroke="black" stroke-width="3"/>
-    <path d="M 1120 -720 L 1120 -848" stroke="black" stroke-width="3"/>
-    <path d="M -544 592 L -576 592" stroke="black" stroke-width="3"/>
-    <path d="M -560 624 L -544 624" stroke="black" stroke-width="3"/>
-    <path d="M -544 752 L -560 752" stroke="black" stroke-width="3"/>
-    <path d="M -576 784 L -544 784" stroke="black" stroke-width="3"/>
-    <path d="M -704 624 L -704 608" stroke="black" stroke-width="3"/>
-    <path d="M -736 624 L -720 624" stroke="black" stroke-width="3"/>
-    <path d="M -736 592 L -736 624" stroke="black" stroke-width="3"/>
-    <path d="M -704 592 L -736 592" stroke="black" stroke-width="3"/>
-    <path d="M -720 624 L -704 624" stroke="black" stroke-width="3"/>
-    <path d="M -704 608 L -576 608" stroke="black" stroke-width="3"/>
-    <path d="M -704 608 L -704 592" stroke="black" stroke-width="3"/>
-    <path d="M -576 608 L -576 624" stroke="black" stroke-width="3"/>
-    <path d="M -576 592 L -576 608" stroke="black" stroke-width="3"/>
-    <path d="M -576 624 L -560 624" stroke="black" stroke-width="3"/>
-    <path d="M -560 624 L -560 752" stroke="black" stroke-width="3"/>
-    <path d="M -704 752 L -720 752" stroke="black" stroke-width="3"/>
-    <path d="M -704 784 L -704 768" stroke="black" stroke-width="3"/>
-    <path d="M -736 784 L -704 784" stroke="black" stroke-width="3"/>
-    <path d="M -736 752 L -736 784" stroke="black" stroke-width="3"/>
-    <path d="M -720 752 L -720 624" stroke="black" stroke-width="3"/>
-    <path d="M -720 752 L -736 752" stroke="black" stroke-width="3"/>
-    <path d="M -704 768 L -704 752" stroke="black" stroke-width="3"/>
-    <path d="M -576 752 L -576 768" stroke="black" stroke-width="3"/>
-    <path d="M -576 768 L -704 768" stroke="black" stroke-width="3"/>
-    <path d="M -576 768 L -576 784" stroke="black" stroke-width="3"/>
-    <path d="M -560 752 L -576 752" stroke="black" stroke-width="3"/>
-    <path d="M -544 624 L -544 752" stroke="black" stroke-width="3"/>
-    <path d="M 1124 752 L 1124 624" stroke="black" stroke-width="3"/>
-    <path d="M 1300 752 L 1284 752" stroke="black" stroke-width="3"/>
-    <path d="M 1284 768 L 1284 784" stroke="black" stroke-width="3"/>
-    <path d="M 1284 768 L 1156 768" stroke="black" stroke-width="3"/>
-    <path d="M 1316 752 L 1300 752" stroke="black" stroke-width="3"/>
-    <path d="M 1316 784 L 1316 752" stroke="black" stroke-width="3"/>
-    <path d="M 1284 784 L 1316 784" stroke="black" stroke-width="3"/>
-    <path d="M 1284 752 L 1284 768" stroke="black" stroke-width="3"/>
-    <path d="M 1156 768 L 1156 752" stroke="black" stroke-width="3"/>
-    <path d="M 1140 752 L 1124 752" stroke="black" stroke-width="3"/>
-    <path d="M 1140 752 L 1140 624" stroke="black" stroke-width="3"/>
-    <path d="M 1124 784 L 1156 784" stroke="black" stroke-width="3"/>
-    <path d="M 1156 784 L 1156 768" stroke="black" stroke-width="3"/>
-    <path d="M 1156 752 L 1140 752" stroke="black" stroke-width="3"/>
-    <path d="M 1300 624 L 1316 624" stroke="black" stroke-width="3"/>
-    <path d="M 1300 624 L 1300 752" stroke="black" stroke-width="3"/>
-    <path d="M 1284 624 L 1300 624" stroke="black" stroke-width="3"/>
-    <path d="M 1316 624 L 1316 592" stroke="black" stroke-width="3"/>
-    <path d="M 1316 592 L 1284 592" stroke="black" stroke-width="3"/>
-    <path d="M 1284 592 L 1284 608" stroke="black" stroke-width="3"/>
-    <path d="M 1284 608 L 1284 624" stroke="black" stroke-width="3"/>
-    <path d="M 1156 608 L 1156 592" stroke="black" stroke-width="3"/>
-    <path d="M 1156 608 L 1284 608" stroke="black" stroke-width="3"/>
-    <path d="M 1140 624 L 1156 624" stroke="black" stroke-width="3"/>
-    <path d="M 1156 592 L 1120 592" stroke="black" stroke-width="3"/>
-    <path d="M 1124 624 L 1140 624" stroke="black" stroke-width="3"/>
-    <path d="M 1156 624 L 1156 608" stroke="black" stroke-width="3"/>
-    <path d="M 1120 592 L 1120 160" stroke="black" stroke-width="3"/>
-    <path d="M 1856 -176 L 1792 -176" stroke="black" stroke-width="3"/>
-    <path d="M 1984 -176 L 1984 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1984 -160 L 1856 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1856 -160 L 1856 -176" stroke="black" stroke-width="3"/>
-    <path d="M 1984 -176 L 1856 -176" stroke="black" stroke-width="3"/>
-    <path d="M 1984 176 L 2032 176" stroke="black" stroke-width="3"/>
-    <path d="M 1856 160 L 1984 160" stroke="black" stroke-width="3"/>
-    <path d="M 1856 176 L 1856 160" stroke="black" stroke-width="3"/>
-    <path d="M 1856 176 L 1984 176" stroke="black" stroke-width="3"/>
-    <path d="M 1984 160 L 1984 176" stroke="black" stroke-width="3"/>
-    <path d="M 2056 -144 L 2048 -152" stroke="black" stroke-width="3"/>
-    <path d="M 2056 -128 L 2056 -144" stroke="black" stroke-width="3"/>
-    <path d="M 2056 128 L 2048 120" stroke="black" stroke-width="3"/>
-    <path d="M 2056 144 L 2056 128" stroke="black" stroke-width="3"/>
-    <path d="M 2048 -120 L 2056 -128" stroke="black" stroke-width="3"/>
-    <path d="M 2048 -152 L 2032 -152" stroke="black" stroke-width="3"/>
-    <path d="M 2032 -152 L 2032 -176" stroke="black" stroke-width="3"/>
-    <path d="M 2032 -120 L 2048 -120" stroke="black" stroke-width="3"/>
-    <path d="M 2048 152 L 2056 144" stroke="black" stroke-width="3"/>
-    <path d="M 2048 120 L 2032 120" stroke="black" stroke-width="3"/>
-    <path d="M 2032 120 L 2032 96" stroke="black" stroke-width="3"/>
-    <path d="M 2032 152 L 2048 152" stroke="black" stroke-width="3"/>
-    <path d="M 1608 -272 L 1568 -272" stroke="black" stroke-width="3"/>
-    <path d="M 1656 -272 L 1656 -256" stroke="black" stroke-width="3"/>
-    <path d="M 1656 -256 L 1656 -216" stroke="black" stroke-width="3"/>
-    <path d="M 1656 -216 L 1608 -216" stroke="black" stroke-width="3"/>
-    <path d="M 1608 -216 L 1608 -256" stroke="black" stroke-width="3"/>
-    <path d="M 1608 -256 L 1608 -272" stroke="black" stroke-width="3"/>
-    <path d="M 1656 -272 L 1608 -272" stroke="black" stroke-width="3"/>
-    <path d="M 1656 272 L 1696 272" stroke="black" stroke-width="3"/>
-    <path d="M 1656 216 L 1656 256" stroke="black" stroke-width="3"/>
-    <path d="M 1608 216 L 1656 216" stroke="black" stroke-width="3"/>
-    <path d="M 1608 256 L 1608 216" stroke="black" stroke-width="3"/>
-    <path d="M 1608 272 L 1608 256" stroke="black" stroke-width="3"/>
-    <path d="M 1656 256 L 1656 272" stroke="black" stroke-width="3"/>
-    <path d="M 1608 272 L 1656 272" stroke="black" stroke-width="3"/>
-    <path d="M 1352 -96 L 1408 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1280 96 L 1224 96" stroke="black" stroke-width="3"/>
-    <path d="M 1352 112 L 1408 112" stroke="black" stroke-width="3"/>
-    <path d="M 1480 -96 L 1568 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1408 -112 L 1352 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1408 96 L 1352 96" stroke="black" stroke-width="3"/>
-    <path d="M 1480 112 L 1568 112" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -112 L 1224 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1408 -96 L 1408 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1480 -112 L 1480 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1408 -96 L 1480 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1480 -112 L 1408 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1480 96 L 1480 112" stroke="black" stroke-width="3"/>
-    <path d="M 1480 96 L 1408 96" stroke="black" stroke-width="3"/>
-    <path d="M 1408 112 L 1408 96" stroke="black" stroke-width="3"/>
-    <path d="M 1408 112 L 1480 112" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -96 L 1280 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1352 -112 L 1352 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1280 -96 L 1352 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1352 -112 L 1280 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1352 96 L 1352 112" stroke="black" stroke-width="3"/>
-    <path d="M 1352 96 L 1280 96" stroke="black" stroke-width="3"/>
-    <path d="M 1280 112 L 1280 96" stroke="black" stroke-width="3"/>
-    <path d="M 1280 112 L 1352 112" stroke="black" stroke-width="3"/>
-    <path d="M 1696 176 L 1712 176" stroke="black" stroke-width="3"/>
-    <path d="M 1696 -176 L 1696 -272" stroke="black" stroke-width="3"/>
-    <path d="M 1960 -96 L 1984 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1920 -136 L 1960 -136" stroke="black" stroke-width="3"/>
-    <path d="M 1960 -136 L 1960 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1920 -96 L 1960 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1984 -96 L 2032 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1984 96 L 1960 96" stroke="black" stroke-width="3"/>
-    <path d="M 1984 96 L 1984 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1920 96 L 1888 96" stroke="black" stroke-width="3"/>
-    <path d="M 1960 96 L 1960 136" stroke="black" stroke-width="3"/>
-    <path d="M 1960 96 L 1920 96" stroke="black" stroke-width="3"/>
-    <path d="M 1960 136 L 1920 136" stroke="black" stroke-width="3"/>
-    <path d="M 1560 -48 L 1560 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1560 -32 L 1568 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1568 -48 L 1560 -48" stroke="black" stroke-width="3"/>
-    <path d="M 1560 48 L 1568 48" stroke="black" stroke-width="3"/>
-    <path d="M 1560 32 L 1560 48" stroke="black" stroke-width="3"/>
-    <path d="M 1568 48 L 1568 96" stroke="black" stroke-width="3"/>
-    <path d="M 1696 -272 L 1656 -272" stroke="black" stroke-width="3"/>
-    <path d="M 2032 -176 L 1984 -176" stroke="black" stroke-width="3"/>
-    <path d="M 1744 -160 L 1792 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1712 -160 L 1744 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1840 -32 L 1840 32" stroke="black" stroke-width="3"/>
-    <path d="M 1824 -80 L 1824 -64" stroke="black" stroke-width="3"/>
-    <path d="M 1824 -96 L 1632 -104" stroke="black" stroke-width="3"/>
-    <path d="M 1840 -144 L 1840 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1632 -120 L 1632 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1632 -104 L 1616 -104" stroke="black" stroke-width="3"/>
-    <path d="M 1616 -120 L 1632 -120" stroke="black" stroke-width="3"/>
-    <path d="M 1616 -104 L 1616 -120" stroke="black" stroke-width="3"/>
-    <path d="M 1840 -32 L 1632 -104" stroke="black" stroke-width="3"/>
-    <path d="M 1824 -80 L 1632 -104" stroke="black" stroke-width="3"/>
-    <path d="M 1824 -64 L 1632 -104" stroke="black" stroke-width="3"/>
-    <path d="M 1632 -120 L 1840 -144" stroke="black" stroke-width="3"/>
-    <path d="M 1632 -120 L 1840 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1632 -120 L 1744 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1632 -120 L 1712 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1840 32 L 1840 64" stroke="black" stroke-width="3"/>
-    <path d="M 1632 104 L 1840 32" stroke="black" stroke-width="3"/>
-    <path d="M 1712 160 L 1632 120" stroke="black" stroke-width="3"/>
-    <path d="M 1744 160 L 1712 160" stroke="black" stroke-width="3"/>
-    <path d="M 1632 104 L 1824 64" stroke="black" stroke-width="3"/>
-    <path d="M 1744 160 L 1632 120" stroke="black" stroke-width="3"/>
-    <path d="M 1840 144 L 1840 160" stroke="black" stroke-width="3"/>
-    <path d="M 1632 104 L 1824 96" stroke="black" stroke-width="3"/>
-    <path d="M 1840 144 L 1632 120" stroke="black" stroke-width="3"/>
-    <path d="M 1824 80 L 1824 96" stroke="black" stroke-width="3"/>
-    <path d="M 1632 104 L 1824 80" stroke="black" stroke-width="3"/>
-    <path d="M 1840 160 L 1632 120" stroke="black" stroke-width="3"/>
-    <path d="M 1616 120 L 1616 104" stroke="black" stroke-width="3"/>
-    <path d="M 1616 104 L 1632 104" stroke="black" stroke-width="3"/>
-    <path d="M 1632 104 L 1632 64" stroke="black" stroke-width="3"/>
-    <path d="M 1632 120 L 1616 120" stroke="black" stroke-width="3"/>
-    <path d="M 1840 96 L 1840 144" stroke="black" stroke-width="3"/>
-    <path d="M 1824 96 L 1840 96" stroke="black" stroke-width="3"/>
-    <path d="M 1824 64 L 1824 80" stroke="black" stroke-width="3"/>
-    <path d="M 1824 -64 L 1840 -64" stroke="black" stroke-width="3"/>
-    <path d="M 1824 -96 L 1824 -80" stroke="black" stroke-width="3"/>
-    <path d="M 1840 -96 L 1824 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1648 -32 L 1648 -64" stroke="black" stroke-width="3"/>
-    <path d="M 1632 -64 L 1632 -104" stroke="black" stroke-width="3"/>
-    <path d="M 1648 -64 L 1632 -64" stroke="black" stroke-width="3"/>
-    <path d="M 1632 64 L 1648 64" stroke="black" stroke-width="3"/>
-    <path d="M 1648 64 L 1648 32" stroke="black" stroke-width="3"/>
-    <path d="M 1648 32 L 1632 32" stroke="black" stroke-width="3"/>
-    <path d="M 1120 -32 L 1120 -80" stroke="black" stroke-width="3"/>
-    <path d="M 1120 32 L 1120 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1104 -32 L 1120 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1104 32 L 1104 -32" stroke="orange" stroke-width="3"/>
-    <path d="M 1120 32 L 1104 32" stroke="black" stroke-width="3"/>
-    <path d="M 1792 -160 L 1840 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1712 -176 L 1696 -176" stroke="black" stroke-width="3"/>
-    <path d="M 1792 -176 L 1712 -176" stroke="black" stroke-width="3"/>
-    <path d="M 1792 -176 L 1792 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1712 -160 L 1712 -176" stroke="black" stroke-width="3"/>
-    <path d="M 1712 160 L 1632 160" stroke="black" stroke-width="3"/>
-    <path d="M 1792 176 L 1856 176" stroke="black" stroke-width="3"/>
-    <path d="M 1792 160 L 1792 176" stroke="black" stroke-width="3"/>
-    <path d="M 1792 160 L 1744 160" stroke="black" stroke-width="3"/>
-    <path d="M 1712 176 L 1712 160" stroke="black" stroke-width="3"/>
-    <path d="M 1712 176 L 1792 176" stroke="black" stroke-width="3"/>
-    <path d="M 1840 160 L 1792 160" stroke="black" stroke-width="3"/>
-    <path d="M 1224 -96 L 1280 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -112 L 1120 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1224 -112 L 1152 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -96 L 1224 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1224 -112 L 1224 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1152 -96 L 1152 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1568 -160 L 1568 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1120 -160 L 1568 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1120 160 L 1120 112" stroke="black" stroke-width="3"/>
-    <path d="M 1568 160 L 1568 272" stroke="black" stroke-width="3"/>
-    <path d="M 1568 160 L 1120 160" stroke="black" stroke-width="3"/>
-    <path d="M 1840 64 L 1824 64" stroke="black" stroke-width="3"/>
-    <path d="M 1840 -64 L 1856 -64" stroke="black" stroke-width="3"/>
-    <path d="M 1840 -64 L 1840 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1856 64 L 1840 64" stroke="black" stroke-width="3"/>
-    <path d="M 1872 64 L 1856 64" stroke="black" stroke-width="3"/>
-    <path d="M 1856 -64 L 1856 64" stroke="green" stroke-width="3"/>
-    <path d="M 1856 -64 L 1872 -64" stroke="black" stroke-width="3"/>
-    <path d="M 1888 -64 L 1888 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1888 64 L 1888 -64" stroke="black" stroke-width="3"/>
-    <path d="M 1872 -64 L 1888 -64" stroke="black" stroke-width="3"/>
-    <path d="M 1872 64 L 1872 -64" stroke="green" stroke-width="3"/>
-    <path d="M 1888 64 L 1872 64" stroke="black" stroke-width="3"/>
-    <path d="M 1224 112 L 1280 112" stroke="black" stroke-width="3"/>
-    <path d="M 1152 96 L 1120 80" stroke="black" stroke-width="3"/>
-    <path d="M 1224 96 L 1224 112" stroke="black" stroke-width="3"/>
-    <path d="M 1224 96 L 1152 96" stroke="black" stroke-width="3"/>
-    <path d="M 1152 112 L 1152 96" stroke="black" stroke-width="3"/>
-    <path d="M 1152 112 L 1224 112" stroke="black" stroke-width="3"/>
-    <path d="M 1632 -32 L 1648 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1632 32 L 1616 32" stroke="black" stroke-width="3"/>
-    <path d="M 1616 -32 L 1632 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1632 32 L 1632 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1616 32 L 1616 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1600 -32 L 1616 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1616 32 L 1600 32" stroke="black" stroke-width="3"/>
-    <path d="M 1600 32 L 1584 32" stroke="black" stroke-width="3"/>
-    <path d="M 1584 -32 L 1600 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1600 32 L 1600 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1568 32 L 1560 32" stroke="black" stroke-width="3"/>
-    <path d="M 1584 32 L 1584 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1568 -32 L 1584 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1568 -32 L 1568 32" stroke="black" stroke-width="3"/>
-    <path d="M 1584 32 L 1568 32" stroke="black" stroke-width="3"/>
-    <path d="M 1888 96 L 1888 64" stroke="black" stroke-width="3"/>
-    <path d="M 1888 -96 L 1920 -96" stroke="black" stroke-width="3"/>
-    <path d="M 2032 -96 L 2032 -120" stroke="black" stroke-width="3"/>
-    <path d="M 2032 96 L 1984 96" stroke="black" stroke-width="3"/>
-    <path d="M 1840 -160 L 1840 -144" stroke="black" stroke-width="3"/>
-    <path d="M 1632 -160 L 1712 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1632 160 L 1632 120" stroke="black" stroke-width="3"/>
-    <path d="M 1568 -96 L 1568 -48" stroke="black" stroke-width="3"/>
-    <path d="M 1120 -80 L 1152 -96" stroke="black" stroke-width="3"/>
-    <path d="M 1120 80 L 1120 32" stroke="black" stroke-width="3"/>
-    <path d="M 1568 96 L 1480 96" stroke="black" stroke-width="3"/>
-    <path d="M 1568 112 L 1568 160" stroke="black" stroke-width="3"/>
-    <path d="M 1120 112 L 1152 112" stroke="black" stroke-width="3"/>
-    <path d="M 1568 272 L 1608 272" stroke="black" stroke-width="3"/>
-    <path d="M 1568 -112 L 1480 -112" stroke="black" stroke-width="3"/>
-    <path d="M 1568 -272 L 1568 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1696 272 L 1696 176" stroke="black" stroke-width="3"/>
-    <path d="M 2032 176 L 2032 152" stroke="black" stroke-width="3"/>
-    <path d="M 1120 -112 L 1120 -160" stroke="black" stroke-width="3"/>
-    <path d="M 1120 -160 L 1120 -688" stroke="black" stroke-width="3"/>
-    <path d="M 1564 -1280 L 1616 -1156" stroke="black" stroke-width="3"/>
-    <path d="M 1920 136 L 1920 96" stroke="black" stroke-width="3"/>
-    <path d="M 1920 -96 L 1920 -136" stroke="black" stroke-width="3"/>
-    <path d="M 1568 -392 L 1656 -352" stroke="black" stroke-width="3"/>
-    <path d="M 1552 456 L 1520 536" stroke="black" stroke-width="3"/>
-    <path d="M 1164 44 L 1164 -44" stroke="black" stroke-width="3"/>
-    <path d="M 1524 44 L 1164 44" stroke="black" stroke-width="3"/>
-    <path d="M 1524 -44 L 1524 44" stroke="black" stroke-width="3"/>
-    <path d="M 1164 -44 L 1524 -44" stroke="black" stroke-width="3"/>
-    <path d="M 1168 40 L 1168 -40" stroke="black" stroke-width="3"/>
-    <path d="M 1520 40 L 1168 40" stroke="black" stroke-width="3"/>
-    <path d="M 1520 -40 L 1520 40" stroke="black" stroke-width="3"/>
-    <path d="M 1168 -40 L 1520 -40" stroke="black" stroke-width="3"/>
-    <path d="M 1172 36 L 1172 -36" stroke="black" stroke-width="3"/>
-    <path d="M 1516 36 L 1172 36" stroke="black" stroke-width="3"/>
-    <path d="M 1516 -36 L 1516 36" stroke="black" stroke-width="3"/>
-    <path d="M 1172 -36 L 1516 -36" stroke="black" stroke-width="3"/>
-    <path d="M 1176 32 L 1176 -32" stroke="black" stroke-width="3"/>
-    <path d="M 1512 32 L 1176 32" stroke="black" stroke-width="3"/>
-    <path d="M 1512 -32 L 1512 32" stroke="black" stroke-width="3"/>
-    <path d="M 1176 -32 L 1512 -32" stroke="black" stroke-width="3"/>
-    <path d="M 2257 -178 L 2265 -40" stroke="black" stroke-width="3"/>
-    <path d="M 1440 800 L 1405 853" stroke="black" stroke-width="3"/>
-    <path d="M 1245 864 L 1186 849" stroke="black" stroke-width="3"/>
-    <path d="M 1186 849 L 1115 828" stroke="black" stroke-width="3"/>
-    <path d="M 1316 871 L 1245 864" stroke="black" stroke-width="3"/>
-    <path d="M 1367 868 L 1316 871" stroke="black" stroke-width="3"/>
-    <path d="M 1405 853 L 1367 868" stroke="black" stroke-width="3"/>
-    <path d="M 1115 828 L 1088 800" stroke="black" stroke-width="3"/>
-    <path d="M 1559 785 L 1504 800" stroke="black" stroke-width="3"/>
-    <path d="M 1628 748 L 1559 785" stroke="black" stroke-width="3"/>
-    <path d="M 1713 706 L 1628 748" stroke="black" stroke-width="3"/>
-    <path d="M 1789 656 L 1713 706" stroke="black" stroke-width="3"/>
-    <path d="M 1875 600 L 1789 656" stroke="black" stroke-width="3"/>
-    <path d="M 1934 550 L 1875 600" stroke="black" stroke-width="3"/>
-    <path d="M 2013 484 L 1934 550" stroke="black" stroke-width="3"/>
-    <path d="M 2081 420 L 2013 484" stroke="black" stroke-width="3"/>
-    <path d="M 2139 333 L 2081 420" stroke="black" stroke-width="3"/>
-    <path d="M 2192 224 L 2139 333" stroke="black" stroke-width="3"/>
-    <path d="M 1504 800 L 1440 800" stroke="black" stroke-width="3"/>
-    <path d="M 2231 138 L 2192 224" stroke="black" stroke-width="3"/>
-    <path d="M 2265 -40 L 2231 138" stroke="black" stroke-width="3"/>
-    <path d="M 2223 -285 L 2257 -178" stroke="black" stroke-width="3"/>
-    <path d="M 2173 -375 L 2223 -285" stroke="black" stroke-width="3"/>
-    <path d="M 2103 -425 L 2173 -375" stroke="black" stroke-width="3"/>
-    <path d="M 1983 -455 L 2103 -425" stroke="black" stroke-width="3"/>
-    <path d="M 1888 -530 L 1983 -455" stroke="black" stroke-width="3"/>
-    <path d="M 1776 -636 L 1888 -530" stroke="black" stroke-width="3"/>
-    <path d="M 1704 -784 L 1776 -636" stroke="black" stroke-width="3"/>
-    <path d="M 1644 -968 L 1704 -784" stroke="black" stroke-width="3"/>
-    <path d="M 1616 -1156 L 1644 -968" stroke="black" stroke-width="3"/>
-    <path d="M 1500 -1356 L 1564 -1280" stroke="black" stroke-width="3"/>
-    <path d="M 1428 -1440 L 1500 -1356" stroke="black" stroke-width="3"/>
-    <path d="M 1344 -1500 L 1428 -1440" stroke="black" stroke-width="3"/>
-    <path d="M 1232 -1536 L 1344 -1500" stroke="black" stroke-width="3"/>
-    <path d="M 1028 -1556 L 1232 -1536" stroke="black" stroke-width="3"/>
-    <path d="M 728 -1600 L 836 -1600" stroke="black" stroke-width="3"/>
-    <path d="M 836 -1600 L 1028 -1556" stroke="black" stroke-width="3"/>
-    <path d="M 596 -1608 L 728 -1600" stroke="black" stroke-width="3"/>
-    <path d="M 444 -1628 L 596 -1608" stroke="black" stroke-width="3"/>
-    <path d="M 212 -1608 L 444 -1628" stroke="black" stroke-width="3"/>
-    <path d="M -901 -1335 L -766 -1425" stroke="black" stroke-width="3"/>
-    <path d="M -966 -1275 L -901 -1335" stroke="black" stroke-width="3"/>
-    <path d="M -1061 -1115 L -966 -1275" stroke="black" stroke-width="3"/>
-    <path d="M -1151 -950 L -1061 -1115" stroke="black" stroke-width="3"/>
-    <path d="M -128 -1592 L 212 -1608" stroke="black" stroke-width="3"/>
-    <path d="M -336 -1600 L -128 -1592" stroke="black" stroke-width="3"/>
-    <path d="M -532 -1540 L -336 -1600" stroke="black" stroke-width="3"/>
-    <path d="M -766 -1425 L -532 -1540" stroke="black" stroke-width="3"/>
-    <path d="M -1312 -720 L -1211 -835" stroke="black" stroke-width="3"/>
-    <path d="M -1424 -608 L -1312 -720" stroke="black" stroke-width="3"/>
-    <path d="M -1582 -462 L -1424 -608" stroke="black" stroke-width="3"/>
-    <path d="M -1257 950 L -1452 744" stroke="black" stroke-width="3"/>
-    <path d="M -1687 -282 L -1582 -462" stroke="black" stroke-width="3"/>
-    <path d="M -1737 -62 L -1687 -282" stroke="black" stroke-width="3"/>
-    <path d="M -1727 123 L -1737 -62" stroke="black" stroke-width="3"/>
-    <path d="M -1646 445 L -1727 123" stroke="black" stroke-width="3"/>
-    <path d="M -1452 744 L -1476 744" stroke="black" stroke-width="3"/>
-    <path d="M -1132 1004 L -1257 950" stroke="black" stroke-width="3"/>
-    <path d="M -1016 1031 L -1132 1004" stroke="black" stroke-width="3"/>
-    <path d="M -864 1024 L -1016 1031" stroke="black" stroke-width="3"/>
-    <path d="M -520 800 L -540 844" stroke="black" stroke-width="3"/>
-    <path d="M -579 869 L -668 903" stroke="black" stroke-width="3"/>
-    <path d="M -540 844 L -579 869" stroke="black" stroke-width="3"/>
-    <path d="M -668 903 L -736 928" stroke="black" stroke-width="3"/>
-    <path d="M -576 512 L -640 512" stroke="red" stroke-width="3"/>
-    <path d="M -576 576 L -576 512" stroke="red" stroke-width="3"/>
-    <path d="M -640 576 L -576 576" stroke="red" stroke-width="3"/>
-    <path d="M -640 512 L -640 576" stroke="red" stroke-width="3"/>
-    <path d="M 1152 576 L 1216 576" stroke="red" stroke-width="3"/>
-    <path d="M 1152 512 L 1152 576" stroke="red" stroke-width="3"/>
-    <path d="M 1216 512 L 1152 512" stroke="red" stroke-width="3"/>
-    <path d="M 1216 576 L 1216 512" stroke="red" stroke-width="3"/>
-    <path d="M 1440 800 L 1552 704" stroke="black" stroke-width="3"/>
-    <path d="M -1332 656 L -1232 776" stroke="black" stroke-width="3"/>
-    <path d="M -1328 -528 L -1464 -408" stroke="black" stroke-width="3"/>
-    <path d="M -1064 -736 L -1328 -528" stroke="black" stroke-width="3"/>
-    <path d="M -888 -1152 L -1064 -736" stroke="black" stroke-width="3"/>
-    <path d="M -648 -1408 L -888 -1152" stroke="black" stroke-width="3"/>
-    <path d="M 1320 -1416 L 1144 -1472" stroke="black" stroke-width="3"/>
-    <path d="M 1656 -552 L 1616 -672" stroke="black" stroke-width="3"/>
-    <path d="M 2032 -360 L 1656 -552" stroke="black" stroke-width="3"/>
-    <path d="M 1552 704 L 1656 648" stroke="black" stroke-width="3"/>
-    <path d="M 1520 536 L 1640 528" stroke="black" stroke-width="3"/>
-    <path d="M 2088 184 L 2120 -80" stroke="black" stroke-width="3"/>
-    <path d="M 2088 -240 L 1832 -384" stroke="black" stroke-width="3"/>
-    <path d="M 1832 -384 L 1560 -488" stroke="black" stroke-width="3"/>
-    <path d="M 1560 -488 L 1512 -704" stroke="black" stroke-width="3"/>
-    <path d="M -920 -952 L -992 -640" stroke="black" stroke-width="3"/>
-    <path d="M -1184 -536 L -1504 -280" stroke="black" stroke-width="3"/>
-    <path d="M -1504 -280 L -1528 -168" stroke="black" stroke-width="3"/>
-    <path d="M -1008 744 L -736 928" stroke="black" stroke-width="3"/>
-    <path d="M -1232 776 L -1160 840" stroke="black" stroke-width="3"/>
-    <path d="M -1160 840 L -1072 888" stroke="black" stroke-width="3"/>
-    <path d="M -1072 888 L -960 968" stroke="black" stroke-width="3"/>
-    <path d="M -960 968 L -864 1024" stroke="black" stroke-width="3"/>
-    <path d="M -1624 80 L -1600 264" stroke="black" stroke-width="3"/>
-    <path d="M -1600 264 L -1536 408" stroke="black" stroke-width="3"/>
-    <path d="M -1536 408 L -1392 592" stroke="black" stroke-width="3"/>
-    <path d="M -1392 592 L -1332 656" stroke="black" stroke-width="3"/>
-    <path d="M -1464 -408 L -1584 -280" stroke="black" stroke-width="3"/>
-    <path d="M -1584 -280 L -1632 -88" stroke="black" stroke-width="3"/>
-    <path d="M -1632 -88 L -1624 80" stroke="black" stroke-width="3"/>
-    <path d="M -344 -1496 L -512 -1472" stroke="black" stroke-width="3"/>
-    <path d="M -512 -1472 L -648 -1408" stroke="black" stroke-width="3"/>
-    <path d="M -232 -1480 L -344 -1496" stroke="black" stroke-width="3"/>
-    <path d="M -104 -1472 L -232 -1480" stroke="black" stroke-width="3"/>
-    <path d="M 40 -1464 L -104 -1472" stroke="black" stroke-width="3"/>
-    <path d="M 136 -1472 L 40 -1464" stroke="black" stroke-width="3"/>
-    <path d="M 304 -1488 L 136 -1472" stroke="black" stroke-width="3"/>
-    <path d="M 456 -1520 L 304 -1488" stroke="black" stroke-width="3"/>
-    <path d="M 656 -1544 L 456 -1520" stroke="black" stroke-width="3"/>
-    <path d="M 936 -1504 L 656 -1544" stroke="black" stroke-width="3"/>
-    <path d="M 1144 -1472 L 936 -1504" stroke="black" stroke-width="3"/>
-    <path d="M 1528 -1024 L 1488 -1208" stroke="black" stroke-width="3"/>
-    <path d="M 1432 -1304 L 1320 -1416" stroke="black" stroke-width="3"/>
-    <path d="M 1488 -1208 L 1432 -1304" stroke="black" stroke-width="3"/>
-    <path d="M 1576 -888 L 1528 -1024" stroke="black" stroke-width="3"/>
-    <path d="M 1616 -672 L 1576 -888" stroke="black" stroke-width="3"/>
-    <path d="M 2136 -280 L 2032 -360" stroke="black" stroke-width="3"/>
-    <path d="M 1784 536 L 1912 416" stroke="black" stroke-width="3"/>
-    <path d="M 1656 648 L 1784 536" stroke="black" stroke-width="3"/>
-    <path d="M 1912 416 L 2072 304" stroke="black" stroke-width="3"/>
-    <path d="M 2072 304 L 2152 200" stroke="black" stroke-width="3"/>
-    <path d="M 2152 200 L 2184 -104" stroke="black" stroke-width="3"/>
-    <path d="M 2184 -104 L 2136 -280" stroke="black" stroke-width="3"/>
-    <path d="M -1144 640 L -1008 744" stroke="black" stroke-width="3"/>
-    <path d="M -1304 424 L -1256 488" stroke="black" stroke-width="3"/>
-    <path d="M -1528 -168 L -1544 16" stroke="black" stroke-width="3"/>
-    <path d="M -1504 216 L -1304 424" stroke="black" stroke-width="3"/>
-    <path d="M -1544 16 L -1504 216" stroke="black" stroke-width="3"/>
-    <path d="M -992 -640 L -1184 -536" stroke="black" stroke-width="3"/>
-    <path d="M -824 -1136 L -920 -952" stroke="black" stroke-width="3"/>
-    <path d="M -624 -1344 L -824 -1136" stroke="black" stroke-width="3"/>
-    <path d="M -272 -1392 L -416 -1376" stroke="black" stroke-width="3"/>
-    <path d="M -416 -1376 L -624 -1344" stroke="black" stroke-width="3"/>
-    <path d="M -168 -1360 L -272 -1392" stroke="black" stroke-width="3"/>
-    <path d="M -8 -1336 L -168 -1360" stroke="black" stroke-width="3"/>
-    <path d="M 344 -1400 L 152 -1352" stroke="black" stroke-width="3"/>
-    <path d="M 504 -1448 L 344 -1400" stroke="black" stroke-width="3"/>
-    <path d="M 640 -1456 L 504 -1448" stroke="black" stroke-width="3"/>
-    <path d="M 152 -1352 L -8 -1336" stroke="black" stroke-width="3"/>
-    <path d="M 768 -1432 L 640 -1456" stroke="black" stroke-width="3"/>
-    <path d="M 968 -1400 L 768 -1432" stroke="black" stroke-width="3"/>
-    <path d="M 1176 -1368 L 968 -1400" stroke="black" stroke-width="3"/>
-    <path d="M 1464 -1024 L 1344 -1288" stroke="black" stroke-width="3"/>
-    <path d="M 1512 -704 L 1464 -1024" stroke="black" stroke-width="3"/>
-    <path d="M 1344 -1288 L 1176 -1368" stroke="black" stroke-width="3"/>
-    <path d="M 2120 -80 L 2088 -240" stroke="black" stroke-width="3"/>
-    <path d="M 1872 368 L 2088 184" stroke="black" stroke-width="3"/>
-    <path d="M 1640 528 L 1872 368" stroke="black" stroke-width="3"/>
-    <path d="M -1216 128 L -1152 128" stroke="black" stroke-width="3"/>
-    <path d="M -1152 128 L -1152 192" stroke="black" stroke-width="3"/>
-    <path d="M -1152 192 L -1216 192" stroke="black" stroke-width="3"/>
-    <path d="M -1216 192 L -1216 128" stroke="black" stroke-width="3"/>
-    <path d="M 1728 256 L 1728 192" stroke="black" stroke-width="3"/>
-    <path d="M 1792 256 L 1728 256" stroke="black" stroke-width="3"/>
-    <path d="M 1792 192 L 1792 256" stroke="black" stroke-width="3"/>
-    <path d="M 1728 192 L 1792 192" stroke="black" stroke-width="3"/>
-    <path d="M -1332 656 L -1408 704" stroke="black" stroke-width="3"/>
-    <path d="M -1504 660 L -1448 636" stroke="black" stroke-width="3"/>
-    <path d="M -1504 660 L -1646 445" stroke="black" stroke-width="3"/>
-    <path d="M -1516 680 L -1504 660" stroke="black" stroke-width="3"/>
-    <path d="M -1476 744 L -1500 716" stroke="black" stroke-width="3"/>
-    <path d="M -1476 744 L -1504 768" stroke="black" stroke-width="3"/>
-    <path d="M -1536 844 L -1564 872" stroke="black" stroke-width="3"/>
-    <path d="M -1624 816 L -1628 788" stroke="black" stroke-width="3"/>
-    <path d="M -1500 716 L -1516 680" stroke="black" stroke-width="3"/>
-    <path d="M -1616 752 L -1568 712" stroke="black" stroke-width="3"/>
-    <path d="M -1568 712 L -1516 680" stroke="black" stroke-width="3"/>
-    <path d="M -1504 768 L -1532 788" stroke="black" stroke-width="3"/>
-    <path d="M -1544 816 L -1536 844" stroke="black" stroke-width="3"/>
-    <path d="M -1564 872 L -1604 860" stroke="black" stroke-width="3"/>
-    <path d="M -1532 788 L -1544 816" stroke="black" stroke-width="3"/>
-    <path d="M -1628 788 L -1616 752" stroke="black" stroke-width="3"/>
-    <path d="M -1604 860 L -1624 816" stroke="black" stroke-width="3"/>
-    <path d="M -1392 592 L -1320 556" stroke="black" stroke-width="3"/>
-    <path d="M -1200 564 L -1256 624" stroke="black" stroke-width="3"/>
-    <path d="M -1256 488 L -1200 564" stroke="black" stroke-width="3"/>
-    <path d="M -1200 564 L -1144 640" stroke="black" stroke-width="3"/>
-    <path d="M -904 412 L -1012 484" stroke="black" stroke-width="3"/>
-    <path d="M -1256 488 L -1172 452" stroke="black" stroke-width="3"/>
-    <path d="M -960 400 L -1004 368" stroke="black" stroke-width="3"/>
-    <path d="M -1448 636 L -1392 592" stroke="black" stroke-width="3"/>
-    <path d="M -1408 704 L -1452 744" stroke="black" stroke-width="3"/>
-    <path d="M -1256 624 L -1332 656" stroke="black" stroke-width="3"/>
-    <path d="M -1320 556 L -1256 488" stroke="black" stroke-width="3"/>
-    <path d="M -1172 452 L -1076 412" stroke="black" stroke-width="3"/>
-    <path d="M -1076 412 L -1004 368" stroke="black" stroke-width="3"/>
-    <path d="M -1104 516 L -1200 564" stroke="black" stroke-width="3"/>
-    <path d="M -1012 484 L -1104 516" stroke="black" stroke-width="3"/>
-    <path d="M 336 768 L 240 768" stroke="black" stroke-width="3"/>
-    <path d="M 336 768 L 336 800" stroke="black" stroke-width="3"/>
-    <path d="M 336 800 L 240 800" stroke="black" stroke-width="3"/>
-    <path d="M 240 816 L 240 800" stroke="black" stroke-width="3"/>
-    <path d="M 240 816 L 336 816" stroke="black" stroke-width="3"/>
-    <path d="M 336 800 L 336 816" stroke="black" stroke-width="3"/>
-    <path d="M 240 832 L 240 816" stroke="black" stroke-width="3"/>
-    <path d="M 336 832 L 240 832" stroke="black" stroke-width="3"/>
-    <path d="M 336 816 L 336 832" stroke="black" stroke-width="3"/>
-    <path d="M 336 832 L 336 848" stroke="black" stroke-width="3"/>
-    <path d="M 240 848 L 336 848" stroke="black" stroke-width="3"/>
-    <path d="M 240 848 L 240 832" stroke="black" stroke-width="3"/>
-    <path d="M 336 848 L 336 880" stroke="black" stroke-width="3"/>
-    <path d="M 240 880 L 336 880" stroke="black" stroke-width="3"/>
-    <path d="M 240 880 L 240 848" stroke="black" stroke-width="3"/>
-    <path d="M 240 800 L 240 768" stroke="black" stroke-width="3"/>
-    <path d="M 240 768 L -8 768" stroke="black" stroke-width="3"/>
-    <path d="M 336 880 L 368 896" stroke="black" stroke-width="3"/>
-    <path d="M 208 896 L 240 880" stroke="black" stroke-width="3"/>
-    <path d="M 368 896 L 384 928" stroke="black" stroke-width="3"/>
-    <path d="M 192 928 L 208 896" stroke="black" stroke-width="3"/>
-    <path d="M 192 960 L 192 928" stroke="black" stroke-width="3"/>
-    <path d="M 384 928 L 384 960" stroke="black" stroke-width="3"/>
-    <path d="M 384 960 L 368 992" stroke="black" stroke-width="3"/>
-    <path d="M 368 992 L 352 1024" stroke="black" stroke-width="3"/>
-    <path d="M 352 1024 L 336 1106" stroke="black" stroke-width="3"/>
-    <path d="M 208 992 L 192 960" stroke="black" stroke-width="3"/>
-    <path d="M 224 1024 L 208 992" stroke="black" stroke-width="3"/>
-    <path d="M 240 1106 L 224 1024" stroke="black" stroke-width="3"/>
-    <path d="M 240 1106 L 336 1106" stroke="black" stroke-width="3"/>
-    <path d="M 336 1106 L 336 1179" stroke="black" stroke-width="3"/>
-    <path d="M 336 1284 L 240 1284" stroke="black" stroke-width="3"/>
-    <path d="M 240 1284 L 240 1211" stroke="black" stroke-width="3"/>
-    <path d="M 336 1284 L 331 1293" stroke="black" stroke-width="3"/>
-    <path d="M 340 1496 L 256 1516" stroke="purple" stroke-width="3"/>
-    <path d="M 832 1520 L 832 1744" stroke="black" stroke-width="3"/>
-    <path d="M 832 1744 L 720 1744" stroke="black" stroke-width="3"/>
-    <path d="M 816 1536 L 688 1536" stroke="black" stroke-width="3"/>
-    <path d="M 720 1744 L 720 1728" stroke="black" stroke-width="3"/>
-    <path d="M 720 1728 L 816 1728" stroke="black" stroke-width="3"/>
-    <path d="M 816 1728 L 816 1536" stroke="black" stroke-width="3"/>
-    <path d="M 688 1536 L 688 1520" stroke="black" stroke-width="3"/>
-    <path d="M 688 1520 L 832 1520" stroke="black" stroke-width="3"/>
-    <path d="M 672 1520 L 688 1520" stroke="black" stroke-width="3"/>
-    <path d="M 688 1568 L 672 1568" stroke="black" stroke-width="3"/>
-    <path d="M 688 1536 L 688 1568" stroke="black" stroke-width="3"/>
-    <path d="M 672 1568 L 672 1520" stroke="black" stroke-width="3"/>
-    <path d="M 688 1568 L 688 1600" stroke="black" stroke-width="3"/>
-    <path d="M 688 1600 L 672 1600" stroke="black" stroke-width="3"/>
-    <path d="M 672 1600 L 656 1584" stroke="black" stroke-width="3"/>
-    <path d="M 656 1584 L 672 1568" stroke="black" stroke-width="3"/>
-    <path d="M 688 1600 L 688 1664" stroke="black" stroke-width="3"/>
-    <path d="M 688 1664 L 672 1664" stroke="black" stroke-width="3"/>
-    <path d="M 672 1664 L 672 1600" stroke="black" stroke-width="3"/>
-    <path d="M 688 1664 L 688 1680" stroke="black" stroke-width="3"/>
-    <path d="M 720 1744 L 688 1712" stroke="black" stroke-width="3"/>
-    <path d="M 688 1712 L 672 1680" stroke="black" stroke-width="3"/>
-    <path d="M 688 1680 L 720 1728" stroke="black" stroke-width="3"/>
-    <path d="M 672 1680 L 672 1664" stroke="black" stroke-width="3"/>
-    <path d="M 880 1424 L 920 1488" stroke="black" stroke-width="3"/>
-    <path d="M 928 1936 L 768 2080" stroke="black" stroke-width="3"/>
-    <path d="M 480 2192 L 368 2440" stroke="black" stroke-width="3"/>
-    <path d="M 464 1408 L 880 1424" stroke="black" stroke-width="3"/>
-    <path d="M 952 1576 L 960 1680" stroke="black" stroke-width="3"/>
-    <path d="M 920 1488 L 952 1576" stroke="black" stroke-width="3"/>
-    <path d="M 960 1824 L 928 1936" stroke="black" stroke-width="3"/>
-    <path d="M 656 2112 L 480 2192" stroke="black" stroke-width="3"/>
-    <path d="M 768 2080 L 656 2112" stroke="black" stroke-width="3"/>
-    <path d="M -80 1688 L 40 1584" stroke="black" stroke-width="3"/>
-    <path d="M -400 1856 L -80 1688" stroke="black" stroke-width="3"/>
-    <path d="M 40 1584 L 256 1516" stroke="black" stroke-width="3"/>
-    <path d="M 956 1736 L 960 1824" stroke="black" stroke-width="3"/>
-    <path d="M 960 1680 L 956 1736" stroke="black" stroke-width="3"/>
-    <path d="M 112 1648 L 192 1696" stroke="black" stroke-width="3"/>
-    <path d="M 224 1824 L 192 1824" stroke="black" stroke-width="3"/>
-    <path d="M 192 1824 L 192 1760" stroke="black" stroke-width="3"/>
-    <path d="M 96 1680 L 112 1648" stroke="black" stroke-width="3"/>
-    <path d="M 176 1728 L 96 1680" stroke="black" stroke-width="3"/>
-    <path d="M 192 1760 L 176 1728" stroke="black" stroke-width="3"/>
-    <path d="M 192 1696 L 224 1744" stroke="black" stroke-width="3"/>
-    <path d="M 224 1744 L 224 1824" stroke="black" stroke-width="3"/>
-    <path d="M 16 1760 L 16 1984" stroke="black" stroke-width="3"/>
-    <path d="M 16 2016 L -16 2016" stroke="black" stroke-width="3"/>
-    <path d="M -16 2016 L -16 1760" stroke="black" stroke-width="3"/>
-    <path d="M -16 1760 L 16 1760" stroke="black" stroke-width="3"/>
-    <path d="M 192 1904 L 224 1904" stroke="black" stroke-width="3"/>
-    <path d="M 224 1904 L 224 2016" stroke="black" stroke-width="3"/>
-    <path d="M 16 1984 L 192 1984" stroke="black" stroke-width="3"/>
-    <path d="M 192 1984 L 192 1904" stroke="black" stroke-width="3"/>
-    <path d="M 224 2016 L 16 2016" stroke="black" stroke-width="3"/>
-    <path d="M 128 1776 L 112 1840" stroke="black" stroke-width="3"/>
-    <path d="M 112 1840 L 48 1808" stroke="black" stroke-width="3"/>
-    <path d="M 48 1808 L 112 1744" stroke="black" stroke-width="3"/>
-    <path d="M 112 1744 L 128 1776" stroke="black" stroke-width="3"/>
-    <path d="M 176 1840 L 160 1936" stroke="black" stroke-width="3"/>
-    <path d="M 160 1936 L 128 1904" stroke="black" stroke-width="3"/>
-    <path d="M 128 1904 L 48 1888" stroke="black" stroke-width="3"/>
-    <path d="M 48 1888 L 176 1840" stroke="black" stroke-width="3"/>
-    <path d="M -288 2016 L -288 2288" stroke="black" stroke-width="3"/>
-    <path d="M -208 2304 L -320 2320" stroke="black" stroke-width="3"/>
-    <path d="M -320 2320 L -320 2016" stroke="black" stroke-width="3"/>
-    <path d="M -320 2016 L -288 2016" stroke="black" stroke-width="3"/>
-    <path d="M -176 2240 L -160 2256" stroke="black" stroke-width="3"/>
-    <path d="M -288 2288 L -224 2288" stroke="black" stroke-width="3"/>
-    <path d="M -160 2256 L -208 2304" stroke="black" stroke-width="3"/>
-    <path d="M -224 2288 L -176 2240" stroke="black" stroke-width="3"/>
-    <path d="M -144 2000 L -256 2000" stroke="black" stroke-width="3"/>
-    <path d="M -256 2000 L -320 1968" stroke="black" stroke-width="3"/>
-    <path d="M -320 1968 L -128 1968" stroke="black" stroke-width="3"/>
-    <path d="M -128 2176 L -144 2176" stroke="black" stroke-width="3"/>
-    <path d="M -144 2176 L -144 2000" stroke="black" stroke-width="3"/>
-    <path d="M -128 1968 L -128 2176" stroke="black" stroke-width="3"/>
-    <path d="M -176 2032 L -192 2144" stroke="black" stroke-width="3"/>
-    <path d="M -192 2144 L -256 2224" stroke="black" stroke-width="3"/>
-    <path d="M -256 2224 L -240 2096" stroke="black" stroke-width="3"/>
-    <path d="M -240 2096 L -176 2032" stroke="black" stroke-width="3"/>
-    <path d="M -32 2080 L 64 2112" stroke="black" stroke-width="3"/>
-    <path d="M 64 2112 L 0 2144" stroke="black" stroke-width="3"/>
-    <path d="M 0 2144 L -80 2096" stroke="black" stroke-width="3"/>
-    <path d="M -80 2096 L -32 2080" stroke="black" stroke-width="3"/>
-    <path d="M 560 1504 L 640 1568" stroke="black" stroke-width="3"/>
-    <path d="M 640 1568 L 576 1568" stroke="black" stroke-width="3"/>
-    <path d="M 576 1568 L 512 1504" stroke="black" stroke-width="3"/>
-    <path d="M 512 1504 L 560 1504" stroke="black" stroke-width="3"/>
-    <path d="M 816 1808 L 784 1840" stroke="black" stroke-width="3"/>
-    <path d="M 784 1840 L 752 1824" stroke="black" stroke-width="3"/>
-    <path d="M 752 1824 L 832 1776" stroke="black" stroke-width="3"/>
-    <path d="M 832 1776 L 816 1808" stroke="black" stroke-width="3"/>
-    <path d="M 112 2856 L 0 2888" stroke="black" stroke-width="3"/>
-    <path d="M 240 2720 L 112 2856" stroke="black" stroke-width="3"/>
-    <path d="M 128 2624 L 160 2632" stroke="black" stroke-width="3"/>
-    <path d="M -8 2656 L 128 2624" stroke="black" stroke-width="3"/>
-    <path d="M -216 2616 L -8 2656" stroke="black" stroke-width="3"/>
-    <path d="M -200 2728 L -216 2616" stroke="black" stroke-width="3"/>
-    <path d="M -120 2768 L -200 2728" stroke="black" stroke-width="3"/>
-    <path d="M 0 2888 L -120 2768" stroke="black" stroke-width="3"/>
-    <path d="M 312 2192 L 272 2216" stroke="black" stroke-width="3"/>
-    <path d="M 328 2152 L 312 2192" stroke="black" stroke-width="3"/>
-    <path d="M 312 2112 L 328 2152" stroke="black" stroke-width="3"/>
-    <path d="M 272 2096 L 312 2112" stroke="black" stroke-width="3"/>
-    <path d="M 224 2112 L 272 2096" stroke="black" stroke-width="3"/>
-    <path d="M 208 2152 L 224 2112" stroke="black" stroke-width="3"/>
-    <path d="M 224 2192 L 208 2152" stroke="black" stroke-width="3"/>
-    <path d="M 272 2216 L 224 2192" stroke="black" stroke-width="3"/>
-    <path d="M -336 2624 L -352 2576" stroke="black" stroke-width="3"/>
-    <path d="M -368 2800 L -352 2768" stroke="black" stroke-width="3"/>
-    <path d="M -352 2576 L -400 2576" stroke="black" stroke-width="3"/>
-    <path d="M -400 2576 L -432 2128" stroke="black" stroke-width="3"/>
-    <path d="M -368 2704 L -352 2656" stroke="black" stroke-width="3"/>
-    <path d="M -352 2656 L -336 2624" stroke="black" stroke-width="3"/>
-    <path d="M -352 2768 L -368 2704" stroke="black" stroke-width="3"/>
-    <path d="M -384 2816 L -368 2800" stroke="black" stroke-width="3"/>
-    <path d="M -400 2800 L -384 2816" stroke="black" stroke-width="3"/>
-    <path d="M 472 2168 L 480 2192" stroke="black" stroke-width="3"/>
-    <path d="M 656 2112 L 624 2032" stroke="black" stroke-width="3"/>
-    <path d="M 576 2032 L 472 2168" stroke="black" stroke-width="3"/>
-    <path d="M 624 2032 L 576 2032" stroke="black" stroke-width="3"/>
-    <path d="M -8 1628 L -8 1680" stroke="black" stroke-width="3"/>
-    <path d="M 76 1680 L 76 1668" stroke="black" stroke-width="3"/>
-    <path d="M 76 1628 L -8 1628" stroke="black" stroke-width="3"/>
-    <path d="M 64 1680 L 76 1680" stroke="black" stroke-width="3"/>
-    <path d="M 16 2016 L 16 1984" stroke="black" stroke-width="3"/>
-    <path d="M 64 1648 L 64 1680" stroke="black" stroke-width="3"/>
-    <path d="M 0 1680 L 64 1680" stroke="black" stroke-width="3"/>
-    <path d="M 0 1680 L 0 1648" stroke="black" stroke-width="3"/>
-    <path d="M 0 1648 L 64 1648" stroke="purple" stroke-width="3"/>
-    <path d="M -128 1968 L -144 2000" stroke="black" stroke-width="3"/>
-    <path d="M 296 2184 L 272 2200" stroke="black" stroke-width="3"/>
-    <path d="M 312 2152 L 296 2184" stroke="black" stroke-width="3"/>
-    <path d="M 296 2120 L 312 2152" stroke="black" stroke-width="3"/>
-    <path d="M 272 2112 L 296 2120" stroke="black" stroke-width="3"/>
-    <path d="M 240 2120 L 272 2112" stroke="black" stroke-width="3"/>
-    <path d="M 224 2152 L 240 2120" stroke="black" stroke-width="3"/>
-    <path d="M 240 2184 L 224 2152" stroke="black" stroke-width="3"/>
-    <path d="M 272 2200 L 240 2184" stroke="black" stroke-width="3"/>
-    <path d="M -400 2800 L -408 2688" stroke="black" stroke-width="3"/>
-    <path d="M 320 2544 L 320 2576" stroke="black" stroke-width="3"/>
-    <path d="M 320 2688 L 144 2952" stroke="black" stroke-width="3"/>
-    <path d="M 368 2440 L 320 2544" stroke="black" stroke-width="3"/>
-    <path d="M -8 1680 L 0 1680" stroke="black" stroke-width="3"/>
-    <path d="M -8 1696 L -8 1680" stroke="black" stroke-width="3"/>
-    <path d="M 76 1680 L 76 1696" stroke="black" stroke-width="3"/>
-    <path d="M 76 1696 L -8 1696" stroke="black" stroke-width="3"/>
-    <path d="M 184 1592 L 272 1664" stroke="black" stroke-width="3"/>
-    <path d="M 176 1648 L 184 1592" stroke="black" stroke-width="3"/>
-    <path d="M 296 1760 L 176 1648" stroke="black" stroke-width="3"/>
-    <path d="M 272 1664 L 296 1760" stroke="black" stroke-width="3"/>
-    <path d="M 320 2576 L 320 2688" stroke="black" stroke-width="3"/>
-    <path d="M 320 2576 L 296 2640" stroke="black" stroke-width="3"/>
-    <path d="M 256 2680 L 240 2720" stroke="black" stroke-width="3"/>
-    <path d="M 160 2632 L 256 2560" stroke="black" stroke-width="3"/>
-    <path d="M 256 2560 L 320 2576" stroke="black" stroke-width="3"/>
-    <path d="M 296 2640 L 256 2680" stroke="black" stroke-width="3"/>
-    <path d="M 340 1496 L 464 1408" stroke="black" stroke-width="3"/>
-    <path d="M -432 2128 L -400 1856" stroke="black" stroke-width="3"/>
-    <path d="M 320 1385 L 283 1396" stroke="black" stroke-width="3"/>
-    <path d="M 228 1390 L 224 1348" stroke="black" stroke-width="3"/>
-    <path d="M 320 1385 L 318 1418" stroke="black" stroke-width="3"/>
-    <path d="M 228 1325 L 236 1295" stroke="black" stroke-width="3"/>
-    <path d="M 224 1348 L 228 1325" stroke="black" stroke-width="3"/>
-    <path d="M 236 1295 L 240 1284" stroke="black" stroke-width="3"/>
-    <path d="M 331 1293 L 324 1324" stroke="black" stroke-width="3"/>
-    <path d="M 324 1324 L 320 1356" stroke="black" stroke-width="3"/>
-    <path d="M 320 1356 L 320 1385" stroke="black" stroke-width="3"/>
-    <path d="M 318 1418 L 328 1456" stroke="black" stroke-width="3"/>
-    <path d="M 225 1428 L 228 1390" stroke="black" stroke-width="3"/>
-    <path d="M 230 1472 L 225 1428" stroke="black" stroke-width="3"/>
-    <path d="M 240 1496 L 230 1472" stroke="black" stroke-width="3"/>
-    <path d="M 328 1456 L 340 1496" stroke="black" stroke-width="3"/>
-    <path d="M 283 1396 L 228 1390" stroke="black" stroke-width="3"/>
-    <path d="M 144 2952 L -216 3032" stroke="black" stroke-width="3"/>
-    <path d="M -400 2952 L -408 2872" stroke="black" stroke-width="3"/>
-    <path d="M -408 2872 L -400 2800" stroke="black" stroke-width="3"/>
-    <path d="M -408 2688 L -400 2576" stroke="black" stroke-width="3"/>
-    <path d="M -216 3032 L -400 2952" stroke="black" stroke-width="3"/>
-    <path d="M 336 1179 L 344 1179" stroke="black" stroke-width="3"/>
-    <path d="M 344 1179 L 344 1211" stroke="black" stroke-width="3"/>
-    <path d="M 344 1211 L 336 1211" stroke="black" stroke-width="3"/>
-    <path d="M 336 1179 L 336 1211" stroke="black" stroke-width="3"/>
-    <path d="M 336 1211 L 336 1284" stroke="black" stroke-width="3"/>
-    <path d="M 240 1211 L 240 1179" stroke="black" stroke-width="3"/>
-    <path d="M 232 1179 L 240 1179" stroke="black" stroke-width="3"/>
-    <path d="M 232 1211 L 232 1179" stroke="black" stroke-width="3"/>
-    <path d="M 240 1211 L 232 1211" stroke="black" stroke-width="3"/>
-    <path d="M 240 1179 L 240 1106" stroke="black" stroke-width="3"/>
-    <path d="M 76 1668 L 68 1668" stroke="black" stroke-width="3"/>
-    <path d="M 68 1668 L 68 1636" stroke="black" stroke-width="3"/>
-    <path d="M 68 1636 L 76 1636" stroke="black" stroke-width="3"/>
-    <path d="M 76 1668 L 76 1636" stroke="black" stroke-width="3"/>
-    <path d="M 76 1636 L 76 1628" stroke="black" stroke-width="3"/>
-    <path d="M 328 1456 L 240 1496" stroke="black" stroke-width="3"/>
-    <path d="M 256 1516 L 240 1496" stroke="black" stroke-width="3"/>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-576,608 -704,608 -704,592 -736,592 -736,624 -720,624 -720,752 -736,752 -736,784 -704,784 -704,768 -576,768 -576,784 -544,784 -520,800 -540,844 -579,869 -668,903 -736,928 -812,797 -838,647 -803,525 -840,448 -904,412 -960,400 -1004,368 -1036,348 -1120,320 -1136,272 -1120,208 -1080,208 -1032,208 -992,208 -992,96 -544,96 -544,592 -576,592 -576,608" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1120,-336 -1104,-416 -1024,-448 -944,-464 -808,-520 -784,-592 -792,-688 -800,-832 -796,-920 -784,-1028 -756,-1156 -700,-1220 -632,-1264 -528,-1280 -480,-1264 -408,-1248 -307,-1231 -188,-1240 -192,-1216 -144,-1208 -92,-1204 -52,-1200 -12,-1196 36,-1196 76,-1204 120,-1216 168,-1224 160,-1244 200,-1248 208,-1248 208,-976 192,-976 128,-976 112,-976 96,-960 96,-904 -16,-904 -16,-928 -80,-928 -80,-904 -192,-904 -192,-928 -256,-928 -256,-904 -368,-904 -368,-928 -432,-928 -432,-904 -528,-904 -528,-896 -544,-880 -576,-880 -576,-864 -704,-864 -704,-880 -736,-880 -736,-848 -720,-848 -720,-720 -736,-720 -736,-688 -704,-688 -704,-704 -576,-704 -576,-688 -544,-688 -544,-224 -992,-224 -992,-336 -1032,-336 -1080,-336 -1120,-336" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1140,624 1140,752 1124,752 1124,624 1140,624" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1008,-904 1008,-928 944,-928 944,-904 832,-904 832,-928 768,-928 768,-904 656,-904 656,-928 592,-928 592,-904 480,-904 480,-960 464,-976 448,-976 384,-976 368,-976 368,-1248 376,-1248 420,-1244 428,-1216 464,-1216 516,-1212 560,-1208 600,-1208 640,-1208 684,-1212 736,-1224 768,-1232 772,-1264 1029,-1312 1158,-1288 1280,-1248 1317,-1205 1376,-1072 1392,-960 1472,-440 1568,-392 1656,-352 1696,-272 1656,-272 1608,-272 1568,-272 1568,-160 1120,-160 1120,-688 1152,-688 1152,-704 1280,-704 1280,-688 1312,-688 1312,-720 1296,-720 1296,-848 1312,-848 1312,-880 1280,-880 1280,-864 1152,-864 1152,-880 1120,-880 1104,-896 1104,-904 1008,-904" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1568,160 1120,160 1120,592 1156,592 1156,608 1284,608 1284,592 1316,592 1316,624 1300,624 1300,752 1316,752 1316,784 1284,784 1284,768 1156,768 1156,784 1124,784 1088,800 1115,828 1186,849 1245,864 1316,871 1367,868 1405,853 1440,800 1520,536 1552,456 1672,376 1696,272 1656,272 1608,272 1568,272 1568,160" stroke="black" stroke-width="1"/>
+    <!-- Type 97 -->
+    <polyline points="1216,576 1216,512 1152,512 1152,576 1216,576" stroke="black" stroke-width="1"/>
+    <!-- Type 97 -->
+    <polyline points="-576,512 -640,512 -640,576 -576,576 -576,512" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-560,752 -560,624 -544,624 -544,752 -560,752" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1120,-720 1120,-848 1136,-848 1136,-720 1120,-720" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-544,-720 -560,-720 -560,-848 -544,-848 -544,-720" stroke="black" stroke-width="1"/>
+    <path d="M -576 512 L -640 512" stroke="red" stroke-width="3" />    <path d="M -576 576 L -576 512" stroke="red" stroke-width="3" />    <path d="M -640 576 L -576 576" stroke="red" stroke-width="3" />    <path d="M -640 512 L -640 576" stroke="red" stroke-width="3" />    <path d="M 1152 576 L 1216 576" stroke="red" stroke-width="3" />    <path d="M 1152 512 L 1152 576" stroke="red" stroke-width="3" />    <path d="M 1216 512 L 1152 512" stroke="red" stroke-width="3" />    <path d="M 1216 576 L 1216 512" stroke="red" stroke-width="3" />    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 97 -->
+    <polyline points="-640,576 -576,576 -576,512 -640,512 -640,576" stroke="black" stroke-width="1"/>
+    <!-- Type 97 -->
+    <polyline points="1152,576 1216,576 1216,512 1152,512 1152,576" stroke="black" stroke-width="1"/>
+    <path d="M -576 512 L -640 512" stroke="red" stroke-width="3" />    <path d="M -576 576 L -576 512" stroke="red" stroke-width="3" />    <path d="M -640 576 L -576 576" stroke="red" stroke-width="3" />    <path d="M -640 512 L -640 576" stroke="red" stroke-width="3" />    <path d="M 1152 576 L 1216 576" stroke="red" stroke-width="3" />    <path d="M 1152 512 L 1152 576" stroke="red" stroke-width="3" />    <path d="M 1216 512 L 1152 512" stroke="red" stroke-width="3" />    <path d="M 1216 576 L 1216 512" stroke="red" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="420,-1244 468,-1240 464,-1216 428,-1216 420,-1244" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="160,-1244 168,-1224 120,-1216 120,-1240 160,-1244" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="516,-1236 468,-1240 464,-1216 516,-1212 516,-1236" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="68,-1228 76,-1204 120,-1216 120,-1240 68,-1228" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="560,-1208 556,-1232 516,-1236 516,-1212 560,-1208" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="36,-1196 76,-1204 68,-1228 32,-1220 36,-1196" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="600,-1208 560,-1208 556,-1232 596,-1232 600,-1208" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="32,-1220 36,-1196 -12,-1196 -12,-1220 32,-1220" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="640,-1208 636,-1232 596,-1232 600,-1208 640,-1208" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-52,-1200 -12,-1196 -12,-1220 -52,-1224 -52,-1200" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="636,-1232 640,-1208 684,-1212 680,-1236 636,-1232" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-92,-1204 -52,-1200 -52,-1224 -96,-1228 -92,-1204" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-776,48 -704,48 -648,48 -576,48 -544,48 -544,96 -992,96 -992,48 -904,48 -832,48 -776,48" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1568,112 1568,160 1120,160 1120,112 1152,112 1224,112 1280,112 1352,112 1408,112 1480,112 1568,112" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-904,-176 -992,-176 -992,-224 -544,-224 -544,-176 -576,-176 -648,-176 -704,-176 -776,-176 -832,-176 -904,-176" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1120,-160 1568,-160 1568,-112 1480,-112 1408,-112 1352,-112 1280,-112 1224,-112 1152,-112 1120,-112 1120,-160" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="592,-896 480,-896 480,-904 592,-904 592,-896" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="96,-896 -16,-896 -16,-904 96,-904 96,-896" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1104,-896 1008,-896 1008,-904 1104,-904 1104,-896" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="768,-904 768,-896 736,-896 688,-896 656,-896 656,-904 768,-904" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-112,-896 -160,-896 -192,-896 -192,-904 -80,-904 -80,-896 -112,-896" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-256,-904 -256,-896 -288,-896 -336,-896 -368,-896 -368,-904 -256,-904" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-432,-904 -432,-896 -528,-896 -528,-904 -432,-904" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="864,-896 832,-896 832,-904 944,-904 944,-896 912,-896 864,-896" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="732,-1252 680,-1236 684,-1212 736,-1224 732,-1252" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-92,-1204 -96,-1228 -148,-1232 -144,-1208 -92,-1204" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 11 -->
+    <polyline points="0,1648 64,1648 64,1680 0,1680 0,1648" stroke="black" stroke-width="1"/>
+    <path d="M 0 1648 L 64 1648" stroke="purple" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="296,2640 256,2680 240,2720 112,2856 0,2888 -120,2768 -200,2728 -216,2616 -8,2656 128,2624 160,2632 256,2560 320,2576 296,2640" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-128,-448 32,-448 32,-288 -128,-288 -128,-448" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="416,96 160,96 160,-160 416,-160 416,96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="80,-560 96,-576 96,-640 128,-640 192,-640 208,-640 224,-656 224,-688 352,-688 352,-656 368,-640 384,-640 448,-640 480,-640 480,-576 496,-560 800,-560 816,-544 816,480 800,496 -224,496 -240,496 -240,-544 -224,-560 80,-560" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-128,224 32,224 32,384 -128,384 -128,224" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="544,384 544,224 704,224 704,384 544,384" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="704,-448 704,-288 544,-288 544,-448 704,-448" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="688,1664 688,1600 672,1600 672,1664 688,1664" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-120,2768 -200,2728 -216,2616 -8,2656 128,2624 160,2632 256,2560 320,2576 320,2544 368,2440 480,2192 472,2168 576,2032 624,2032 656,2112 768,2080 928,1936 960,1824 956,1736 960,1680 952,1576 920,1488 880,1424 464,1408 340,1496 256,1516 40,1584 -80,1688 -400,1856 -432,2128 -400,2576 -352,2576 -336,2624 -352,2656 -368,2704 -352,2768 -368,2800 -384,2816 -400,2800 -408,2872 -400,2952 -216,3032 144,2952 320,2688 320,2576 296,2640 256,2680 240,2720 112,2856 0,2888 -120,2768" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="672,1664 672,1600 656,1584 672,1568 672,1520 688,1520 832,1520 832,1744 720,1744 688,1712 672,1680 672,1664" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="224,2192 208,2152 224,2112 272,2096 312,2112 328,2152 312,2192 272,2216 224,2192" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="752,1824 832,1776 816,1808 784,1840 752,1824" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="640,1568 576,1568 512,1504 560,1504 640,1568" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-176,2032 -192,2144 -256,2224 -240,2096 -176,2032" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-80,2096 -32,2080 64,2112 0,2144 -80,2096" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-256,2000 -320,1968 -128,1968 -128,2176 -144,2176 -144,2000 -256,2000" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-288,2016 -288,2288 -224,2288 -176,2240 -160,2256 -208,2304 -320,2320 -320,2016 -288,2016" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="160,1936 128,1904 48,1888 176,1840 160,1936" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="48,1808 112,1744 128,1776 112,1840 48,1808" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="16,1984 192,1984 192,1904 224,1904 224,2016 16,2016 -16,2016 -16,1760 16,1760 16,1984" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="76,1628 -8,1628 -8,1680 -8,1696 76,1696 76,1680 76,1668 76,1636 76,1628" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="192,1696 224,1744 224,1824 192,1824 192,1760 176,1728 96,1680 112,1648 192,1696" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="184,1592 272,1664 296,1760 176,1648 184,1592" stroke="black" stroke-width="1"/>
+    <path d="M 340 1496 L 256 1516" stroke="purple" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="688,1568 688,1600 688,1664 688,1680 720,1728 816,1728 816,1536 688,1536 688,1568" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-368,2704 -352,2656 -336,2624 -352,2576 -400,2576 -408,2688 -400,2800 -384,2816 -368,2800 -352,2768 -368,2704" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="576,2032 624,2032 656,2112 480,2192 472,2168 576,2032" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-8,1680 0,1680 64,1680 76,1680 76,1696 -8,1696 -8,1680" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="312,2152 296,2184 272,2200 240,2184 224,2152 240,2120 272,2112 296,2120 312,2152" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="112,1744 128,1776 112,1840 48,1808 112,1744" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="176,1648 184,1592 272,1664 296,1760 176,1648" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="344,-1248 352,-1248 352,-960 352,-896 224,-896 224,-960 224,-1248 232,-1248 344,-1248" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="192,-128 384,-128 384,64 192,64 192,-128" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="416,96 160,96 160,-160 416,-160 416,96" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="768,-1232 736,-1224 732,-1252 772,-1264 768,-1232" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-192,-1216 -144,-1208 -148,-1232 -188,-1240 -192,-1216" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1076,412 -1172,452 -1256,488 -1200,564 -1104,516 -1012,484 -904,412 -960,400 -1004,368 -1076,412" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="48,1888 176,1840 160,1936 128,1904 48,1888" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-240,2096 -176,2032 -192,2144 -256,2224 -240,2096" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-80,2096 -32,2080 64,2112 0,2144 -80,2096" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="512,1504 560,1504 640,1568 576,1568 512,1504" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="832,1776 816,1808 784,1840 752,1824 832,1776" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 23 -->
+    <polyline points="352,-848 224,-848 224,-896 352,-896 352,-848" stroke="black" stroke-width="1"/>
+    <path d="M 352 -848 L 224 -848" stroke="orange" stroke-width="3" />    </g>
+    <!-- Sector type 9 -->
+    <g stroke="aqua" fill="aqua" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="224,-688 224,-736 352,-736 352,-688 224,-688" stroke="aqua" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="2048,152 2032,152 2032,176 1984,176 1856,176 1792,176 1712,176 1696,176 1696,272 1672,376 1552,456 1520,536 1640,528 1872,368 2088,184 2120,-80 2088,-240 1832,-384 1560,-488 1512,-704 1464,-1024 1344,-1288 1176,-1368 968,-1400 768,-1432 640,-1456 504,-1448 344,-1400 152,-1352 -8,-1336 -168,-1360 -272,-1392 -416,-1376 -624,-1344 -824,-1136 -920,-952 -992,-640 -1184,-536 -1504,-280 -1528,-168 -1544,16 -1504,216 -1304,424 -1256,488 -1172,452 -1076,412 -1004,368 -1036,348 -1120,320 -1136,272 -1120,208 -1120,112 -1136,112 -1216,112 -1280,112 -1408,112 -1456,112 -1456,88 -1472,88 -1480,80 -1480,64 -1472,56 -1456,56 -1456,32 -1408,32 -1408,-160 -1456,-160 -1456,-184 -1472,-184 -1480,-192 -1480,-208 -1472,-216 -1456,-216 -1456,-240 -1408,-240 -1280,-240 -1216,-240 -1136,-240 -1120,-240 -1120,-336 -1104,-416 -1024,-448 -944,-464 -808,-520 -784,-592 -792,-688 -800,-832 -796,-920 -784,-1028 -756,-1156 -700,-1220 -632,-1264 -528,-1280 -480,-1264 -408,-1248 -307,-1231 -188,-1240 -148,-1232 -96,-1228 -52,-1224 -12,-1220 32,-1220 68,-1228 120,-1240 160,-1244 200,-1248 200,-1280 232,-1280 232,-1248 344,-1248 344,-1280 376,-1280 376,-1248 420,-1244 468,-1240 516,-1236 556,-1232 596,-1232 636,-1232 680,-1236 732,-1252 772,-1264 1029,-1312 1158,-1288 1280,-1248 1317,-1205 1376,-1072 1392,-960 1472,-440 1568,-392 1656,-352 1696,-272 1696,-176 1712,-176 1792,-176 1856,-176 1984,-176 2032,-176 2032,-152 2048,-152 2056,-144 2056,-128 2048,-120 2032,-120 2032,-96 1984,-96 1984,96 2032,96 2032,120 2048,120 2056,128 2056,144 2048,152" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1200,564 -1144,640 -1008,744 -736,928 -812,797 -838,647 -803,525 -840,448 -904,412 -1012,484 -1104,516 -1200,564" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1152,192 -1216,192 -1216,128 -1152,128 -1152,192" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1792,256 1728,256 1728,192 1792,192 1792,256" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="224,-96 352,-96 352,32 224,32 224,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="384,64 192,64 192,-128 384,-128 384,64" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1136,-224 -1056,-224 -1056,-184 -1136,-224" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1056,96 -1136,96 -1056,56 -1056,96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1264,-96 -1056,-168 -1056,-128 -1072,-128 -1072,-96 -1056,-96 -1056,-32 -1072,-32 -1072,0 -1056,0 -1056,40 -1264,-32 -1264,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1712,160 1632,160 1632,120 1712,160" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1632,64 1632,104 1840,32 1840,-32 1632,-104 1632,-64 1648,-64 1648,-32 1632,-32 1632,32 1648,32 1648,64 1632,64" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1632,-120 1632,-160 1712,-160 1632,-120" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1056,56 -1264,96 -1264,80 -1056,56" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1248,32 -1248,16 -1056,40 -1248,32" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1264,-224 -1056,-184 -1264,-208 -1264,-224" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1056,-168 -1248,-144 -1248,-160 -1056,-168" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1632,104 1824,96 1824,80 1632,104" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1632,-120 1840,-160 1840,-144 1632,-120" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1632,120 1840,144 1840,160 1632,120" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1824,-96 1632,-104 1824,-80 1824,-96" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1056,40 -1040,40 -1040,56 -1056,56 -1264,80 -1264,32 -1248,32 -1056,40" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1248,-160 -1264,-160 -1264,-208 -1056,-184 -1040,-184 -1040,-168 -1056,-168 -1248,-160" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1632,104 1824,96 1840,96 1840,144 1632,120 1616,120 1616,104 1632,104" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1824,-96 1632,-104 1616,-104 1616,-120 1632,-120 1840,-144 1840,-96 1824,-96" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1056,-184 -1264,-224 -1216,-224 -1168,-224 -1056,-184" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1840,160 1792,160 1744,160 1632,120 1840,160" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1216,96 -1264,96 -1056,56 -1168,96 -1216,96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1248,-128 -1248,-144 -1056,-168 -1248,-128" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1632,104 1824,64 1824,80 1632,104" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1632,-120 1840,-160 1792,-160 1744,-160 1632,-120" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1248,16 -1248,0 -1056,40 -1248,16" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1824,-64 1632,-104 1824,-80 1824,-64" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1056,40 -1248,0 -1264,0 -1264,-32 -1056,40" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1264,-128 -1248,-128 -1056,-168 -1264,-96 -1264,-128" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1824,-64 1840,-64 1840,-32 1632,-104 1824,-64" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1136,-224 -1168,-224 -1056,-184 -1136,-224" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1712,160 1744,160 1632,120 1712,160" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1744,-160 1632,-120 1712,-160 1744,-160" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1056,56 -1136,96 -1168,96 -1056,56" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1840,64 1840,32 1632,104 1824,64 1840,64" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1408,32 -1408,-160 -1384,-160 -1344,-160 -1312,-160 -1312,-128 -1312,0 -1312,32 -1344,32 -1384,32 -1408,32" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1960,96 1920,96 1888,96 1888,64 1888,-64 1888,-96 1920,-96 1960,-96 1984,-96 1984,96 1960,96" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1216,192 -1216,128 -1152,128 -1152,192 -1216,192" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="1792,256 1728,256 1728,192 1792,192 1792,256" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1200,564 -1256,488 -1320,556 -1392,592 -1332,656 -1256,624 -1200,564" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="192,1760 176,1728 96,1680 112,1648 192,1696 224,1744 224,1824 192,1824 192,1760" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="224,2192 208,2152 224,2112 272,2096 312,2112 328,2152 312,2192 272,2216 224,2192" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="240,2120 272,2112 296,2120 312,2152 296,2184 272,2200 240,2184 224,2152 240,2120" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 97 -->
+    <polyline points="256,0 320,0 320,-64 256,-64 256,0" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="352,32 224,32 224,-96 352,-96 352,32" stroke="black" stroke-width="1"/>
+    <path d="M 320 -64 L 256 -64" stroke="red" stroke-width="3" />    <path d="M 320 0 L 320 -64" stroke="red" stroke-width="3" />    <path d="M 256 0 L 320 0" stroke="red" stroke-width="3" />    <path d="M 256 -64 L 256 0" stroke="red" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1040,-96 -1040,-32 -1056,-32 -1056,-96 -1040,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1632,32 1632,-32 1616,-32 1616,32 1632,32" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1312,-128 -1296,-128 -1296,0 -1312,0 -1312,-128" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1888,-64 1888,64 1872,64 1872,-64 1888,-64" stroke="black" stroke-width="1"/>
+    <path d="M -1296 -128 L -1296 0" stroke="green" stroke-width="3" />    <path d="M 1872 64 L 1872 -64" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 1 -->
+    <polyline points="1872,-64 1872,64 1856,64 1856,-64 1872,-64" stroke="black" stroke-width="1"/>
+    <path d="M 1856 -64 L 1856 64" stroke="green" stroke-width="3" />    <path d="M 1872 64 L 1872 -64" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1264,-32 -1264,0 -1280,0 -1280,-128 -1264,-128 -1264,-96 -1264,-32" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1840,-32 1840,-64 1856,-64 1856,64 1840,64 1840,32 1840,-32" stroke="black" stroke-width="1"/>
+    <path d="M -1280 0 L -1280 -128" stroke="green" stroke-width="3" />    <path d="M 1856 -64 L 1856 64" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1008,744 -736,928 -864,1024 -960,968 -1072,888 -1160,840 -1232,776 -1332,656 -1256,624 -1200,564 -1144,640 -1008,744" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-992,-640 -920,-952 -824,-1136 -624,-1344 -416,-1376 -272,-1392 -168,-1360 -8,-1336 152,-1352 344,-1400 504,-1448 640,-1456 768,-1432 968,-1400 1176,-1368 1344,-1288 1464,-1024 1512,-704 1560,-488 1832,-384 2088,-240 2120,-80 2088,184 1872,368 1640,528 1520,536 1440,800 1552,704 1656,648 1784,536 1912,416 2072,304 2152,200 2184,-104 2136,-280 2032,-360 1656,-552 1616,-672 1576,-888 1528,-1024 1488,-1208 1432,-1304 1320,-1416 1144,-1472 936,-1504 656,-1544 456,-1520 304,-1488 136,-1472 40,-1464 -104,-1472 -232,-1480 -344,-1496 -512,-1472 -648,-1408 -888,-1152 -1064,-736 -1328,-528 -1464,-408 -1584,-280 -1632,-88 -1624,80 -1600,264 -1536,408 -1392,592 -1320,556 -1256,488 -1304,424 -1504,216 -1544,16 -1528,-168 -1504,-280 -1184,-536 -992,-640" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1448,636 -1392,592 -1332,656 -1408,704 -1452,744 -1476,744 -1500,716 -1516,680 -1504,660 -1448,636" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="688,1568 688,1536 688,1520 672,1520 672,1568 688,1568" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="688,1664 672,1664 672,1680 688,1712 720,1744 720,1728 688,1680 688,1664" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-128,1968 -144,2000 -256,2000 -320,1968 -128,1968" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1280,-128 -1296,-128 -1296,0 -1280,0 -1280,-128" stroke="black" stroke-width="1"/>
+    <path d="M -1296 -128 L -1296 0" stroke="green" stroke-width="3" />    <path d="M -1280 0 L -1280 -128" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1040,-96 -1024,-96 -1024,-32 -1040,-32 -1040,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1616,-32 1616,32 1600,32 1600,-32 1616,-32" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="40,-1464 -104,-1472 -232,-1480 -344,-1496 -512,-1472 -648,-1408 -888,-1152 -1064,-736 -1328,-528 -1464,-408 -1584,-280 -1632,-88 -1624,80 -1600,264 -1536,408 -1392,592 -1448,636 -1504,660 -1646,445 -1727,123 -1737,-62 -1687,-282 -1582,-462 -1424,-608 -1312,-720 -1211,-835 -1151,-950 -1061,-1115 -966,-1275 -901,-1335 -766,-1425 -532,-1540 -336,-1600 -128,-1592 212,-1608 444,-1628 596,-1608 728,-1600 836,-1600 1028,-1556 1232,-1536 1344,-1500 1428,-1440 1500,-1356 1564,-1280 1616,-1156 1644,-968 1704,-784 1776,-636 1888,-530 1983,-455 2103,-425 2173,-375 2223,-285 2257,-178 2265,-40 2231,138 2192,224 2139,333 2081,420 2013,484 1934,550 1875,600 1789,656 1713,706 1628,748 1559,785 1504,800 1440,800 1552,704 1656,648 1784,536 1912,416 2072,304 2152,200 2184,-104 2136,-280 2032,-360 1656,-552 1616,-672 1576,-888 1528,-1024 1488,-1208 1432,-1304 1320,-1416 1144,-1472 936,-1504 656,-1544 456,-1520 304,-1488 136,-1472 40,-1464" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-960,968 -1072,888 -1160,840 -1232,776 -1332,656 -1408,704 -1452,744 -1257,950 -1132,1004 -1016,1031 -864,1024 -960,968" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="16,2016 -16,2016 -16,1760 16,1760 16,1984 16,2016" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 97 -->
+    <polyline points="320,0 320,-64 256,-64 256,0 320,0" stroke="black" stroke-width="1"/>
+    <path d="M 320 -64 L 256 -64" stroke="red" stroke-width="3" />    <path d="M 320 0 L 320 -64" stroke="red" stroke-width="3" />    <path d="M 256 0 L 320 0" stroke="red" stroke-width="3" />    <path d="M 256 -64 L 256 0" stroke="red" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="224,-1248 224,-960 208,-976 208,-1248 224,-1248" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="368,-1248 368,-976 352,-960 352,-1248 368,-1248" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1008,-96 -1008,-32 -1024,-32 -1024,-96 -1008,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1600,32 1600,-32 1584,-32 1584,32 1600,32" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1136,-224 -1136,-240 -1216,-240 -1216,-224 -1168,-224 -1136,-224" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1712,160 1712,176 1792,176 1792,160 1744,160 1712,160" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1792,-176 1712,-176 1712,-160 1744,-160 1792,-160 1792,-176" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1136,112 -1136,96 -1168,96 -1216,96 -1216,112 -1136,112" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 17 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1384,-200 -1344,-200 -1344,-160 -1384,-160 -1384,-200" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1920,-96 1920,-136 1960,-136 1960,-96 1920,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1960,96 1960,136 1920,136 1920,96 1960,96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1384,32 -1344,32 -1344,72 -1384,72 -1384,32" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="76,1636 76,1668 68,1668 68,1636 76,1636" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1008,-96 -992,-96 -992,-32 -1008,-32 -1008,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1584,-32 1584,32 1568,32 1568,-32 1584,-32" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="688,1600 688,1568 672,1568 656,1584 672,1600 688,1600" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-128,2176 -144,2176 -144,2000 -128,1968 -128,2176" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-832,32 -904,32 -992,32 -992,-16 -984,-16 -984,-32 -992,-32 -992,-96 -984,-96 -984,-112 -992,-112 -992,-160 -904,-160 -832,-160 -776,-160 -704,-160 -648,-160 -576,-160 -544,-144 -544,-96 -544,-32 -544,16 -576,32 -648,32 -704,32 -776,32 -832,32" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1280,-96 1352,-96 1408,-96 1480,-96 1568,-96 1568,-48 1560,-48 1560,-32 1568,-32 1568,32 1560,32 1560,48 1568,48 1568,96 1480,96 1408,96 1352,96 1280,96 1224,96 1152,96 1120,80 1120,32 1120,-32 1120,-80 1152,-96 1224,-96 1280,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1524,-44 1524,44 1164,44 1164,-44 1524,-44" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-948,-108 -588,-108 -588,-20 -948,-20 -948,-108" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-936,-96 -600,-96 -600,-32 -936,-32 -936,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1176,32 1176,-32 1512,-32 1512,32 1176,32" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-936,-96 -600,-96 -600,-32 -936,-32 -936,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1176,32 1176,-32 1512,-32 1512,32 1176,32" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1172,-36 1516,-36 1516,36 1172,36 1172,-36" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-596,-28 -940,-28 -940,-100 -596,-100 -596,-28" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-940,-100 -596,-100 -596,-28 -940,-28 -940,-100" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1172,36 1172,-36 1516,-36 1516,36 1172,36" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1168,-40 1520,-40 1520,40 1168,40 1168,-40" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-592,-24 -944,-24 -944,-104 -592,-104 -592,-24" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-944,-104 -592,-104 -592,-24 -944,-24 -944,-104" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1168,40 1168,-40 1520,-40 1520,40 1168,40" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1164,-44 1524,-44 1524,44 1164,44 1164,-44" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-588,-20 -948,-20 -948,-108 -588,-108 -588,-20" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-128,-288 -128,-448 32,-448 32,-288 -128,-288" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="704,-288 544,-288 544,-448 704,-448 704,-288" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="544,384 544,224 704,224 704,384 544,384" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="32,384 -128,384 -128,224 32,224 32,384" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-176,2240 -160,2256 -208,2304 -320,2320 -320,2016 -288,2016 -288,2288 -224,2288 -176,2240" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="816,1728 816,1536 688,1536 688,1520 832,1520 832,1744 720,1744 720,1728 816,1728" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="16,2016 16,1984 192,1984 192,1904 224,1904 224,2016 16,2016" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="896,-624 880,-640 496,-640 496,-592 512,-576 816,-576 832,-560 832,496 816,512 -240,512 -256,496 -256,-560 -240,-576 64,-576 80,-592 80,-640 -304,-640 -320,-624 -320,560 -304,576 880,576 896,560 896,-624" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="208,-1248 224,-1248 232,-1248 232,-1280 200,-1280 200,-1248 208,-1248" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="344,-1280 344,-1248 352,-1248 368,-1248 376,-1248 376,-1280 344,-1280" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="1280,-720 1280,-704 1152,-704 1152,-720 1136,-720 1136,-848 1152,-848 1152,-864 1280,-864 1280,-848 1296,-848 1296,-720 1280,-720" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1156,768 1156,752 1140,752 1140,624 1156,624 1156,608 1284,608 1284,624 1300,624 1300,752 1284,752 1284,768 1156,768" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-576,608 -576,624 -560,624 -560,752 -576,752 -576,768 -704,768 -704,752 -720,752 -720,624 -704,624 -704,608 -576,608" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-720,-848 -704,-848 -704,-864 -576,-864 -576,-848 -560,-848 -560,-720 -576,-720 -576,-704 -704,-704 -704,-720 -720,-720 -720,-848" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-648,-160 -576,-160 -576,-176 -648,-176 -648,-160" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1152,96 1152,112 1224,112 1224,96 1152,96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1152,-96 1152,-112 1224,-112 1224,-96 1152,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1280,96 1280,112 1352,112 1352,96 1280,96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-648,48 -648,32 -576,32 -576,48 -648,48" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1280,-96 1352,-96 1352,-112 1280,-112 1280,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1480,96 1408,96 1408,112 1480,112 1480,96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1480,-112 1408,-112 1408,-96 1480,-96 1480,-112" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-776,-160 -704,-160 -704,-176 -776,-176 -776,-160" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-904,48 -904,32 -832,32 -832,48 -904,48" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-832,-176 -832,-160 -904,-160 -904,-176 -832,-176" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-704,32 -704,48 -776,48 -776,32 -704,32" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-544,-96 -528,-96 -528,-32 -544,-32 -544,-96" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1120,-32 1120,32 1104,32 1104,-32 1120,-32" stroke="black" stroke-width="1"/>
+    <path d="M -528 -96 L -528 -32" stroke="orange" stroke-width="3" />    <path d="M 1104 32 L 1104 -32" stroke="orange" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="283,1396 320,1385 318,1418 328,1456 240,1496 230,1472 225,1428 228,1390 283,1396" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="328,1456 340,1496 256,1516 240,1496 328,1456" stroke="black" stroke-width="1"/>
+    <path d="M 340 1496 L 256 1516" stroke="purple" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="816,-544 800,-560 496,-560 480,-576 480,-640 496,-640 496,-592 512,-576 816,-576 832,-560 832,496 816,512 -240,512 -256,496 -256,-560 -240,-576 64,-576 80,-592 80,-640 96,-640 96,-576 80,-560 -224,-560 -240,-544 -240,496 -224,496 800,496 816,480 816,-544" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="960,-688 944,-704 480,-704 480,-640 496,-640 880,-640 896,-624 896,560 880,576 -304,576 -320,560 -320,-624 -304,-640 80,-640 96,-640 96,-704 -368,-704 -384,-688 -384,624 -368,640 944,640 960,624 960,-688" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 16 -->
+    <g stroke="red" fill="red" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="336,1211 336,1284 240,1284 240,1211 240,1179 240,1106 336,1106 336,1179 336,1211" stroke="red" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 23 -->
+    <polyline points="224,-848 352,-848 352,-736 224,-736 224,-848" stroke="black" stroke-width="1"/>
+    <path d="M 352 -848 L 224 -848" stroke="orange" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-288,-880 -288,-896 -336,-896 -336,-880 -336,-840 -288,-840 -288,-880" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1608,216 1608,256 1608,272 1656,272 1656,256 1656,216 1608,216" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1656,-216 1656,-256 1656,-272 1608,-272 1608,-256 1608,-216 1656,-216" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1032,208 -1080,208 -1080,192 -1080,152 -1032,152 -1032,192 -1032,208" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1032,-336 -1032,-320 -1032,-280 -1080,-280 -1080,-320 -1080,-336 -1032,-336" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="912,-840 864,-840 864,-880 864,-896 912,-896 912,-880 912,-840" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-160,-880 -160,-896 -112,-896 -112,-880 -112,-840 -160,-840 -160,-880" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="736,-896 736,-880 736,-840 688,-840 688,-880 688,-896 736,-896" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1408,-224 -1408,-240 -1280,-240 -1280,-224 -1408,-224" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1856,160 1984,160 1984,176 1856,176 1856,160" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1984,-176 1856,-176 1856,-160 1984,-160 1984,-176" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-1280,112 -1408,112 -1408,96 -1280,96 -1280,112" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="1024,688 1024,-752 1008,-768 480,-768 480,-704 944,-704 960,-688 960,624 944,640 -368,640 -384,624 -384,-688 -368,-704 96,-704 96,-768 -432,-768 -448,-752 -448,688 -432,704 1008,704 1024,688" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-512,752 -496,768 -136,768 -8,768 240,768 336,768 584,768 712,768 1072,768 1088,752 1088,352 1088,224 1088,-288 1088,-416 1088,-816 1072,-832 480,-832 480,-768 1008,-768 1024,-752 1024,688 1008,704 -432,704 -448,688 -448,-752 -432,-768 96,-768 96,-832 -496,-832 -512,-816 -512,-416 -512,-288 -512,224 -512,352 -512,752" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="240,1106 224,1024 208,992 192,960 192,928 208,896 240,880 336,880 368,896 384,928 384,960 368,992 352,1024 336,1106 240,1106" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="320,1356 320,1385 283,1396 228,1390 224,1348 228,1325 236,1295 240,1284 336,1284 331,1293 324,1324 320,1356" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="192,-960 192,-976 128,-976 128,-960 192,-960" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="448,-960 384,-960 384,-976 448,-976 448,-960" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="128,-656 128,-640 192,-640 192,-656 128,-656" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="384,-656 448,-656 448,-640 384,-640 384,-656" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="336,800 336,768 240,768 240,800 336,800" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="336,816 336,800 240,800 240,816 336,816" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="240,832 240,816 336,816 336,832 240,832" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="336,848 336,832 240,832 240,848 336,848" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="240,880 240,848 336,848 336,880 240,880" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-528,-416 -512,-416 -512,-288 -528,-288 -528,-416" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="712,784 584,784 584,768 712,768 712,784" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-136,768 -8,768 -8,784 -136,784 -136,768" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1088,-416 1104,-416 1104,-288 1088,-288 1088,-416" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="-512,224 -512,352 -528,352 -528,224 -512,224" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="1104,224 1104,352 1088,352 1088,224 1104,224" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 8 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="336,1179 344,1179 344,1211 336,1211 336,1179" stroke="black" stroke-width="1"/>
+    <!-- Type 0 -->
+    <polyline points="240,1179 240,1211 232,1211 232,1179 240,1179" stroke="black" stroke-width="1"/>
+    </g>
+    <!-- Sector type 0 -->
+    <g stroke="black" fill="white" fill-opacity="0.300000" stroke-width="1">
+    <!-- Type 0 -->
+    <polyline points="-1536,844 -1544,816 -1532,788 -1504,768 -1476,744 -1500,716 -1516,680 -1568,712 -1616,752 -1628,788 -1624,816 -1604,860 -1564,872 -1536,844" stroke="black" stroke-width="1"/>
+    </g>
   </g>
 </svg>
