@@ -284,7 +284,7 @@ func (m *Map) renderAllLineDefs(lds []LineDef, stroke string) {
 		path.WriteString(fmt.Sprintf(" M %d %d L %d,%d", start.x, start.y, end.x, end.y))
 		for i := 1; i < len(linedefs); i++ {
 			v := m.Vertexes[linedefs[i].end]
-			path.WriteString(fmt.Sprintf(" L %d,%d", v.x, v.y))
+			path.WriteString(fmt.Sprintf(" %d,%d", v.x, v.y))
 		}
 	}
 	fmt.Fprintf(os.Stdout, "    <path d=\"%s\" stroke=\"%s\" fill-rule=\"evenodd\" stroke-width=\"%d\"/>\n", path.String(), stroke, 1)
