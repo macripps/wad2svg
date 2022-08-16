@@ -6,7 +6,6 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-	"sort"
 	"strconv"
 	"strings"
 )
@@ -194,6 +193,14 @@ func (s *Sector) isDamage() bool {
 	return s.sectorType == 4 || s.sectorType == 5 || s.sectorType == 7 || s.sectorType == 16
 }
 
+var sectorFill = []string{"white", "white", "white", "white", "red", "red", "unused", "red", "white", "aqua", "green", "purple", "white", "white", "green", "unused", "red", "white"}
+var sectorStroke = []string{"black", "black", "black", "black", "red", "red", "unused", "red", "black", "aqua", "green", "purple", "black", "black", "green", "unused", "red", "black"}
+var sectorOpacity = []string{"1.0", "1.0", "1.0", "1.0", "0.2", "0.1", "unused", "0.05", "1.0", "0.5", "1.0", "1.0", "1.0", "1.0", "1.0", "unused", "0.2", "1.0"}
+
+func (s *Sector) ToSvgAttributeString() string {
+	return fmt.Sprintf("fill=\"%s\" stroke=\"%s\" opacity=\"%s\" stroke-width=\"1\"", sectorFill[s.sectorType], sectorStroke[s.sectorType], sectorOpacity[s.sectorType])
+}
+
 func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, imageHeight int) {
 	minX, minY, maxX, maxY := int16(32767), int16(32767), int16(-32768), int16(-32768)
 	for i := 0; i < len(m.Vertexes); i++ {
@@ -218,12 +225,9 @@ func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, 
 	fmt.Fprintln(os.Stdout, "  <g>")
 
 	sectors := m.Sectors
-	sort.SliceStable(sectors, func(i, j int) bool {
-		return sectors[i].floorHeight < sectors[j].floorHeight
-	})
 	for i, sector := range sectors {
 		fmt.Fprintf(os.Stderr, "Rendering sector #%d/%d\n", i+1, len(sectors))
-		m.renderSector(sector)
+		m.renderSector(sector, i)
 	}
 
 	linedefsToDraw := make([]LineDef, len(m.LineDefs))
@@ -233,27 +237,13 @@ func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, 
 	fmt.Fprintln(os.Stdout, "</svg>")
 }
 
-func (m *Map) renderSector(s Sector) {
-	var fill string
-	var stroke string
-	strokeWidth := 1
-	opacity := 1.0
-	if s.isSecret() {
-		stroke = "aqua"
-		fill = "aqua"
-	} else if s.isDamage() {
-		stroke = "red"
-		fill = "red"
-	} else {
-		stroke = "black"
-		fill = "white"
-	}
+func (m *Map) renderSector(s Sector, i int) {
 	fmt.Fprintf(os.Stdout, "    <!-- Sector type %d -->\n", s.sectorType)
-	fmt.Fprintf(os.Stdout, "    <g stroke=\"%s\" fill=\"%s\" opacity=\"%f\" stroke-width=\"%d\">\n", stroke, fill, opacity, strokeWidth)
+	fmt.Fprintf(os.Stdout, "    <g %s>\n", s.ToSvgAttributeString())
 	sectorLineDefs := make([]LineDef, 0)
 	for sd := 0; sd < len(m.SideDefs); sd++ {
 		sidedef := m.SideDefs[sd]
-		if int(sidedef.sectorNumber) == s.sectorNumber {
+		if int(sidedef.sectorNumber) == i {
 			for ld := 0; ld < len(m.LineDefs); ld++ {
 				linedef := m.LineDefs[ld]
 				if int(linedef.leftSideDef) == sd || int(linedef.rightSideDef) == sd {
@@ -263,13 +253,13 @@ func (m *Map) renderSector(s Sector) {
 		}
 	}
 	// Render all sector linedefs with appropriate fill
-	m.renderAllLineDefs(sectorLineDefs, stroke)
+	m.renderAllLineDefs(sectorLineDefs)
 	// Now render special linedefs again, with colors
 	m.renderSpecialLineDefs(sectorLineDefs)
 	fmt.Fprintf(os.Stdout, "    </g>\n")
 }
 
-func (m *Map) renderAllLineDefs(lds []LineDef, stroke string) {
+func (m *Map) renderAllLineDefs(lds []LineDef) {
 	sectorLineDefs := make([]LineDef, len(lds))
 	copy(sectorLineDefs, lds)
 	var linedefs []LineDef
@@ -287,7 +277,7 @@ func (m *Map) renderAllLineDefs(lds []LineDef, stroke string) {
 			path.WriteString(fmt.Sprintf(" %d,%d", v.x, v.y))
 		}
 	}
-	fmt.Fprintf(os.Stdout, "    <path d=\"%s\" stroke=\"%s\" fill-rule=\"evenodd\" stroke-width=\"%d\"/>\n", path.String(), stroke, 1)
+	fmt.Fprintf(os.Stdout, "    <path d=\"%s\" fill-rule=\"evenodd\"/>\n", path.String())
 }
 
 func (m *Map) renderSpecialLineDefs(lds []LineDef) {
