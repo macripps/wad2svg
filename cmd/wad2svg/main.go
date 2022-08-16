@@ -222,7 +222,7 @@ func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, 
 	fmt.Fprintln(os.Stdout, "<?xml version=\"1.0\" standalone=\"no\"?>")
 	fmt.Fprintf(os.Stdout, "<svg width=\"%d\" height=\"%d\" viewBox=\"%d %d %d %d\" xmlns=\"http://www.w3.org/2000/svg\">\n", imageWidth, imageHeight, minX, minY, maxX-minX, maxY-minY)
 	fmt.Fprintf(os.Stdout, "  <title>%s - %s</title>\n", wadName, mapName)
-	fmt.Fprintln(os.Stdout, "  <g>")
+	fmt.Fprintln(os.Stdout, "  <g fill-rule=\"evenodd\">")
 
 	sectors := m.Sectors
 	for i, sector := range sectors {
@@ -271,13 +271,13 @@ func (m *Map) renderAllLineDefs(lds []LineDef) {
 		linedef := linedefs[0]
 		start := m.Vertexes[linedef.start]
 		end := m.Vertexes[linedef.end]
-		path.WriteString(fmt.Sprintf(" M %d %d L %d,%d", start.x, start.y, end.x, end.y))
+		path.WriteString(fmt.Sprintf("M %d %d L %d %d ", start.x, start.y, end.x, end.y))
 		for i := 1; i < len(linedefs); i++ {
 			v := m.Vertexes[linedefs[i].end]
-			path.WriteString(fmt.Sprintf(" %d,%d", v.x, v.y))
+			path.WriteString(fmt.Sprintf("%d %d ", v.x, v.y))
 		}
 	}
-	fmt.Fprintf(os.Stdout, "    <path d=\"%s\" fill-rule=\"evenodd\"/>\n", path.String())
+	fmt.Fprintf(os.Stdout, "    <path d=\"%s\"/>\n", path.String())
 }
 
 func (m *Map) renderSpecialLineDefs(lds []LineDef) {
