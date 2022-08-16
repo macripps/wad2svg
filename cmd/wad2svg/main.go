@@ -6,6 +6,7 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 )
 
@@ -68,13 +69,13 @@ func (m *Map) parseVertexes(r io.ReaderAt, size uint32, offset int64) {
 	}
 }
 
-func (m *Map) parseSectorDefs(r io.ReaderAt, size uint32, offset int64) {
+func (m *Map) parseSectors(r io.ReaderAt, size uint32, offset int64) {
 	numSectors := size / 26
 	m.Sectors = make([]Sector, 0, numSectors)
 	fmt.Fprintf(os.Stderr, "Reading %d sectors\n", numSectors)
 	var s Sector
 	for numSectors > 0 {
-		s, offset = ReadSectorFrom(r, offset)
+		s, offset = ReadSectorFrom(r, int(size/26-numSectors), offset)
 		m.Sectors = append(m.Sectors, s)
 		numSectors--
 	}
@@ -132,6 +133,17 @@ func (l *LineDef) isExit() bool {
 func (l *LineDef) isSecret() bool {
 	return l.flags&uint16(SECRET) == uint16(SECRET)
 }
+func (l LineDef) flip() LineDef {
+	return LineDef{
+		start:        l.end,
+		end:          l.start,
+		flags:        l.flags,
+		specialType:  l.specialType,
+		sectorTag:    l.sectorTag,
+		rightSideDef: l.leftSideDef,
+		leftSideDef:  l.rightSideDef,
+	}
+}
 
 type SideDef struct {
 	xOffset           int16
@@ -148,7 +160,8 @@ type Vertex struct {
 }
 
 type Sector struct {
-	floorHeight    uint16
+	sectorNumber   int
+	floorHeight    int16
 	ceilingHeight  uint16
 	floorTexture   string
 	ceilingTexture string
@@ -187,91 +200,111 @@ func (m *Map) render(wadName string, mapName string, out io.Writer) {
 	fmt.Printf("<svg width=\"2560\" height=\"2048\" viewBox=\"%d %d %d %d\" xmlns=\"http://www.w3.org/2000/svg\">\n", minX, minY, maxX-minX, maxY-minY)
 	fmt.Printf("  <title>%s - %s</title>\n", wadName, mapName)
 	fmt.Println("  <g>")
+
+	sectors := m.Sectors
+	sort.SliceStable(sectors, func(i, j int) bool {
+		return sectors[i].floorHeight < sectors[j].floorHeight
+	})
+	for _, sector := range sectors {
+		m.renderSector(sector)
+	}
+
 	linedefsToDraw := make([]LineDef, len(m.LineDefs))
 	copy(linedefsToDraw, m.LineDefs)
-	var linedefs []LineDef
-	for len(linedefsToDraw) > 0 {
-		linedefs, linedefsToDraw = selectLineDef(linedefsToDraw)
-		linedef := linedefs[0]
-		lineType := linedef.specialType
-		color := "black"
-		width := 1
-		if linedef.isDoor() {
-			color = "green"
-			width = 3
-		} else if linedef.isTeleporter() {
-			color = "red"
-			width = 3
-		} else if linedef.isLift() {
-			color = "blue"
-			width = 3
-		} else if linedef.isExit() {
-			color = "purple"
-			width = 3
-		} else if lineType != 0 {
-			// Some other type
-			color = "orange"
-			width = 3
-		}
-		m.renderPolyline(linedefs, color, "none", width)
-	}
-	sectors := m.Sectors
-	for i := 0; i < len(sectors); i++ {
-		sector := sectors[i]
-		if sector.isSecret() {
-			m.renderSector(sector, i, "aqua")
-		} else if sector.isDamage() {
-			m.renderSector(sector, i, "red")
-		}
-	}
+
 	fmt.Println("  </g>")
 	fmt.Println("</svg>")
 }
 
-func (m *Map) renderSector(s Sector, i int, color string) {
-	linedefs := make([]LineDef, 0)
+func (m *Map) renderSector(s Sector) {
+	var fill string
+	var stroke string
+	strokeWidth := 1
+	if s.isSecret() {
+		stroke = "aqua"
+		fill = "aqua"
+	} else if s.isDamage() {
+		stroke = "red"
+		fill = "red"
+	} else {
+		stroke = "black"
+		fill = "white"
+	}
+	fmt.Fprintf(os.Stdout, "    <!-- Sector type %d -->\n", s.sectorType)
+	fmt.Fprintf(os.Stdout, "    <g stroke=\"%s\" fill=\"%s\" stroke-width=\"%d\">\n", stroke, fill, strokeWidth)
+	fmt.Fprintf(os.Stderr, "Rendering sector with floorheight %d\n", s.floorHeight)
+	sectorLineDefs := make([]LineDef, 0)
 	for sd := 0; sd < len(m.SideDefs); sd++ {
 		sidedef := m.SideDefs[sd]
-		if int(sidedef.sectorNumber) == i {
+		if int(sidedef.sectorNumber) == s.sectorNumber {
 			for ld := 0; ld < len(m.LineDefs); ld++ {
 				linedef := m.LineDefs[ld]
 				if int(linedef.leftSideDef) == sd || int(linedef.rightSideDef) == sd {
-					linedefs = append(linedefs, linedef)
+					sectorLineDefs = append(sectorLineDefs, linedef)
 				}
 			}
 		}
 	}
-	m.renderPolyline(topoSort(linedefs), color, color, 3)
+	// Render all sector linedefs with appropriate fill
+	m.renderAllLineDefs(sectorLineDefs, stroke)
+	// Now render special linedefs again, with colors
+	m.renderSpecialLineDefs(sectorLineDefs)
+	fmt.Fprintf(os.Stdout, "    </g>\n")
 }
 
-func topoSort(lineDefs []LineDef) []LineDef {
-	lineDefGroup := make([]LineDef, 0, len(lineDefs))
-	nextLineDef := lineDefs[0]
-	lineDefGroup = append(lineDefGroup, nextLineDef)
-	lineDefs[0] = lineDefs[len(lineDefs)-1]
-	lineDefs = lineDefs[:len(lineDefs)-1]
-	head := nextLineDef
-	tail := nextLineDef
-	for i := 0; i < len(lineDefs); i++ {
-		l := lineDefs[i]
-		if l.start == head.end {
-			lineDefGroup = append(lineDefGroup, l)
-			lineDefs[i] = lineDefs[len(lineDefs)-1]
-			lineDefs = lineDefs[:len(lineDefs)-1]
-			i = 0
-			head = l
-		} else if l.end == tail.start {
-			lineDefGroup = append([]LineDef{l}, lineDefGroup...)
-			lineDefs[i] = lineDefs[len(lineDefs)-1]
-			lineDefs = lineDefs[:len(lineDefs)-1]
-			i = 0
-			tail = l
+func (m *Map) renderAllLineDefs(lds []LineDef, stroke string) {
+	fmt.Fprintf(os.Stderr, "Rendering %d linedefs for sector\n", len(lds))
+	sectorLineDefs := make([]LineDef, len(lds))
+	copy(sectorLineDefs, lds)
+	var linedefs []LineDef
+	for len(sectorLineDefs) > 0 {
+		linedefs, sectorLineDefs = selectLineDef(sectorLineDefs, func(ld1, ld2 LineDef) bool {
+			return true
+		})
+		fmt.Fprintf(os.Stderr, "Found %d linedefs\n", len(linedefs))
+		m.renderPolyline(linedefs, stroke, 1)
+	}
+}
+
+func (m *Map) renderSpecialLineDefs(lds []LineDef) {
+	sectorLineDefs := make([]LineDef, 0, len(lds))
+	for _, s := range lds {
+		if s.specialType != 0 {
+			sectorLineDefs = append(sectorLineDefs, s)
 		}
 	}
-	return lineDefGroup
+	fmt.Fprintf(os.Stderr, "Rendering %d special linedefs for sector\n", len(sectorLineDefs))
+	var linedefs []LineDef
+	for len(sectorLineDefs) > 0 {
+		linedefs, sectorLineDefs = selectLineDef(sectorLineDefs, func(ld1, ld2 LineDef) bool {
+			// ld1.flags == ld2.flags &&
+			return ld1.specialType == ld2.specialType
+		})
+		linedef := linedefs[0]
+		lineType := linedef.specialType
+		if lineType != 0 {
+			stroke := "orange"
+			strokeWidth := 3
+			if linedef.isDoor() {
+				stroke = "green"
+				strokeWidth = 3
+			} else if linedef.isTeleporter() {
+				stroke = "red"
+				strokeWidth = 3
+			} else if linedef.isLift() {
+				stroke = "blue"
+				strokeWidth = 3
+			} else if linedef.isExit() {
+				stroke = "purple"
+				strokeWidth = 3
+			}
+
+			m.renderPolyline(linedefs, stroke, strokeWidth)
+		}
+	}
 }
 
-func (m *Map) renderPolyline(linedefs []LineDef, stroke, fill string, strokeWidth int) {
+func (m *Map) renderPolyline(linedefs []LineDef, stroke string, strokeWidth int) {
 	linedef := linedefs[0]
 	path := strings.Builder{}
 	start := m.Vertexes[linedef.start]
@@ -281,35 +314,48 @@ func (m *Map) renderPolyline(linedefs []LineDef, stroke, fill string, strokeWidt
 		v := m.Vertexes[linedefs[i].end]
 		path.WriteString(fmt.Sprintf(" %d,%d", v.x, v.y))
 	}
-	fmt.Fprintf(os.Stdout, "    <polyline points=\"%s\" fill=\"%s\" stroke=\"%s\" stroke-width=\"%d\"/>\n", path.String(), fill, stroke, strokeWidth)
+	fmt.Fprintf(os.Stdout, "    <!-- Type %d -->\n", linedef.specialType)
+	fmt.Fprintf(os.Stdout, "    <polyline points=\"%s\" stroke=\"%s\" stroke-width=\"%d\"/>\n", path.String(), stroke, strokeWidth)
 }
 
-func selectLineDef(lineDefs []LineDef) ([]LineDef, []LineDef) {
-	lineDefGroup := make([]LineDef, 0)
+func selectLineDef(lineDefs []LineDef, shouldInclude func(LineDef, LineDef) bool) ([]LineDef, []LineDef) {
+	if len(lineDefs) == 1 {
+		return lineDefs, []LineDef{}
+	}
 	nextLineDef := lineDefs[0]
-	lineDefGroup = append(lineDefGroup, nextLineDef)
-	lineDefs[0] = lineDefs[len(lineDefs)-1]
-	lineDefs = lineDefs[:len(lineDefs)-1]
-	head := nextLineDef
-	tail := nextLineDef
+	lineDefGroup := []LineDef{nextLineDef}
+	lineDefs = lineDefs[1:]
 	for i := 0; i < len(lineDefs); i++ {
+		head := lineDefGroup[len(lineDefGroup)-1]
+		tail := lineDefGroup[0]
 		l := lineDefs[i]
+		fmt.Fprintf(os.Stderr, "Comparing %v to [%v,%v]\n", l, tail, head)
 		if l.start == head.end &&
-			l.flags == head.flags &&
-			l.specialType == head.specialType {
+			shouldInclude(l, head) {
+			fmt.Fprintln(os.Stderr, "  Appending")
 			lineDefGroup = append(lineDefGroup, l)
 			lineDefs[i] = lineDefs[len(lineDefs)-1]
 			lineDefs = lineDefs[:len(lineDefs)-1]
-			i = 0
-			head = l
+			i = -1
 		} else if l.end == tail.start &&
-			l.flags == tail.flags &&
-			l.specialType == tail.specialType {
+			shouldInclude(l, tail) {
+			fmt.Fprintln(os.Stderr, "  Prepending")
 			lineDefGroup = append([]LineDef{l}, lineDefGroup...)
 			lineDefs[i] = lineDefs[len(lineDefs)-1]
 			lineDefs = lineDefs[:len(lineDefs)-1]
-			i = 0
-			tail = l
+			i = -1
+		} else if l.end == head.end && shouldInclude(l, head) {
+			fmt.Fprintln(os.Stderr, "  Appending (flipped)")
+			lineDefGroup = append(lineDefGroup, l.flip())
+			lineDefs[i] = lineDefs[len(lineDefs)-1]
+			lineDefs = lineDefs[:len(lineDefs)-1]
+			i = -1
+		} else if l.start == tail.start && shouldInclude(l, tail) {
+			fmt.Fprintln(os.Stderr, "  Prepending (flipped)")
+			lineDefGroup = append([]LineDef{l.flip()}, lineDefGroup...)
+			lineDefs[i] = lineDefs[len(lineDefs)-1]
+			lineDefs = lineDefs[:len(lineDefs)-1]
+			i = -1
 		}
 	}
 	return lineDefGroup, lineDefs
@@ -378,7 +424,7 @@ func readMapFromInfoTable(r io.ReaderAt, mapName string, numLumps int, offset in
 			m.parseVertexes(r, lump.size, int64(lump.offset))
 		}
 		if found && lump.name == "SECTORS\x00" {
-			m.parseSectorDefs(r, lump.size, int64(lump.offset))
+			m.parseSectors(r, lump.size, int64(lump.offset))
 			break
 		}
 		numLumps--
@@ -398,10 +444,6 @@ func ReadLineDefFrom(r io.ReaderAt, offset int64) (LineDef, int64) {
 		sectorTag:    binary.LittleEndian.Uint16(linedef[8:10]),
 		rightSideDef: binary.LittleEndian.Uint16(linedef[10:12]),
 		leftSideDef:  binary.LittleEndian.Uint16(linedef[12:14]),
-	}
-
-	if l.leftSideDef == 600 || l.rightSideDef == 600 {
-		fmt.Fprintf(os.Stderr, "Found linedef for sidedef 600 - %v\n", l)
 	}
 
 	return l, offset + 14
@@ -432,10 +474,12 @@ func ReadVertexFrom(r io.ReaderAt, offset int64) (Vertex, int64) {
 
 var sector = make([]byte, 26)
 
-func ReadSectorFrom(r io.ReaderAt, offset int64) (Sector, int64) {
+func ReadSectorFrom(r io.ReaderAt, idx int, offset int64) (Sector, int64) {
 	r.ReadAt(sector, offset)
 	s := Sector{
-		sectorType: binary.LittleEndian.Uint16(sector[22:24]),
+		sectorNumber: idx,
+		floorHeight:  int16(sector[0]) | int16(sector[1])<<8,
+		sectorType:   binary.LittleEndian.Uint16(sector[22:24]),
 	}
 	return s, offset + 26
 }
