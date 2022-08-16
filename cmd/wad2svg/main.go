@@ -13,7 +13,7 @@ import (
 
 func main() {
 	if len(os.Args) < 3 {
-		fmt.Println("Usage: wad2svg file map [imageWidth=1280] [imageHeight=1024]")
+		fmt.Fprintln(os.Stderr, "Usage: wad2svg file map [imageWidth=1280] [imageHeight=1024]")
 		os.Exit(1)
 	}
 	var fileName = os.Args[1]
@@ -212,10 +212,10 @@ func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, 
 			maxY = y
 		}
 	}
-	fmt.Println("<?xml version=\"1.0\" standalone=\"no\"?>")
-	fmt.Printf("<svg width=\"%d\" height=\"%d\" viewBox=\"%d %d %d %d\" xmlns=\"http://www.w3.org/2000/svg\">\n", imageWidth, imageHeight, minX, minY, maxX-minX, maxY-minY)
-	fmt.Printf("  <title>%s - %s</title>\n", wadName, mapName)
-	fmt.Println("  <g>")
+	fmt.Fprintln(os.Stdout, "<?xml version=\"1.0\" standalone=\"no\"?>")
+	fmt.Fprintf(os.Stdout, "<svg width=\"%d\" height=\"%d\" viewBox=\"%d %d %d %d\" xmlns=\"http://www.w3.org/2000/svg\">\n", imageWidth, imageHeight, minX, minY, maxX-minX, maxY-minY)
+	fmt.Fprintf(os.Stdout, "  <title>%s - %s</title>\n", wadName, mapName)
+	fmt.Fprintln(os.Stdout, "  <g>")
 
 	sectors := m.Sectors
 	sort.SliceStable(sectors, func(i, j int) bool {
@@ -229,8 +229,8 @@ func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, 
 	linedefsToDraw := make([]LineDef, len(m.LineDefs))
 	copy(linedefsToDraw, m.LineDefs)
 
-	fmt.Println("  </g>")
-	fmt.Println("</svg>")
+	fmt.Fprintln(os.Stdout, "  </g>")
+	fmt.Fprintln(os.Stdout, "</svg>")
 }
 
 func (m *Map) renderSector(s Sector) {
