@@ -13,7 +13,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "wad2svg",
+	Use:   "wad2svg wad_file map_name",
 	Short: "wad2svg generates SVG files from Doom and Doom2 WAD files",
 	Args: func(cmd *cobra.Command, args []string) error {
 		if len(args) < 1 {
