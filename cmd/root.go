@@ -1,4 +1,4 @@
-package main
+package cmd
 
 import (
 	"encoding/binary"
@@ -8,37 +8,43 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+
+	"github.com/spf13/cobra"
 )
 
-func main() {
-	if len(os.Args) < 3 {
-		fmt.Fprintln(os.Stderr, "Usage: wad2svg file map [imageWidth=1280] [imageHeight=1024]")
-		os.Exit(1)
-	}
-	var fileName = os.Args[1]
-	var wadName = filepath.Base(fileName)
-	var mapName = os.Args[2]
-	imageWidth := 1280
-	imageHeight := 1024
-	var err error
-	if len(os.Args) > 3 {
-		imageWidth, err = strconv.Atoi(os.Args[3])
+var rootCmd = &cobra.Command{
+	Use:   "wad2svg",
+	Short: "wad2svg generates SVG files from Doom and Doom2 WAD files",
+	Run: func(cmd *cobra.Command, args []string) {
+		if len(args) < 2 {
+			fmt.Fprintln(os.Stderr, "Usage: wad2svg file map [imageWidth=1280] [imageHeight=1024]")
+			os.Exit(1)
+		}
+		var fileName = args[0]
+		var wadName = filepath.Base(fileName)
+		var mapName = args[1]
+		imageWidth := 1280
+		imageHeight := 1024
+		var err error
+		if len(args) > 2 {
+			imageWidth, err = strconv.Atoi(args[2])
+			if err != nil {
+				panic(err)
+			}
+		}
+		if len(args) > 3 {
+			imageHeight, err = strconv.Atoi(args[3])
+			if err != nil {
+				panic(err)
+			}
+		}
+		f, err := os.Open(fileName)
 		if err != nil {
 			panic(err)
 		}
-	}
-	if len(os.Args) > 4 {
-		imageHeight, err = strconv.Atoi(os.Args[4])
-		if err != nil {
-			panic(err)
-		}
-	}
-	f, err := os.Open(fileName)
-	if err != nil {
-		panic(err)
-	}
-	m := ReadMap(f, mapName)
-	m.render(os.Stdout, wadName, mapName, imageWidth, imageHeight)
+		m := ReadMap(f, mapName)
+		m.render(os.Stdout, wadName, mapName, imageWidth, imageHeight)
+	},
 }
 
 type Map struct {
@@ -469,4 +475,11 @@ func ReadSectorFrom(r io.ReaderAt, idx int, offset int64) (Sector, int64) {
 		sectorType:   binary.LittleEndian.Uint16(sector[22:24]),
 	}
 	return s, offset + 26
+}
+
+func Execute() {
+	if err := rootCmd.Execute(); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(1)
+	}
 }

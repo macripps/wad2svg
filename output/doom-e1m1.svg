@@ -1,357 +1,184 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="1280" height="1024" viewBox="-768 2048 4576 2816" xmlns="http://www.w3.org/2000/svg">
   <title>DOOM.wad - E1M1</title>
-  <g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2048 3904 L 2176,3904 2176,3920 2240,3968 2240,4096 2112,4032 2048,3920 2048,3904" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2264 3968 L 2344,3968 2368,3968 2368,4096 2344,4096 2264,4096 2240,4096 2240,3968 2264,3968" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2368 3968 L 2368,4096 2672,3920 2688,3920 2632,3792 2616,3792 2368,3968" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2048 3904 L 2048,3872 2176,3872 2176,3904 2048,3904" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2688 3920 L 2632,3792 2688,3776 2720,3904 2688,3920" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2048 3872 L 2048,3840 2176,3840 2176,3872 2048,3872" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2720 3904 L 2688,3776 2752,3776 2752,3904 2720,3904" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2048 3840 L 2048,3808 2176,3808 2176,3840 2048,3840" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2752 3904 L 2752,3776 2784,3776 2784,3904 2752,3904" fill-rule="evenodd"/>
-    </g>
+  <g fill-rule="evenodd">
     <!-- Sector type 7 -->
     <g fill="red" stroke="red" opacity="0.05" stroke-width="1">
-    <path d=" M 2040 3144 L 2128,3272 2064,3408 1784,3448 1544,3384 1520,3168 1672,3104 1896,3104 2040,3144" fill-rule="evenodd"/>
+    <path d="M 2040 3144 L 2128 3272 2064 3408 1784 3448 1544 3384 1520 3168 1672 3104 1896 3104 2040 3144 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2048 3808 L 2048,3776 2176,3776 2176,3808 2048,3808" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2784 3904 L 2784,3776 2816,3776 2816,3904 2784,3904" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2432 3112 L 2736,3112 2736,3360 2736,3648 2240,3648 1984,3648 1376,3648 1376,3520 1376,3392 1376,3360 1376,3264 1376,3200 1376,3104 1376,2944 1472,2880 1664,2880 1856,2880 1920,2920 2176,2920 2240,2920 2272,3008 2432,3112 M 1896 3104 L 2040,3144 2128,3272 2064,3408 1784,3448 1544,3384 1520,3168 1672,3104 1896,3104" fill-rule="evenodd"/>
+    <path d="M 2432 3112 L 2736 3112 2736 3360 2736 3648 2240 3648 1984 3648 1376 3648 1376 3520 1376 3392 1376 3360 1376 3264 1376 3200 1376 3104 1376 2944 1472 2880 1664 2880 1856 2880 1920 2920 2176 2920 2240 2920 2272 3008 2432 3112 M 1896 3104 L 2040 3144 2128 3272 2064 3408 1784 3448 1544 3384 1520 3168 1672 3104 1896 3104 "/>
     <!-- Type 109 -->
     <path d="M 1376 3520 L 1376 3392" stroke="orange" stroke-width="3" />    </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1984 3648 L 1984,3776 1672,3744 1528,3680 1376,3648 1984,3648" fill-rule="evenodd"/>
+    <path d="M 2176 2816 L 1664 2816 1664 2880 1856 2880 1920 2920 2176 2920 2176 2816 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2240 3648 L 2240,3776 2208,3680 2176,3680 2048,3680 2016,3680 1984,3776 1984,3648 2240,3648" fill-rule="evenodd"/>
+    <path d="M 1376 3360 L 1376 3264 1344 3264 1344 3360 1376 3360 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2176 3704 L 2176,3680 2048,3680 2048,3704 2048,3776 2176,3776 2176,3704" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2736 3648 L 2488,3744 2240,3776 2240,3648 2736,3648" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2816 3904 L 2816,3776 2848,3776 2848,3904 2816,3904" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 7 -->
-    <g fill="red" stroke="red" opacity="0.05" stroke-width="1">
-    <path d=" M 2752 3584 L 2752,3360 2944,3536 2752,3584" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 7 -->
-    <g fill="red" stroke="red" opacity="0.05" stroke-width="1">
-    <path d=" M 3352 3568 L 3264,3616 3104,3552 3280,3320 2984,3200 3136,3072 3304,3040 3400,3152 3472,3432 3408,3432 3312,3496 3352,3568" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3328 3744 L 3328,3968 3520,3904 3520,3840 3520,3584 3472,3520 3448,3520 3352,3568 3352,3592 3360,3648 3328,3744" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 7 -->
-    <g fill="red" stroke="red" opacity="0.05" stroke-width="1">
-    <path d=" M 2976 3072 L 2816,3232 3112,3360 2944,3536 2752,3360 2752,3112 2752,3048 2976,3072" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 9 -->
-    <g fill="aqua" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3304 3744 L 3328,3744 3328,3968 3304,3968 3200,3968 3200,3744 3304,3744" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2848 3904 L 2848,3776 2880,3776 2880,3904 2848,3904" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3048 2880 L 2752,3048 2752,2912 2880,2912 2880,2880 2752,2800 2752,2784 2944,2656 2960,2656 3048,2880" fill-rule="evenodd"/>
-    <!-- Type 88 -->
-    <path d="M 2752 3048 L 3048 2880" stroke="blue" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2944 3776 L 2944,3648 2752,3584 2944,3536 3072,3648 3072,4000 2944,4000 2944,3904 2944,3776" fill-rule="evenodd"/>
-    <!-- Type 1 -->
-    <path d="M 2944 3904 L 2944 3776" stroke="green" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3264 3616 L 3072,3648 2944,3536 3112,3360 2816,3232 2976,3072 2752,3048 3048,2880 3048,2944 3304,3040 3136,3072 2984,3200 3280,3320 3104,3552 3264,3616" fill-rule="evenodd"/>
-    <!-- Type 88 -->
-    <path d="M 2752 3048 L 3048 2880" stroke="blue" stroke-width="3" />    </g>
-    <!-- Sector type 12 -->
-    <g fill="white" stroke="purple" opacity="1.0" stroke-width="1">
-    <path d=" M 2856 4352 L 2856,4160 2888,4160 2912,4160 3104,4160 3128,4160 3160,4160 3160,4352 3128,4352 3104,4352 2912,4352 2888,4352 2856,4352 M 3128 4160 L 3128,4192 3128,4320 3128,4192 3128,4160 M 2888 4320 L 2888,4352 2888,4320 2888,4192 2888,4160 2888,4192 2888,4320 M 3128 4320 L 3128,4352 3128,4320" fill-rule="evenodd"/>
-    <!-- Type 36 -->
-    <path d="M 2912 4160 L 3104 4160" stroke="orange" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2912 4384 L 2912,4352 3104,4352 3104,4384 3160,4384 3160,4352 3160,4160 3200,4128 3328,4128 3328,4544 3072,4544 2944,4544 2688,4544 2688,4128 2816,4128 2856,4160 2856,4352 2856,4384 2912,4384" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2944 4608 L 2944,4544 3072,4544 3072,4608 3040,4608 2976,4608 2944,4608 M 3024 4592 L 2992,4592 2992,4600 3024,4600 3024,4592" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2992 4600 L 3024,4600 3024,4592 2992,4592 2992,4600" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3040 4608 L 3040,4632 2976,4632 2976,4608 3040,4608" fill-rule="evenodd"/>
-    <!-- Type 1 -->
-    <path d="M 3040 4632 L 2976 4632" stroke="green" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3040 4632 L 3040,4648 2976,4648 2976,4632 3040,4632" fill-rule="evenodd"/>
-    <!-- Type 1 -->
-    <path d="M 2976 4648 L 3040 4648" stroke="green" stroke-width="3" />    <!-- Type 1 -->
-    <path d="M 3040 4632 L 2976 4632" stroke="green" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3040 4672 L 3104,4672 3104,4864 2912,4864 2912,4800 2912,4736 2912,4672 2976,4672 3040,4672 M 2992 4840 L 2992,4848 3024,4848 3024,4840 2992,4840" fill-rule="evenodd"/>
-    <!-- Type 11 -->
-    <path d="M 2912 4800 L 2912 4736" stroke="purple" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2992 4848 L 3024,4848 3024,4840 2992,4840 2992,4848" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2976 4672 L 2976,4648 3040,4648 3040,4672 2976,4672" fill-rule="evenodd"/>
-    <!-- Type 1 -->
-    <path d="M 2976 4648 L 3040 4648" stroke="green" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2912 3904 L 2912,3776 2880,3776 2880,3904 2912,3904" fill-rule="evenodd"/>
-    <!-- Type 1 -->
-    <path d="M 2912 3776 L 2912 3904" stroke="green" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3072 4000 L 2944,4000 2944,4016 3072,4016 3072,4000" fill-rule="evenodd"/>
-    <!-- Type 1 -->
-    <path d="M 3072 4016 L 2944 4016" stroke="green" stroke-width="3" />    </g>
-    <!-- Sector type 9 -->
-    <g fill="aqua" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2912 3776 L 2944,3776 2944,3904 2912,3904 2912,3776" fill-rule="evenodd"/>
-    <!-- Type 1 -->
-    <path d="M 2944 3904 L 2944 3776" stroke="green" stroke-width="3" />    <!-- Type 1 -->
-    <path d="M 2912 3776 L 2912 3904" stroke="green" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3072 4032 L 3104,4128 3104,4160 2912,4160 2912,4128 2944,4032 3072,4032" fill-rule="evenodd"/>
-    <!-- Type 36 -->
-    <path d="M 2912 4160 L 3104 4160" stroke="orange" stroke-width="3" />    <!-- Type 1 -->
-    <path d="M 2944 4032 L 3072 4032" stroke="green" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2944 4032 L 2944,4016 3072,4016 3072,4032 2944,4032" fill-rule="evenodd"/>
-    <!-- Type 1 -->
-    <path d="M 3072 4016 L 2944 4016" stroke="green" stroke-width="3" />    <!-- Type 1 -->
-    <path d="M 2944 4032 L 3072 4032" stroke="green" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 928 3360 L 928,3104 1184,3104 1216,3104 1216,3072 1344,3104 1344,3200 1344,3264 1344,3360 1216,3392 1216,3360 1184,3360 928,3360" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2752 2560 L 2944,2656 2752,2784 2624,2784 2752,2560" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1184 3360 L 1184,3392 928,3392 928,3360 896,3360 896,3104 928,3104 928,3360 1184,3360 M 928 3104 L 928,3072 1184,3072 1184,3104 928,3104" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 496 3304 L 496,3160 512,3160 512,3136 680,3104 704,3104 704,3360 680,3360 512,3328 512,3304 496,3304" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 64 3392 L 128,3264 160,3264 192,3264 224,3264 256,3264 288,3264 320,3264 320,3200 288,3200 256,3200 224,3200 192,3200 160,3200 128,3200 64,3072 128,3008 448,3008 496,3136 496,3160 496,3304 496,3328 448,3456 128,3456 64,3392 M 320 3392 L 320,3328 256,3328 256,3392 320,3392 M 256 3072 L 256,3136 320,3136 320,3072 256,3072" fill-rule="evenodd"/>
-    <!-- Type 63 -->
-    <path d="M 320 3072 L 256 3072" stroke="orange" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2496 2560 L 2520,2560 2752,2560 2624,2784 2520,2688 2496,2688 2496,2560" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2176 2816 L 1664,2816 1664,2880 1856,2880 1920,2920 2176,2920 2176,2816" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1376 3520 L 1376,3392 1344,3392 1344,3520 1376,3520" fill-rule="evenodd"/>
+    <path d="M 1376 3520 L 1376 3392 1344 3392 1344 3520 1376 3520 "/>
     <!-- Type 38 -->
     <path d="M 1344 3392 L 1344 3520" stroke="orange" stroke-width="3" />    <!-- Type 109 -->
     <path d="M 1376 3520 L 1376 3392" stroke="orange" stroke-width="3" />    </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2176 2752 L 1664,2752 1664,2624 1664,2600 1664,2560 1664,2432 1664,2392 1664,2368 1664,2112 2496,2112 2496,2496 2496,2520 2496,2560 2496,2688 2496,2752 2200,2752 2176,2752 M 1992 2552 L 1784,2552 1784,2632 1992,2632 1992,2552 M 1784 2232 L 1784,2312 1992,2312 1992,2232 1784,2232 M 2112 2592 L 2336,2592 2336,2272 2112,2272 2112,2304 2144,2304 2144,2560 2112,2560 2112,2592" fill-rule="evenodd"/>
+    <path d="M 1344 3104 L 1344 3200 1376 3200 1376 3104 1344 3104 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1984 2304 L 1984,2240 1792,2240 1792,2304 1984,2304 M 1992 2232 L 1784,2232 1784,2312 1992,2312 1992,2232" fill-rule="evenodd"/>
+    <path d="M 2048 3904 L 2176 3904 2176 3920 2240 3968 2240 4096 2112 4032 2048 3920 2048 3904 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1792 2304 L 1984,2304 1984,2240 1792,2240 1792,2304" fill-rule="evenodd"/>
+    <path d="M 2048 3904 L 2048 3872 2176 3872 2176 3904 2048 3904 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1984 2624 L 1984,2560 1792,2560 1792,2624 1984,2624 M 1784 2632 L 1992,2632 1992,2552 1784,2552 1784,2632" fill-rule="evenodd"/>
+    <path d="M 2048 3872 L 2048 3840 2176 3840 2176 3872 2048 3872 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1792 2624 L 1984,2624 1984,2560 1792,2560 1792,2624" fill-rule="evenodd"/>
+    <path d="M 2048 3840 L 2048 3808 2176 3808 2176 3840 2048 3840 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1664 2432 L 1664,2560 1552,2560 1552,2432 1664,2432" fill-rule="evenodd"/>
+    <path d="M 2048 3808 L 2048 3776 2176 3776 2176 3808 2048 3808 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1984 3648 L 1984 3776 1672 3744 1528 3680 1376 3648 1984 3648 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2240 3648 L 2240 3776 2208 3680 2176 3680 2048 3680 2016 3680 1984 3776 1984 3648 2240 3648 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2176 3704 L 2176 3680 2048 3680 2048 3704 2048 3776 2176 3776 2176 3704 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1664 2816 L 1664 2752 2176 2752 2176 2816 1664 2816 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2176 2752 L 1664 2752 1664 2624 1664 2600 1664 2560 1664 2432 1664 2392 1664 2368 1664 2112 2496 2112 2496 2496 2496 2520 2496 2560 2496 2688 2496 2752 2200 2752 2176 2752 M 1992 2552 L 1784 2552 1784 2632 1992 2632 1992 2552 M 1784 2232 L 1784 2312 1992 2312 1992 2232 1784 2232 M 2112 2592 L 2336 2592 2336 2272 2112 2272 2112 2304 2144 2304 2144 2560 2112 2560 2112 2592 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1984 2304 L 1984 2240 1792 2240 1792 2304 1984 2304 M 1992 2232 L 1784 2232 1784 2312 1992 2312 1992 2232 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1792 2304 L 1984 2304 1984 2240 1792 2240 1792 2304 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1984 2624 L 1984 2560 1792 2560 1792 2624 1984 2624 M 1784 2632 L 1992 2632 1992 2552 1784 2552 1784 2632 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1792 2624 L 1984 2624 1984 2560 1792 2560 1792 2624 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2176 2560 L 2144 2560 2144 2304 2176 2304 2176 2560 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2496 2048 L 2560 2048 2560 2112 2560 2496 2496 2496 2496 2112 1664 2112 1664 2368 1600 2368 1600 2112 1600 2048 1664 2048 2496 2048 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1664 2432 L 1664 2560 1552 2560 1552 2432 1664 2432 "/>
     <!-- Type 1 -->
     <path d="M 1552 2560 L 1552 2432" stroke="green" stroke-width="3" />    </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1216 2880 L 1248,2528 1472,2432 1472,2560 1384,2592 1344,2880 1216,2880" fill-rule="evenodd"/>
+    <path d="M 1664 2816 L 1600 2816 1600 2752 1600 2624 1664 2624 1664 2752 1664 2816 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1472 2432 L 1472,2560 1536,2560 1536,2432 1472,2432" fill-rule="evenodd"/>
+    <path d="M 1216 2880 L 1248 2528 1472 2432 1472 2560 1384 2592 1344 2880 1216 2880 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1472 2432 L 1472 2560 1536 2560 1536 2432 1472 2432 "/>
     <!-- Type 1 -->
     <path d="M 1536 2432 L 1536 2560" stroke="green" stroke-width="3" />    </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1552 2560 L 1552,2432 1536,2432 1536,2560 1552,2560" fill-rule="evenodd"/>
+    <path d="M 1552 2560 L 1552 2432 1536 2432 1536 2560 1552 2560 "/>
     <!-- Type 1 -->
     <path d="M 1536 2432 L 1536 2560" stroke="green" stroke-width="3" />    <!-- Type 1 -->
     <path d="M 1552 2560 L 1552 2432" stroke="green" stroke-width="3" />    </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1344 3104 L 1216,3072 1184,3072 928,3072 896,3072 896,3104 896,3360 896,3392 928,3392 1184,3392 1216,3392 1344,3360 1344,3392 1344,3520 1344,3552 1280,3552 1152,3648 1088,3648 1024,3648 960,3648 832,3552 704,3552 704,3360 704,3104 704,2944 832,2944 968,2880 1216,2880 1344,2880 1344,3104" fill-rule="evenodd"/>
+    <path d="M 928 3360 L 928 3104 1184 3104 1216 3104 1216 3072 1344 3104 1344 3200 1344 3264 1344 3360 1216 3392 1216 3360 1184 3360 928 3360 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1184 3360 L 1184 3392 928 3392 928 3360 896 3360 896 3104 928 3104 928 3360 1184 3360 M 928 3104 L 928 3072 1184 3072 1184 3104 928 3104 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 1344 3104 L 1216 3072 1184 3072 928 3072 896 3072 896 3104 896 3360 896 3392 928 3392 1184 3392 1216 3392 1344 3360 1344 3392 1344 3520 1344 3552 1280 3552 1152 3648 1088 3648 1024 3648 960 3648 832 3552 704 3552 704 3360 704 3104 704 2944 832 2944 968 2880 1216 2880 1344 2880 1344 3104 "/>
     <!-- Type 38 -->
     <path d="M 1344 3392 L 1344 3520" stroke="orange" stroke-width="3" />    </g>
     <!-- Sector type 1 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1088 3680 L 1024,3680 1024,3648 1088,3648 1088,3680" fill-rule="evenodd"/>
+    <path d="M 1088 3680 L 1024 3680 1024 3648 1088 3648 1088 3680 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 64 2816 L -640,2944 -640,3520 64,3648 -640,3648 -768,3520 -768,2944 -640,2816 64,2816" fill-rule="evenodd"/>
+    <path d="M 496 3304 L 496 3160 512 3160 512 3136 680 3104 704 3104 704 3360 680 3360 512 3328 512 3304 496 3304 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M -96 3344 L 64,3520 64,3648 -640,3520 -640,2944 64,2816 64,2944 -96,3120 -128,3120 -256,3120 -336,3120 -336,3168 -336,3296 -336,3344 -256,3344 -128,3344 -96,3344" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2736 3112 L 2752,3112 2752,3360 2736,3360 2736,3112" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1376 3360 L 1376,3264 1344,3264 1344,3360 1376,3360" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1344 3104 L 1344,3200 1376,3200 1376,3104 1344,3104" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2176 2560 L 2144,2560 2144,2304 2176,2304 2176,2560" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 288 3200 L 288,3264 320,3264 320,3200 288,3200" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2208 2560 L 2176,2560 2176,2304 2208,2304 2208,2560" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 288 3200 L 256,3200 256,3264 288,3264 288,3200" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2208 2560 L 2208,2304 2304,2304 2304,2560 2208,2560" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1664 2816 L 1664,2752 2176,2752 2176,2816 1664,2816" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 2496 2048 L 2560,2048 2560,2112 2560,2496 2496,2496 2496,2112 1664,2112 1664,2368 1600,2368 1600,2112 1600,2048 1664,2048 2496,2048" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 1664 2816 L 1600,2816 1600,2752 1600,2624 1664,2624 1664,2752 1664,2816" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 8 -->
-    <g fill="white" stroke="red" opacity="1.0" stroke-width="1">
-    <path d=" M 256 3328 L 256,3392 320,3392 320,3328 256,3328" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 8 -->
-    <g fill="white" stroke="red" opacity="1.0" stroke-width="1">
-    <path d=" M 256 3072 L 256,3136 320,3136 320,3072 256,3072" fill-rule="evenodd"/>
+    <path d="M 64 3392 L 128 3264 160 3264 192 3264 224 3264 256 3264 288 3264 320 3264 320 3200 288 3200 256 3200 224 3200 192 3200 160 3200 128 3200 64 3072 128 3008 448 3008 496 3136 496 3160 496 3304 496 3328 448 3456 128 3456 64 3392 M 320 3392 L 320 3328 256 3328 256 3392 320 3392 M 256 3072 L 256 3136 320 3136 320 3072 256 3072 "/>
     <!-- Type 63 -->
     <path d="M 320 3072 L 256 3072" stroke="orange" stroke-width="3" />    </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 256 3200 L 224,3200 224,3264 256,3264 256,3200" fill-rule="evenodd"/>
+    <path d="M 288 3200 L 288 3264 320 3264 320 3200 288 3200 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 224 3200 L 192,3200 192,3264 224,3264 224,3200" fill-rule="evenodd"/>
+    <path d="M 288 3200 L 256 3200 256 3264 288 3264 288 3200 "/>
+    </g>
+    <!-- Sector type 8 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 256 3328 L 256 3392 320 3392 320 3328 256 3328 "/>
+    </g>
+    <!-- Sector type 8 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 256 3072 L 256 3136 320 3136 320 3072 256 3072 "/>
+    <!-- Type 63 -->
+    <path d="M 320 3072 L 256 3072" stroke="orange" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 256 3200 L 224 3200 224 3264 256 3264 256 3200 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 192 3200 L 160,3200 160,3264 192,3264 192,3200" fill-rule="evenodd"/>
+    <path d="M 224 3200 L 192 3200 192 3264 224 3264 224 3200 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 128 3264 L 160,3264 160,3200 128,3200 128,3264" fill-rule="evenodd"/>
+    <path d="M 192 3200 L 160 3200 160 3264 192 3264 192 3200 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3472 3432 L 3408,3432 3312,3496 3352,3568 3448,3520 3472,3432" fill-rule="evenodd"/>
+    <path d="M 64 2816 L -640 2944 -640 3520 64 3648 -640 3648 -768 3520 -768 2944 -640 2816 64 2816 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M -128 3328 L -256,3328 -320,3296 -320,3168 -256,3136 -128,3136 -88,3136 -64,3136 -64,3328 -88,3328 -128,3328 M -208 3264 L -192,3248 -192,3216 -208,3200 -240,3200 -256,3216 -256,3248 -240,3264 -208,3264" fill-rule="evenodd"/>
+    <path d="M -128 3328 L -256 3328 -320 3296 -320 3168 -256 3136 -128 3136 -88 3136 -64 3136 -64 3328 -88 3328 -128 3328 M -208 3264 L -192 3248 -192 3216 -208 3200 -240 3200 -256 3216 -256 3248 -240 3264 -208 3264 "/>
     <!-- Type 48 -->
     <path d="M -240 3264 L -208 3264" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
     <path d="M -208 3264 L -192 3248" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
@@ -363,39 +190,212 @@
     <path d="M -256 3248 L -240 3264" stroke="orange" stroke-width="3" />    </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 48 3392 L 64,3392 128,3264 128,3200 64,3072 48,3072 -64,3136 -64,3328 48,3392" fill-rule="evenodd"/>
+    <path d="M -96 3344 L 64 3520 64 3648 -640 3520 -640 2944 64 2816 64 2944 -96 3120 -128 3120 -256 3120 -336 3120 -336 3168 -336 3296 -336 3344 -256 3344 -128 3344 -96 3344 "/>
     </g>
     <!-- Sector type 0 -->
     <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3320 3040 L 3360,2880 3584,2880 3808,3264 3680,3392 3680,3552 3744,3808 3680,3904 3584,3904 3584,3840 3616,3776 3552,3552 3552,3392 3648,3264 3496,3032 3456,3032 3416,3152 3400,3152 3304,3040 3320,3040" fill-rule="evenodd"/>
+    <path d="M -128 3120 L -128 3136 -256 3136 -256 3120 -128 3120 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M -192 3216 L -208 3200 -240 3200 -256 3216 -256 3248 -240 3264 -208 3264 -192 3248 -192 3216 "/>
+    <!-- Type 48 -->
+    <path d="M -240 3264 L -208 3264" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
+    <path d="M -208 3264 L -192 3248" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
+    <path d="M -192 3248 L -192 3216" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
+    <path d="M -192 3216 L -208 3200" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
+    <path d="M -208 3200 L -240 3200" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
+    <path d="M -240 3200 L -256 3216" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
+    <path d="M -256 3216 L -256 3248" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
+    <path d="M -256 3248 L -240 3264" stroke="orange" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M -336 3168 L -320 3168 -320 3296 -336 3296 -336 3168 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M -256 3344 L -256 3328 -128 3328 -128 3344 -256 3344 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 48 3392 L 64 3392 128 3264 128 3200 64 3072 48 3072 -64 3136 -64 3328 48 3392 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 128 3264 L 160 3264 160 3200 128 3200 128 3264 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3048 2880 L 2752 3048 2752 2912 2880 2912 2880 2880 2752 2800 2752 2784 2944 2656 2960 2656 3048 2880 "/>
+    <!-- Type 88 -->
+    <path d="M 2752 3048 L 3048 2880" stroke="blue" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2752 2560 L 2944 2656 2752 2784 2624 2784 2752 2560 "/>
+    </g>
+    <!-- Sector type 7 -->
+    <g fill="red" stroke="red" opacity="0.05" stroke-width="1">
+    <path d="M 2752 3584 L 2752 3360 2944 3536 2752 3584 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2944 3776 L 2944 3648 2752 3584 2944 3536 3072 3648 3072 4000 2944 4000 2944 3904 2944 3776 "/>
+    <!-- Type 1 -->
+    <path d="M 2944 3904 L 2944 3776" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 7 -->
+    <g fill="red" stroke="red" opacity="0.05" stroke-width="1">
+    <path d="M 3352 3568 L 3264 3616 3104 3552 3280 3320 2984 3200 3136 3072 3304 3040 3400 3152 3472 3432 3408 3432 3312 3496 3352 3568 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3328 3744 L 3328 3968 3520 3904 3520 3840 3520 3584 3472 3520 3448 3520 3352 3568 3352 3592 3360 3648 3328 3744 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3472 3432 L 3408 3432 3312 3496 3352 3568 3448 3520 3472 3432 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3264 3616 L 3072 3648 2944 3536 3112 3360 2816 3232 2976 3072 2752 3048 3048 2880 3048 2944 3304 3040 3136 3072 2984 3200 3280 3320 3104 3552 3264 3616 "/>
+    <!-- Type 88 -->
+    <path d="M 2752 3048 L 3048 2880" stroke="blue" stroke-width="3" />    </g>
+    <!-- Sector type 7 -->
+    <g fill="red" stroke="red" opacity="0.05" stroke-width="1">
+    <path d="M 2976 3072 L 2816 3232 3112 3360 2944 3536 2752 3360 2752 3112 2752 3048 2976 3072 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3320 3040 L 3360 2880 3584 2880 3808 3264 3680 3392 3680 3552 3744 3808 3680 3904 3584 3904 3584 3840 3616 3776 3552 3552 3552 3392 3648 3264 3496 3032 3456 3032 3416 3152 3400 3152 3304 3040 3320 3040 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2208 2560 L 2176 2560 2176 2304 2208 2304 2208 2560 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2208 2560 L 2208 2304 2304 2304 2304 2560 2208 2560 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2496 2560 L 2520 2560 2752 2560 2624 2784 2520 2688 2496 2688 2496 2560 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2736 3112 L 2752 3112 2752 3360 2736 3360 2736 3112 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2736 3648 L 2488 3744 2240 3776 2240 3648 2736 3648 "/>
+    </g>
+    <!-- Sector type 12 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2856 4352 L 2856 4160 2888 4160 2912 4160 3104 4160 3128 4160 3160 4160 3160 4352 3128 4352 3104 4352 2912 4352 2888 4352 2856 4352 M 3128 4160 L 3128 4192 3128 4320 3128 4192 3128 4160 M 2888 4320 L 2888 4352 2888 4320 2888 4192 2888 4160 2888 4192 2888 4320 M 3128 4320 L 3128 4352 3128 4320 "/>
+    <!-- Type 36 -->
+    <path d="M 2912 4160 L 3104 4160" stroke="orange" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2912 4384 L 2912 4352 3104 4352 3104 4384 3160 4384 3160 4352 3160 4160 3200 4128 3328 4128 3328 4544 3072 4544 2944 4544 2688 4544 2688 4128 2816 4128 2856 4160 2856 4352 2856 4384 2912 4384 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2944 4608 L 2944 4544 3072 4544 3072 4608 3040 4608 2976 4608 2944 4608 M 3024 4592 L 2992 4592 2992 4600 3024 4600 3024 4592 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2992 4600 L 3024 4600 3024 4592 2992 4592 2992 4600 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3040 4608 L 3040 4632 2976 4632 2976 4608 3040 4608 "/>
+    <!-- Type 1 -->
+    <path d="M 3040 4632 L 2976 4632" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3040 4632 L 3040 4648 2976 4648 2976 4632 3040 4632 "/>
+    <!-- Type 1 -->
+    <path d="M 2976 4648 L 3040 4648" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 3040 4632 L 2976 4632" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3040 4672 L 3104 4672 3104 4864 2912 4864 2912 4800 2912 4736 2912 4672 2976 4672 3040 4672 M 2992 4840 L 2992 4848 3024 4848 3024 4840 2992 4840 "/>
+    <!-- Type 11 -->
+    <path d="M 2912 4800 L 2912 4736" stroke="purple" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2992 4848 L 3024 4848 3024 4840 2992 4840 2992 4848 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2976 4672 L 2976 4648 3040 4648 3040 4672 2976 4672 "/>
+    <!-- Type 1 -->
+    <path d="M 2976 4648 L 3040 4648" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2720 3904 L 2688 3776 2752 3776 2752 3904 2720 3904 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2752 3904 L 2752 3776 2784 3776 2784 3904 2752 3904 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2784 3904 L 2784 3776 2816 3776 2816 3904 2784 3904 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2816 3904 L 2816 3776 2848 3776 2848 3904 2816 3904 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2848 3904 L 2848 3776 2880 3776 2880 3904 2848 3904 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2912 3904 L 2912 3776 2880 3776 2880 3904 2912 3904 "/>
+    <!-- Type 1 -->
+    <path d="M 2912 3776 L 2912 3904" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2264 3968 L 2344 3968 2368 3968 2368 4096 2344 4096 2264 4096 2240 4096 2240 3968 2264 3968 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2368 3968 L 2368 4096 2672 3920 2688 3920 2632 3792 2616 3792 2368 3968 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2688 3920 L 2632 3792 2688 3776 2720 3904 2688 3920 "/>
+    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3072 4000 L 2944 4000 2944 4016 3072 4016 3072 4000 "/>
+    <!-- Type 1 -->
+    <path d="M 3072 4016 L 2944 4016" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 9 -->
+    <g fill="aqua" stroke="aqua" opacity="0.5" stroke-width="1">
+    <path d="M 2912 3776 L 2944 3776 2944 3904 2912 3904 2912 3776 "/>
+    <!-- Type 1 -->
+    <path d="M 2944 3904 L 2944 3776" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 2912 3776 L 2912 3904" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 3072 4032 L 3104 4128 3104 4160 2912 4160 2912 4128 2944 4032 3072 4032 "/>
+    <!-- Type 36 -->
+    <path d="M 2912 4160 L 3104 4160" stroke="orange" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 2944 4032 L 3072 4032" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 0 -->
+    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
+    <path d="M 2944 4032 L 2944 4016 3072 4016 3072 4032 2944 4032 "/>
+    <!-- Type 1 -->
+    <path d="M 3072 4016 L 2944 4016" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 2944 4032 L 3072 4032" stroke="green" stroke-width="3" />    </g>
+    <!-- Sector type 9 -->
+    <g fill="aqua" stroke="aqua" opacity="0.5" stroke-width="1">
+    <path d="M 3304 3744 L 3328 3744 3328 3968 3304 3968 3200 3968 3200 3744 3304 3744 "/>
     </g>
     <!-- Sector type 9 -->
-    <g fill="aqua" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M 3536 3840 L 3520,3840 3520,3904 3536,3904 3584,3904 3584,3840 3536,3840" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M -192 3216 L -208,3200 -240,3200 -256,3216 -256,3248 -240,3264 -208,3264 -192,3248 -192,3216" fill-rule="evenodd"/>
-    <!-- Type 48 -->
-    <path d="M -240 3264 L -208 3264" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
-    <path d="M -208 3264 L -192 3248" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
-    <path d="M -192 3248 L -192 3216" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
-    <path d="M -192 3216 L -208 3200" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
-    <path d="M -208 3200 L -240 3200" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
-    <path d="M -240 3200 L -256 3216" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
-    <path d="M -256 3216 L -256 3248" stroke="orange" stroke-width="3" />    <!-- Type 48 -->
-    <path d="M -256 3248 L -240 3264" stroke="orange" stroke-width="3" />    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M -128 3120 L -128,3136 -256,3136 -256,3120 -128,3120" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M -336 3168 L -320,3168 -320,3296 -336,3296 -336,3168" fill-rule="evenodd"/>
-    </g>
-    <!-- Sector type 0 -->
-    <g fill="white" stroke="black" opacity="1.0" stroke-width="1">
-    <path d=" M -256 3344 L -256,3328 -128,3328 -128,3344 -256,3344" fill-rule="evenodd"/>
+    <g fill="aqua" stroke="aqua" opacity="0.5" stroke-width="1">
+    <path d="M 3536 3840 L 3520 3840 3520 3904 3536 3904 3584 3904 3584 3840 3536 3840 "/>
     </g>
   </g>
 </svg>
