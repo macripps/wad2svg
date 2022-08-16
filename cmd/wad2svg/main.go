@@ -7,23 +7,39 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strconv"
 	"strings"
 )
 
 func main() {
 	if len(os.Args) < 3 {
-		fmt.Println("Usage: wad2svg file map")
+		fmt.Println("Usage: wad2svg file map [imageWidth=1280] [imageHeight=1024]")
 		os.Exit(1)
 	}
 	var fileName = os.Args[1]
 	var wadName = filepath.Base(fileName)
 	var mapName = os.Args[2]
+	imageWidth := 1280
+	imageHeight := 1024
+	var err error
+	if len(os.Args) > 3 {
+		imageWidth, err = strconv.Atoi(os.Args[3])
+		if err != nil {
+			panic(err)
+		}
+	}
+	if len(os.Args) > 4 {
+		imageHeight, err = strconv.Atoi(os.Args[4])
+		if err != nil {
+			panic(err)
+		}
+	}
 	f, err := os.Open(fileName)
 	if err != nil {
 		panic(err)
 	}
 	m := ReadMap(f, mapName)
-	m.render(wadName, mapName, os.Stdout)
+	m.render(os.Stdout, wadName, mapName, imageWidth, imageHeight)
 }
 
 type Map struct {
@@ -178,7 +194,7 @@ func (s *Sector) isDamage() bool {
 	return s.sectorType == 4 || s.sectorType == 5 || s.sectorType == 7 || s.sectorType == 16
 }
 
-func (m *Map) render(wadName string, mapName string, out io.Writer) {
+func (m *Map) render(out io.Writer, wadName string, mapName string, imageWidth, imageHeight int) {
 	minX, minY, maxX, maxY := int16(32767), int16(32767), int16(-32768), int16(-32768)
 	for i := 0; i < len(m.Vertexes); i++ {
 		x := m.Vertexes[i].x
@@ -197,7 +213,7 @@ func (m *Map) render(wadName string, mapName string, out io.Writer) {
 		}
 	}
 	fmt.Println("<?xml version=\"1.0\" standalone=\"no\"?>")
-	fmt.Printf("<svg width=\"2560\" height=\"2048\" viewBox=\"%d %d %d %d\" xmlns=\"http://www.w3.org/2000/svg\">\n", minX, minY, maxX-minX, maxY-minY)
+	fmt.Printf("<svg width=\"%d\" height=\"%d\" viewBox=\"%d %d %d %d\" xmlns=\"http://www.w3.org/2000/svg\">\n", imageWidth, imageHeight, minX, minY, maxX-minX, maxY-minY)
 	fmt.Printf("  <title>%s - %s</title>\n", wadName, mapName)
 	fmt.Println("  <g>")
 
@@ -220,18 +236,22 @@ func (m *Map) renderSector(s Sector) {
 	var fill string
 	var stroke string
 	strokeWidth := 1
+	opacity := 1.0
 	if s.isSecret() {
 		stroke = "aqua"
 		fill = "aqua"
+		opacity = 0.3
 	} else if s.isDamage() {
 		stroke = "red"
 		fill = "red"
+		opacity = 0.3
 	} else {
 		stroke = "black"
 		fill = "white"
+		opacity = 0.3
 	}
 	fmt.Fprintf(os.Stdout, "    <!-- Sector type %d -->\n", s.sectorType)
-	fmt.Fprintf(os.Stdout, "    <g stroke=\"%s\" fill=\"%s\" stroke-width=\"%d\">\n", stroke, fill, strokeWidth)
+	fmt.Fprintf(os.Stdout, "    <g stroke=\"%s\" fill=\"%s\" fill-opacity=\"%f\" stroke-width=\"%d\">\n", stroke, fill, opacity, strokeWidth)
 	fmt.Fprintf(os.Stderr, "Rendering sector with floorheight %d\n", s.floorHeight)
 	sectorLineDefs := make([]LineDef, 0)
 	for sd := 0; sd < len(m.SideDefs); sd++ {
@@ -253,7 +273,6 @@ func (m *Map) renderSector(s Sector) {
 }
 
 func (m *Map) renderAllLineDefs(lds []LineDef, stroke string) {
-	fmt.Fprintf(os.Stderr, "Rendering %d linedefs for sector\n", len(lds))
 	sectorLineDefs := make([]LineDef, len(lds))
 	copy(sectorLineDefs, lds)
 	var linedefs []LineDef
@@ -261,7 +280,6 @@ func (m *Map) renderAllLineDefs(lds []LineDef, stroke string) {
 		linedefs, sectorLineDefs = selectLineDef(sectorLineDefs, func(ld1, ld2 LineDef) bool {
 			return true
 		})
-		fmt.Fprintf(os.Stderr, "Found %d linedefs\n", len(linedefs))
 		m.renderPolyline(linedefs, stroke, 1)
 	}
 }
@@ -273,33 +291,24 @@ func (m *Map) renderSpecialLineDefs(lds []LineDef) {
 			sectorLineDefs = append(sectorLineDefs, s)
 		}
 	}
-	fmt.Fprintf(os.Stderr, "Rendering %d special linedefs for sector\n", len(sectorLineDefs))
-	var linedefs []LineDef
-	for len(sectorLineDefs) > 0 {
-		linedefs, sectorLineDefs = selectLineDef(sectorLineDefs, func(ld1, ld2 LineDef) bool {
-			// ld1.flags == ld2.flags &&
-			return ld1.specialType == ld2.specialType
-		})
-		linedef := linedefs[0]
+	for _, linedef := range sectorLineDefs {
 		lineType := linedef.specialType
 		if lineType != 0 {
 			stroke := "orange"
 			strokeWidth := 3
 			if linedef.isDoor() {
 				stroke = "green"
-				strokeWidth = 3
 			} else if linedef.isTeleporter() {
 				stroke = "red"
-				strokeWidth = 3
 			} else if linedef.isLift() {
 				stroke = "blue"
-				strokeWidth = 3
 			} else if linedef.isExit() {
 				stroke = "purple"
-				strokeWidth = 3
 			}
+			start := m.Vertexes[linedef.start]
+			end := m.Vertexes[linedef.end]
 
-			m.renderPolyline(linedefs, stroke, strokeWidth)
+			fmt.Fprintf(os.Stdout, "    <path d=\"M %d %d L %d %d\" stroke=\"%s\" stroke-width=\"%d\" />", start.x, start.y, end.x, end.y, stroke, strokeWidth)
 		}
 	}
 }
@@ -329,29 +338,24 @@ func selectLineDef(lineDefs []LineDef, shouldInclude func(LineDef, LineDef) bool
 		head := lineDefGroup[len(lineDefGroup)-1]
 		tail := lineDefGroup[0]
 		l := lineDefs[i]
-		fmt.Fprintf(os.Stderr, "Comparing %v to [%v,%v]\n", l, tail, head)
 		if l.start == head.end &&
 			shouldInclude(l, head) {
-			fmt.Fprintln(os.Stderr, "  Appending")
 			lineDefGroup = append(lineDefGroup, l)
 			lineDefs[i] = lineDefs[len(lineDefs)-1]
 			lineDefs = lineDefs[:len(lineDefs)-1]
 			i = -1
 		} else if l.end == tail.start &&
 			shouldInclude(l, tail) {
-			fmt.Fprintln(os.Stderr, "  Prepending")
 			lineDefGroup = append([]LineDef{l}, lineDefGroup...)
 			lineDefs[i] = lineDefs[len(lineDefs)-1]
 			lineDefs = lineDefs[:len(lineDefs)-1]
 			i = -1
 		} else if l.end == head.end && shouldInclude(l, head) {
-			fmt.Fprintln(os.Stderr, "  Appending (flipped)")
 			lineDefGroup = append(lineDefGroup, l.flip())
 			lineDefs[i] = lineDefs[len(lineDefs)-1]
 			lineDefs = lineDefs[:len(lineDefs)-1]
 			i = -1
 		} else if l.start == tail.start && shouldInclude(l, tail) {
-			fmt.Fprintln(os.Stderr, "  Prepending (flipped)")
 			lineDefGroup = append([]LineDef{l.flip()}, lineDefGroup...)
 			lineDefs[i] = lineDefs[len(lineDefs)-1]
 			lineDefs = lineDefs[:len(lineDefs)-1]
