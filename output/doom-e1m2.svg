@@ -1,0 +1,1254 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="1280" height="1024" viewBox="-2752 -2752 5312 3904" xmlns="http://www.w3.org/2000/svg">
+  <title>DOOM.wad - E1M2</title>
+  <g fill-rule="evenodd">
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 0</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M 1152 -512 L 1280 -512 1280 -448 1152 -448 1152 -512 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 1</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M 1088 -192 L 1088 -288 1088 -416 1088 -512 1024 -512 1024 -352 1024 -192 1088 -192 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 2</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1584 -936 L 1584 -976 1568 -976 1568 -1024 1568 -1088 1464 -1088 1464 -1024 1464 -976 1440 -976 1360 -976 896 -976 896 -1600 2304 -1488 2432 -1232 2432 256 2304 576 704 704 704 384 896 272 1344 272 1544 272 1584 272 1584 232 1584 -64 1584 -240 1632 -240 1760 -240 1808 -240 1808 -288 1808 -416 1808 -464 1760 -464 1632 -464 1584 -464 1584 -640 1584 -936 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 3</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 2432 256 L 2432 -1232 2304 -1488 896 -1600 1024 -1680 2560 -1616 2560 704 896 768 704 704 2304 576 2432 256 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 4</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 944 -800 L 960 -800 960 -672 944 -672 848 -640 848 -768 944 -800 "/>
+    <!-- Type 1 -->
+    <path d="M 848 -640 L 848 -768" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 5</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 960 -800 L 1024 -832 1024 -704 960 -672 960 -800 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 6</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1024 -832 L 1088 -864 1088 -736 1024 -704 1024 -832 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 7</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1088 -864 L 1152 -896 1152 -768 1088 -736 1088 -864 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 8</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1152 -896 L 1216 -928 1216 -800 1152 -768 1152 -896 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 9</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1216 -800 L 1216 -928 1280 -960 1280 -832 1216 -800 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 10</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1320 -960 L 1344 -960 1344 -832 1320 -832 1280 -832 1280 -960 1320 -960 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 11</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -832 L 1568 -768 1360 -768 1344 -832 1568 -832 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 12</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -768 L 1568 -704 1376 -704 1360 -768 1568 -768 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 13</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -704 L 1568 -640 1392 -640 1376 -704 1568 -704 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 14</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -576 L 1408 -576 1392 -640 1568 -640 1568 -616 1568 -576 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 15</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1408 -544 L 1408 -576 1568 -576 1568 -512 1424 -512 1408 -544 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 16</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -512 L 1568 -448 1424 -448 1424 -512 1568 -512 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 17</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -1024 L 1568 -1088 1464 -1088 1464 -1024 1568 -1024 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 18</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -976 L 1464 -976 1464 -1024 1568 -1024 1568 -976 "/>
+    <!-- Type 31 -->
+    <path d="M 1568 -976 L 1464 -976" stroke="aqua" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 19</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1440 -960 L 1464 -960 1568 -960 1568 -936 1568 -832 1344 -832 1344 -960 1360 -960 1440 -960 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 20</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1440 -960 L 1440 -976 1360 -976 1360 -960 1440 -960 "/>
+    </g>
+    <g fill="aqua" stroke="aqua" fill-opacity="0.5" stroke-width="1">
+      <title>Sector 21</title>
+      <desc>Sector Type: 9</desc>
+    <path d="M 1464 -976 L 1464 -960 1568 -960 1568 -976 1464 -976 "/>
+    <!-- Type 31 -->
+    <path d="M 1568 -976 L 1464 -976" stroke="aqua" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 22</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1760 -464 L 1632 -464 1632 -448 1760 -448 1760 -464 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 23</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1584 -936 L 1568 -936 1568 -832 1568 -768 1568 -704 1568 -640 1584 -640 1584 -936 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 24</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -320 -448 L -704 -304 -704 -464 -640 -704 -128 -760 128 -760 640 -704 640 -576 640 -336 320 -336 320 -448 192 -576 96 -576 -96 -576 -320 -576 -320 -448 M 432 -576 L 416 -560 416 -528 432 -512 464 -512 480 -528 480 -560 464 -576 432 -576 M -544 -592 L -544 -560 -528 -544 -496 -544 -480 -560 -480 -592 -496 -608 -528 -608 -544 -592 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 25</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 640 -576 L 640 -704 808 -768 832 -768 832 -640 808 -640 640 -576 "/>
+    <!-- Type 1 -->
+    <path d="M 832 -768 L 832 -640" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 26</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 848 -640 L 848 -768 832 -768 832 -640 848 -640 "/>
+    <!-- Type 1 -->
+    <path d="M 848 -640 L 848 -768" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 832 -768 L 832 -640" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 27</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 128 -760 L -128 -760 -128 -784 -64 -960 64 -960 128 -784 128 -760 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 28</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M 128 -1088 L 128 -1024 64 -1024 64 -960 -64 -960 -64 -1024 -128 -1024 -128 -1088 128 -1088 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 29</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 192 -320 L 192 -448 128 -448 96 -448 96 -544 192 -544 288 -448 288 -320 288 -256 256 -224 96 -224 96 -320 128 -320 192 -320 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 30</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 96 -576 L -96 -576 -80 -560 80 -560 96 -576 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 31</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 80 -560 L -80 -560 -64 -544 64 -544 80 -560 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 32</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 64 -544 L -64 -544 -64 -528 64 -528 64 -544 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 33</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -64 -472 L -64 -448 -64 -320 -88 -320 -128 -320 -128 -256 -64 -256 -64 -216 -64 -192 64 -192 64 -216 64 -376 64 -400 64 -528 -64 -528 -64 -472 "/>
+    <!-- Type 88 -->
+    <path d="M -128 -256 L -128 -320" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 34</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M -256 -448 L -128 -448 -72 -448 -72 -544 -256 -544 -256 -448 "/>
+    <!-- Type 88 -->
+    <path d="M -256 -448 L -128 -448" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 35</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -832 -896 L -848 -880 -960 -832 -960 -656 -1088 -656 -1088 -832 -976 -1008 -960 -1024 -832 -896 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 36</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -896 -480 L -736 -480 -736 -448 -736 -320 -736 -288 -832 -288 -960 -288 -1024 -384 -1544 -384 -1568 -384 -1568 -544 -1544 -544 -1184 -544 -1088 -640 -960 -640 -960 -512 -896 -480 "/>
+    <!-- Type 28 -->
+    <path d="M -736 -448 L -736 -320" stroke="orange" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 37</title>
+      <desc>Sector Type: 1</desc>
+    <path d="M -1088 -640 L -1088 -656 -960 -656 -960 -640 -1088 -640 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 38</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 640 -320 L 640 -128 808 -64 832 -64 832 64 808 64 640 96 128 96 128 320 32 320 -32 320 -128 320 -128 96 -360 96 -520 -64 -576 -64 -704 -64 -680 -128 -704 -304 -320 -448 -320 -192 -320 -64 -192 -64 -192 0 192 0 192 -64 320 -64 320 -192 320 -256 320 -320 640 -320 M -704 -304 L -720 -304 -720 -320 -720 -448 -720 -464 -704 -464 -704 -304 M 448 -48 L 448 -16 464 0 496 0 512 -16 512 -48 496 -64 464 -64 448 -48 "/>
+    <!-- Type 88 -->
+    <path d="M -576 -64 L -704 -64" stroke="blue" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 832 -64 L 832 64" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 320 -256 L 320 -320" stroke="green" stroke-width="3" />    <!-- Type 28 -->
+    <path d="M -720 -320 L -720 -448" stroke="orange" stroke-width="3" />    </g>
+    <g fill="red" stroke="red" fill-opacity="0.05" stroke-width="1">
+      <title>Sector 39</title>
+      <desc>Sector Type: 7</desc>
+    <path d="M -768 -832 L -832 -896 -960 -1024 -960 -1256 -904 -1312 -440 -1312 -384 -1256 -384 -888 -440 -832 -768 -832 M -704 -1184 L -704 -992 -512 -992 -512 -1184 -704 -1184 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 40</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -512 -992 L -512 -1184 -704 -1184 -704 -992 -512 -992 M -592 -1056 L -576 -1056 -576 -1120 -592 -1120 -640 -1120 -640 -1056 -592 -1056 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 41</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -576 -1056 L -592 -1056 -592 -1120 -576 -1120 -576 -1056 "/>
+    <!-- Type 103 -->
+    <path d="M -592 -1056 L -592 -1120" stroke="orange" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 42</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -688 -2232 L -632 -2232 -568 -2168 -496 -2168 -368 -2168 -296 -2168 -232 -2232 -232 -2440 -296 -2504 -368 -2504 -496 -2504 -568 -2504 -632 -2440 -632 -2376 -720 -2376 -848 -2496 -848 -2752 -96 -2624 -96 -2112 -832 -1952 -832 -2160 -688 -2232 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 43</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -384 -2368 L -384 -2304 -320 -2304 -304 -2288 -240 -2240 -304 -2176 -368 -2176 -496 -2176 -560 -2176 -624 -2240 -624 -2304 -624 -2368 -624 -2432 -560 -2496 -496 -2496 -368 -2496 -304 -2496 -240 -2432 -304 -2384 -320 -2368 -384 -2368 M -392 -2320 L -392 -2352 -400 -2352 -400 -2320 -392 -2320 "/>
+    <!-- Type 88 -->
+    <path d="M -384 -2368 L -320 -2368" stroke="blue" stroke-width="3" />    <!-- Type 88 -->
+    <path d="M -320 -2304 L -384 -2304" stroke="blue" stroke-width="3" />    <!-- Type 88 -->
+    <path d="M -384 -2304 L -384 -2368" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 44</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -296 -2168 L -232 -2232 -240 -2240 -304 -2176 -296 -2168 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 45</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -560 -2176 L -624 -2240 -632 -2232 -568 -2168 -560 -2176 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 46</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -368 -2176 L -496 -2176 -496 -2168 -368 -2168 -368 -2176 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 47</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -96 -2112 L -96 -2624 -848 -2752 -256 -2752 -64 -2688 64 -2496 64 -2176 -64 -1984 -832 -1952 -96 -2112 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 48</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -320 -2304 L -320 -2368 -256 -2368 -256 -2304 -320 -2304 "/>
+    <!-- Type 11 -->
+    <path d="M -256 -2368 L -256 -2304" stroke="purple" stroke-width="3" />    <!-- Type 62 -->
+    <path d="M -320 -2304 L -320 -2368" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 49</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M -320 -2304 L -384 -2304 -384 -2368 -320 -2368 -320 -2304 "/>
+    <!-- Type 88 -->
+    <path d="M -384 -2368 L -320 -2368" stroke="blue" stroke-width="3" />    <!-- Type 88 -->
+    <path d="M -320 -2304 L -384 -2304" stroke="blue" stroke-width="3" />    <!-- Type 88 -->
+    <path d="M -384 -2304 L -384 -2368" stroke="blue" stroke-width="3" />    <!-- Type 62 -->
+    <path d="M -320 -2304 L -320 -2368" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 50</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -304 -2496 L -240 -2432 -232 -2440 -296 -2504 -304 -2496 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 51</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -392 -2352 L -400 -2352 -400 -2320 -392 -2320 -392 -2352 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 52</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -752 -2216 L -768 -2208 -768 -2336 -752 -2344 -704 -2368 -656 -2368 -656 -2304 -704 -2240 -752 -2216 "/>
+    <!-- Type 1 -->
+    <path d="M -656 -2368 L -656 -2304" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 53</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -768 -2208 L -832 -2176 -832 -2328 -768 -2336 -768 -2208 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 54</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -640 -2368 L -640 -2304 -624 -2304 -624 -2368 -640 -2368 "/>
+    <!-- Type 1 -->
+    <path d="M -640 -2304 L -640 -2368" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 55</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -656 -2368 L -656 -2304 -640 -2304 -640 -2368 -656 -2368 "/>
+    <!-- Type 1 -->
+    <path d="M -656 -2368 L -656 -2304" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M -640 -2304 L -640 -2368" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 56</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -832 -2176 L -896 -2080 -896 -2304 -832 -2328 -832 -2176 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 57</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -624 -2432 L -560 -2496 -568 -2504 -632 -2440 -624 -2432 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 58</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -496 -2496 L -368 -2496 -368 -2504 -496 -2504 -496 -2496 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 59</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -896 -2080 L -960 -2048 -960 -2264 -896 -2304 -896 -2080 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 60</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -960 -2048 L -1024 -2048 -1024 -2264 -960 -2264 -960 -2048 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 61</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1024 -2048 L -1088 -2080 -1088 -2288 -1024 -2264 -1024 -2048 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 62</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1760 -448 L 1632 -448 1592 -448 1568 -448 1424 -448 1384 -448 1280 -448 1152 -448 1152 -416 1088 -416 1088 -288 1152 -288 1152 -256 1280 -256 1384 -256 1424 -256 1568 -256 1592 -256 1632 -256 1760 -256 1792 -288 1792 -416 1760 -448 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 63</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M 1152 -256 L 1280 -256 1280 -192 1152 -192 1152 -256 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 64</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -128 L 1568 -88 1568 -64 1392 -64 1408 -128 1568 -128 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 65</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1408 -160 L 1424 -192 1568 -192 1568 -128 1408 -128 1408 -160 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 66</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -256 L 1568 -192 1424 -192 1424 -256 1568 -256 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 67</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1760 -256 L 1632 -256 1632 -240 1760 -240 1760 -256 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 68</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1792 -416 L 1792 -288 1808 -288 1808 -416 1792 -416 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 69</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1320 128 L 1344 128 1344 256 1320 256 1280 256 1280 128 1320 128 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 70</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 232 L 1568 256 1544 256 1344 256 1344 128 1568 128 1568 232 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 71</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 64 L 1568 128 1344 128 1360 64 1568 64 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 72</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 0 L 1568 64 1360 64 1376 0 1568 0 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 73</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1568 -64 L 1568 0 1376 0 1392 -64 1568 -64 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 74</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1584 232 L 1584 -64 1568 -64 1568 0 1568 64 1568 128 1568 232 1584 232 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 75</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1344 272 L 1544 272 1544 256 1344 256 1344 272 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 76</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 944 -32 L 960 -32 960 96 944 96 848 64 848 -64 944 -32 "/>
+    <!-- Type 1 -->
+    <path d="M 848 64 L 848 -64" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 77</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 960 -32 L 1024 0 1024 128 960 96 960 -32 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 78</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 848 64 L 848 -64 832 -64 832 64 848 64 "/>
+    <!-- Type 1 -->
+    <path d="M 848 64 L 848 -64" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 832 -64 L 832 64" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 79</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1024 0 L 1088 32 1088 160 1024 128 1024 0 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 80</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1088 32 L 1152 64 1152 192 1088 160 1088 32 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 81</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1152 64 L 1216 96 1216 224 1152 192 1152 64 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 82</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 1216 224 L 1216 96 1280 128 1280 256 1216 224 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 83</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -960 -128 L -832 -128 -736 -128 -736 160 -576 320 -704 320 -864 64 -1088 64 -1408 192 -1408 88 -1296 88 -1296 64 -960 -128 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 84</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1088 -160 L -1280 -160 -1280 -272 -1408 -272 -1408 -192 -1568 -192 -1568 -128 -1344 -128 -1344 -32 -1152 -32 -1152 -128 -960 -128 -1296 64 -1408 64 -1408 -32 -1664 -32 -1664 -288 -1472 -288 -1472 -368 -1216 -368 -1216 -288 -1088 -288 -1088 -160 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 85</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -576 -40 L -576 0 -704 0 -704 -40 -704 -64 -576 -64 -576 -40 "/>
+    <!-- Type 62 -->
+    <path d="M -576 0 L -704 0" stroke="blue" stroke-width="3" />    <!-- Type 88 -->
+    <path d="M -576 -64 L -704 -64" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 86</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -704 680 L -864 680 -864 64 -704 320 -704 680 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 87</title>
+      <desc>Sector Type: 3</desc>
+    <path d="M -64 832 L 320 832 320 768 -128 768 -128 576 -256 576 -256 320 -320 320 -320 448 -448 448 -448 320 -448 192 -192 192 -192 448 64 448 64 576 128 576 128 448 512 448 512 848 512 864 512 928 512 944 512 1152 -320 1152 -320 832 -448 832 -448 640 -512 640 -512 832 -1152 832 -1152 896 -1472 896 -1472 768 -1728 768 -1728 704 -1792 576 -1792 384 -1600 384 -1600 320 -1856 320 -1856 256 -1728 192 -1432 192 -1432 320 -1472 320 -1472 512 -1664 512 -1664 608 -1344 608 -1344 768 -1216 768 -1216 552 -1344 552 -1344 448 -1216 448 -1024 448 -1024 128 -896 128 -896 576 -1088 576 -1088 704 -864 704 -704 704 -640 704 -640 512 -320 512 -320 704 -192 704 -192 1024 320 1024 320 960 -64 960 -64 832 M 256 640 L 384 640 384 576 256 576 256 640 "/>
+    <!-- Type 1 -->
+    <path d="M 512 864 L 512 928" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 88</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -576 320 L -736 160 -480 160 -480 320 -480 448 -576 448 -576 320 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 89</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -704 0 L -576 0 -576 128 -704 128 -704 0 "/>
+    <!-- Type 88 -->
+    <path d="M -576 0 L -576 128" stroke="blue" stroke-width="3" />    <!-- Type 62 -->
+    <path d="M -576 0 L -704 0" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 90</title>
+      <desc>Sector Type: 3</desc>
+    <path d="M -512 0 L -576 0 -576 128 -512 128 -512 0 "/>
+    <!-- Type 88 -->
+    <path d="M -576 0 L -576 128" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 91</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -448 448 L -480 448 -480 320 -448 320 -448 448 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 92</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -864 704 L -864 680 -704 680 -704 704 -864 704 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 93</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -832 -160 L -960 -160 -960 -128 -832 -128 -832 -160 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 94</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -960 -160 L -960 -192 -832 -192 -832 -160 -960 -160 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 95</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -832 -224 L -960 -224 -960 -192 -832 -192 -832 -224 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 96</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -832 -272 L -960 -272 -960 -224 -832 -224 -832 -272 "/>
+    <!-- Type 31 -->
+    <path d="M -960 -272 L -832 -272" stroke="orange" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 97</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -960 -272 L -960 -288 -832 -288 -832 -272 -960 -272 "/>
+    <!-- Type 31 -->
+    <path d="M -960 -272 L -832 -272" stroke="orange" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 98</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1088 -160 L -1088 -288 -1064 -288 -1024 -288 -1024 -160 -1064 -160 -1088 -160 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 99</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -736 -448 L -720 -448 -720 -320 -736 -320 -736 -448 "/>
+    <!-- Type 28 -->
+    <path d="M -720 -320 L -720 -448" stroke="orange" stroke-width="3" />    <!-- Type 28 -->
+    <path d="M -736 -448 L -736 -320" stroke="orange" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 100</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -224 -192 L -80 -48 80 -48 224 -192 320 -192 320 -64 192 -64 192 0 -192 0 -192 -64 -320 -64 -320 -192 -224 -192 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 101</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 80 -48 L -80 -48 -224 -192 -200 -192 -80 -72 80 -72 200 -192 224 -192 80 -48 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 102</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 80 -72 L -80 -72 -200 -192 -176 -192 -80 -96 80 -96 176 -192 200 -192 80 -72 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 103</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 176 -192 L 80 -96 -80 -96 -176 -192 -64 -192 64 -192 176 -192 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 104</title>
+      <desc>Sector Type: 1</desc>
+    <path d="M -32 320 L 32 320 32 352 -32 352 -32 320 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 105</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M 576 960 L 576 928 576 864 576 832 704 832 704 960 576 960 "/>
+    <!-- Type 1 -->
+    <path d="M 576 928 L 576 864" stroke="green" stroke-width="3" />    </g>
+    <g fill="aqua" stroke="aqua" fill-opacity="0.5" stroke-width="1">
+      <title>Sector 106</title>
+      <desc>Sector Type: 9</desc>
+    <path d="M 512 864 L 512 928 576 928 576 864 512 864 "/>
+    <!-- Type 1 -->
+    <path d="M 576 928 L 576 864" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 512 864 L 512 928" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 107</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -128 -256 L -128 -320 -288 -320 -288 -256 -152 -256 -128 -256 "/>
+    <!-- Type 88 -->
+    <path d="M -128 -256 L -128 -320" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 108</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -128 -384 L -256 -384 -288 -344 -288 -320 -128 -320 -128 -344 -128 -384 "/>
+    <!-- Type 62 -->
+    <path d="M -256 -384 L -128 -384" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 109</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -128 -384 L -256 -384 -256 -424 -256 -448 -128 -448 -128 -424 -128 -384 "/>
+    <!-- Type 88 -->
+    <path d="M -256 -448 L -128 -448" stroke="blue" stroke-width="3" />    <!-- Type 62 -->
+    <path d="M -256 -384 L -128 -384" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 110</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M 160 -368 L 128 -352 128 -320 192 -320 192 -448 128 -448 128 -416 160 -400 160 -368 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 111</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M 128 -352 L 96 -352 96 -416 128 -416 160 -400 160 -368 128 -352 "/>
+    <!-- Type 103 -->
+    <path d="M 96 -352 L 96 -416" stroke="orange" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 112</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M 96 -320 L 96 -352 128 -352 128 -320 96 -320 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 113</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M 128 -448 L 128 -416 96 -416 96 -448 128 -448 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 114</title>
+      <desc>Sector Type: 1</desc>
+    <path d="M 640 -336 L 640 -320 320 -320 320 -336 640 -336 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 115</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M 288 -256 L 288 -320 304 -320 304 -256 288 -256 "/>
+    <!-- Type 1 -->
+    <path d="M 304 -320 L 304 -256" stroke="green" stroke-width="3" />    </g>
+    <g fill="aqua" stroke="aqua" fill-opacity="0.5" stroke-width="1">
+      <title>Sector 116</title>
+      <desc>Sector Type: 9</desc>
+    <path d="M 304 -320 L 304 -256 320 -256 320 -320 304 -320 "/>
+    <!-- Type 1 -->
+    <path d="M 320 -256 L 320 -320" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M 304 -320 L 304 -256" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 117</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1728 L -1792 -1728 -1792 -1776 -1792 -1792 -1728 -1792 -1728 -1776 -1728 -1728 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 118</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1728 L -1728 -1696 -1824 -1696 -1792 -1728 -1728 -1728 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 119</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1696 L -1728 -1664 -1824 -1664 -1824 -1696 -1728 -1696 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 120</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1344 -2048 L -1344 -1792 -1472 -1704 -1600 -1704 -1728 -1792 -1728 -2048 -1688 -2056 -1640 -2104 -1600 -2112 -1472 -2112 -1432 -2104 -1384 -2056 -1344 -2048 "/>
+    <!-- Type 88 -->
+    <path d="M -1472 -1704 L -1600 -1704" stroke="blue" stroke-width="3" />    <!-- Type 103 -->
+    <path d="M -1600 -2112 L -1472 -2112" stroke="orange" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 121</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1600 -1704 L -1472 -1704 -1472 -1664 -1600 -1664 -1600 -1704 "/>
+    <!-- Type 62 -->
+    <path d="M -1472 -1664 L -1600 -1664" stroke="blue" stroke-width="3" />    <!-- Type 88 -->
+    <path d="M -1472 -1704 L -1600 -1704" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 122</title>
+      <desc>Sector Type: 13</desc>
+    <path d="M -1728 -1792 L -1728 -2048 -1792 -2048 -1792 -1792 -1728 -1792 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 123</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1696 -2064 L -1760 -2112 -1760 -2272 -1696 -2304 -1312 -2304 -1312 -2240 -1312 -2112 -1376 -2064 -1424 -2112 -1376 -2152 -1376 -2240 -1696 -2240 -1696 -2152 -1648 -2112 -1696 -2064 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 124</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1648 -2112 L -1696 -2064 -1688 -2056 -1640 -2104 -1648 -2112 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 125</title>
+      <desc>Sector Type: 13</desc>
+    <path d="M -1472 -2112 L -1600 -2112 -1600 -2176 -1472 -2176 -1472 -2112 "/>
+    <!-- Type 103 -->
+    <path d="M -1600 -2112 L -1472 -2112" stroke="orange" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 126</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1088 -2080 L -1152 -2112 -1152 -2312 -1088 -2288 -1088 -2080 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 127</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1152 -2312 L -1152 -2112 -1200 -2144 -1216 -2144 -1216 -2336 -1200 -2336 -1152 -2312 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 128</title>
+      <desc>Sector Type: 3</desc>
+    <path d="M -1280 -2144 L -1280 -2240 -1296 -2240 -1312 -2240 -1312 -2304 -1296 -2304 -1280 -2304 -1280 -2336 -1216 -2336 -1216 -2144 -1280 -2144 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 129</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1376 -2064 L -1424 -2112 -1432 -2104 -1384 -2056 -1376 -2064 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 130</title>
+      <desc>Sector Type: 13</desc>
+    <path d="M -1280 -1792 L -1280 -2048 -1344 -2048 -1344 -1792 -1280 -1792 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 131</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1664 L -1728 -1632 -1824 -1632 -1824 -1664 -1728 -1664 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 132</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1632 L -1728 -1600 -1824 -1600 -1824 -1632 -1728 -1632 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 133</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1600 L -1728 -1568 -1824 -1568 -1824 -1600 -1728 -1600 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 134</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1568 L -1728 -1536 -1824 -1536 -1824 -1568 -1728 -1568 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 135</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1536 L -1792 -1472 -1824 -1536 -1728 -1536 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 136</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1536 L -1696 -1496 -1728 -1432 -1792 -1472 -1728 -1536 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 137</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1472 -1664 L -1600 -1664 -1600 -1568 -1472 -1568 -1472 -1664 "/>
+    <!-- Type 62 -->
+    <path d="M -1472 -1664 L -1600 -1664" stroke="blue" stroke-width="3" />    <!-- Type 88 -->
+    <path d="M -1472 -1568 L -1600 -1568" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 138</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1472 -1568 L -1600 -1568 -1600 -1544 -1600 -1496 -1600 -1432 -1600 -1408 -1472 -1408 -1472 -1432 -1472 -1544 -1472 -1568 "/>
+    <!-- Type 88 -->
+    <path d="M -1472 -1568 L -1600 -1568" stroke="blue" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M -1600 -1432 L -1600 -1496" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 139</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1616 -1496 L -1616 -1432 -1728 -1432 -1696 -1496 -1616 -1496 "/>
+    <!-- Type 1 -->
+    <path d="M -1616 -1496 L -1616 -1432" stroke="green" stroke-width="3" />    </g>
+    <g fill="aqua" stroke="aqua" fill-opacity="0.5" stroke-width="1">
+      <title>Sector 140</title>
+      <desc>Sector Type: 9</desc>
+    <path d="M -1600 -1432 L -1600 -1496 -1616 -1496 -1616 -1432 -1600 -1432 "/>
+    <!-- Type 1 -->
+    <path d="M -1600 -1432 L -1600 -1496" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M -1616 -1496 L -1616 -1432" stroke="green" stroke-width="3" />    </g>
+    <g fill="red" stroke="red" fill-opacity="0.05" stroke-width="1">
+      <title>Sector 141</title>
+      <desc>Sector Type: 7</desc>
+    <path d="M -1728 -1104 L -1824 -1104 -1824 -1304 -1784 -1344 -1704 -1344 -1640 -1344 -1600 -1408 -1600 -1120 -1312 -1120 -1312 -1024 -1504 -1024 -1728 -1088 -1728 -1104 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 142</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1312 -1120 L -1600 -1120 -1600 -1408 -1472 -1408 -1472 -1216 -1216 -1216 -1216 -928 -1584 -928 -1664 -960 -1728 -1024 -1728 -1088 -1504 -1024 -1312 -1024 -1312 -1120 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 143</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1728 -1088 L -1824 -1088 -1840 -1024 -1840 -960 -1696 -960 -1680 -960 -1664 -960 -1728 -1024 -1728 -1088 "/>
+    </g>
+    <g fill="red" stroke="red" fill-opacity="0.05" stroke-width="1">
+      <title>Sector 144</title>
+      <desc>Sector Type: 7</desc>
+    <path d="M -1312 -1408 L -1216 -1312 -1216 -1216 -1472 -1216 -1472 -1408 -1376 -1408 -1312 -1408 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 145</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1408 192 L -1088 64 -1088 192 -1216 192 -1216 424 -1344 424 -1344 320 -1408 320 -1408 192 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 146</title>
+      <desc>Sector Type: 3</desc>
+    <path d="M -1920 128 L -1920 64 -1728 64 -1728 192 -1856 256 -1920 128 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 147</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1432 192 L -1408 192 -1408 320 -1432 320 -1432 192 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 148</title>
+      <desc>Sector Type: 3</desc>
+    <path d="M -1728 704 L -1920 704 -1920 576 -1792 576 -1728 704 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 149</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1344 448 L -1344 424 -1216 424 -1216 448 -1344 448 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 150</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1568 -544 L -1568 -384 -1632 -384 -1632 -544 -1568 -544 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 151</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1656 -544 L -1632 -544 -1632 -384 -1728 -384 -1656 -544 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 152</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1792 -408 L -1728 -384 -1656 -544 -1680 -552 -1808 -424 -1792 -408 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 153</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1696 -560 L -1680 -552 -1808 -424 -1856 -512 -1696 -560 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 154</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1856 -560 L -1856 -512 -1696 -560 -1696 -576 -1856 -576 -1856 -560 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 155</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1696 -624 L -1856 -624 -1856 -576 -1696 -576 -1696 -624 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 156</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1696 -672 L -1696 -624 -1856 -624 -1856 -672 -1696 -672 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 157</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1696 -720 L -1696 -672 -1856 -672 -1856 -720 -1696 -720 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 158</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1696 -768 L -1696 -720 -1856 -720 -1856 -768 -1696 -768 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 159</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1696 -816 L -1696 -768 -1856 -768 -1856 -816 -1696 -816 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 160</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1696 -864 L -1696 -816 -1856 -816 -1856 -864 -1696 -864 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 161</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1696 -864 L -1856 -864 -1856 -912 -1696 -912 -1696 -864 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 162</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1856 -912 L -1696 -912 -1696 -960 -1840 -960 -1856 -960 -1856 -912 "/>
+    <!-- Type 88 -->
+    <path d="M -1856 -912 L -1856 -960" stroke="blue" stroke-width="3" />    </g>
+    <g fill="red" stroke="red" fill-opacity="0.05" stroke-width="1">
+      <title>Sector 163</title>
+      <desc>Sector Type: 7</desc>
+    <path d="M -1472 -736 L -1640 -736 -1664 -960 -1584 -928 -1216 -928 -1248 -736 -1408 -736 -1472 -736 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 164</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2368 -384 L -2240 -384 -2240 -416 -2368 -416 -2368 -384 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 165</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2368 -416 L -2240 -416 -2240 -448 -2368 -448 -2368 -416 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 166</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2368 -448 L -2240 -448 -2240 -480 -2368 -480 -2368 -448 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 167</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2240 -640 L -2240 -512 -2240 -480 -2368 -480 -2368 -512 -2368 -640 -2240 -640 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 168</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2008 -448 L -2176 -448 -2216 -512 -2240 -512 -2240 -640 -2216 -640 -1952 -640 -1952 -512 -2008 -448 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 169</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2176 -1152 L -1984 -1152 -1952 -1152 -1952 -1128 -1952 -1024 -1952 -640 -2216 -640 -2216 -736 -2216 -864 -2216 -928 -2216 -1088 -2176 -1088 -2176 -1152 M -2016 -864 L -2048 -832 -2112 -832 -2144 -864 -2144 -960 -2112 -992 -2048 -992 -2016 -960 -2016 -864 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 170</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1984 -1536 L -1920 -1472 -1920 -1216 -1984 -1168 -2176 -1168 -2232 -1168 -2232 -1088 -2232 -928 -2232 -864 -2232 -736 -2232 -656 -2448 -656 -2592 -1312 -1984 -1536 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 171</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2232 -1088 L -2232 -928 -2216 -928 -2216 -1088 -2232 -1088 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 172</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1984 -1168 L -2176 -1168 -2176 -1152 -1984 -1152 -1984 -1168 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 173</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2216 -1088 L -2216 -1152 -2176 -1152 -2176 -1088 -2216 -1088 "/>
+    <!-- Type 9 -->
+    <path d="M -2216 -1088 L -2216 -1152" stroke="orange" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 174</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1984 -1536 L -2592 -1312 -2448 -656 -2752 -896 -2752 -1344 -2496 -1536 -1984 -1536 "/>
+    </g>
+    <g fill="red" stroke="red" fill-opacity="0.05" stroke-width="1">
+      <title>Sector 175</title>
+      <desc>Sector Type: 7</desc>
+    <path d="M -2056 -936 L -2104 -936 -2104 -888 -2056 -888 -2056 -936 M -2016 -960 L -2016 -864 -2048 -832 -2112 -832 -2144 -864 -2144 -960 -2112 -992 -2048 -992 -2016 -960 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 176</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2056 -888 L -2056 -936 -2104 -936 -2104 -888 -2056 -888 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 177</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2232 -864 L -2232 -736 -2216 -736 -2216 -864 -2232 -864 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 178</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1856 -1024 L -1920 -1024 -1856 -1024 -1856 -984 -1856 -960 -1920 -960 -1920 -984 -1920 -1024 -1936 -1024 -1936 -1128 -1936 -1152 -1856 -1152 -1856 -1024 "/>
+    <!-- Type 88 -->
+    <path d="M -1920 -1024 L -1856 -1024" stroke="blue" stroke-width="3" />    <!-- Type 88 -->
+    <path d="M -1920 -1024 L -1856 -1024" stroke="blue" stroke-width="3" />    <!-- Type 62 -->
+    <path d="M -1856 -960 L -1920 -960" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 179</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1936 -1024 L -1936 -1128 -1952 -1128 -1952 -1024 -1936 -1024 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 180</title>
+      <desc>Sector Type: 12</desc>
+    <path d="M -1856 -912 L -1920 -912 -1920 -960 -1856 -960 -1856 -912 "/>
+    <!-- Type 62 -->
+    <path d="M -1920 -912 L -1920 -960" stroke="blue" stroke-width="3" />    <!-- Type 88 -->
+    <path d="M -1856 -912 L -1856 -960" stroke="blue" stroke-width="3" />    <!-- Type 62 -->
+    <path d="M -1856 -960 L -1920 -960" stroke="blue" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 181</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2192 -64 L -2208 -64 -2304 -64 -2304 -192 -2176 -192 -2176 -64 -2192 -64 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 182</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2320 -64 L -2304 -64 -2208 -64 -2208 64 -2240 64 -2368 -64 -2320 -64 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 183</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M -1920 704 L -2176 704 -2176 448 -2176 320 -2176 128 -1920 128 -1856 256 -2048 256 -2048 320 -2048 448 -2048 512 -1920 512 -1920 576 -1920 704 "/>
+    <!-- Type 46 -->
+    <path d="M -2176 448 L -2176 320" stroke="aqua" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 184</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2176 -192 L -2176 -64 -2144 -64 -2144 -192 -2176 -192 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 185</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2144 -192 L -2144 -64 -2112 -64 -2112 -192 -2144 -192 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 186</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2112 -64 L -2112 -192 -1984 -192 -1984 -64 -2112 -64 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 187</title>
+      <desc>Sector Type: 8</desc>
+    <path d="M -1984 320 L -2048 320 -2048 448 -1984 448 -1984 320 "/>
+    </g>
+    <g fill="aqua" stroke="aqua" fill-opacity="0.5" stroke-width="1">
+      <title>Sector 188</title>
+      <desc>Sector Type: 9</desc>
+    <path d="M -2240 320 L -2176 320 -2176 448 -2368 448 -2368 320 -2240 320 "/>
+    <!-- Type 46 -->
+    <path d="M -2176 448 L -2176 320" stroke="aqua" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M -2240 320 L -2368 320" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 189</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2240 64 L -2240 320 -2368 320 -2368 -64 -2240 64 "/>
+    <!-- Type 1 -->
+    <path d="M -2240 320 L -2368 320" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 190</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1984 -224 L -2112 -224 -2112 -192 -1984 -192 -1984 -224 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 191</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -1984 -256 L -1984 -240 -1984 -224 -2112 -224 -2112 -256 -1984 -256 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 192</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2112 -384 L -2112 -256 -1984 -256 -1984 -384 -2112 -384 "/>
+    <!-- Type 1 -->
+    <path d="M -1984 -384 L -1984 -256" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 193</title>
+      <desc>Sector Type: 2</desc>
+    <path d="M -1952 -256 L -1952 -384 -1856 -384 -1856 -256 -1952 -256 "/>
+    <!-- Type 1 -->
+    <path d="M -1952 -256 L -1952 -384" stroke="green" stroke-width="3" />    </g>
+    <g fill="aqua" stroke="aqua" fill-opacity="0.5" stroke-width="1">
+      <title>Sector 194</title>
+      <desc>Sector Type: 9</desc>
+    <path d="M -1952 -256 L -1952 -384 -1984 -384 -1984 -256 -1952 -256 "/>
+    <!-- Type 1 -->
+    <path d="M -1984 -384 L -1984 -256" stroke="green" stroke-width="3" />    <!-- Type 1 -->
+    <path d="M -1952 -256 L -1952 -384" stroke="green" stroke-width="3" />    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 195</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2144 -384 L -2112 -384 -2112 -256 -2144 -256 -2144 -384 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 196</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2144 -256 L -2144 -384 -2176 -384 -2176 -256 -2144 -256 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 197</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2176 -256 L -2176 -384 -2208 -384 -2208 -256 -2176 -256 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 198</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2208 -256 L -2208 -384 -2224 -384 -2240 -384 -2240 -256 -2224 -256 -2208 -256 "/>
+    </g>
+    <g fill="white" stroke="black" fill-opacity="1.0" stroke-width="1">
+      <title>Sector 199</title>
+      <desc>Sector Type: 0</desc>
+    <path d="M -2240 -256 L -2240 -384 -2368 -384 -2368 -256 -2240 -256 "/>
+    </g>
+    <rect x="-138" y="-522" stroke="black" width="20" height="20" fill="aqua"><title>Box of shotgun shells [12 ]</title></rect>
+    <circle cx="-298" cy="-698" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="-634" cy="-42" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="598" cy="-570" r="20" fill="black"><title>Zombieman [3D]</title></circle>
+    <circle cx="582" cy="-42" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="-58" cy="-618" r="20" fill="black"><title>Zombieman [45 ]</title></circle>
+    <circle cx="38" cy="-618" r="20" fill="black"><title>Zombieman [45 ]</title></circle>
+    <circle cx="-410" cy="-634" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="454" cy="-666" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="358" cy="-282" r="20" fill="black"><title>Zombieman [345 ]</title></circle>
+    <circle cx="-554" cy="-266" r="20" fill="black"><title>Zombieman [45 ]</title></circle>
+    <circle cx="-618" cy="-682" r="20" fill="black"><title>Zombieman [345D]</title></circle>
+    <circle cx="-618" cy="-538" r="20" fill="black"><title>Zombieman [45 ]</title></circle>
+    <rect x="134" y="-282" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="1910" y="-362" stroke="black" width="20" height="20" fill="green"><title>Supercharge [12345 ]</title></rect>
+    <rect x="1606" y="-506" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="1606" y="-26" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="1510" y="294" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="918" y="-1018" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <circle cx="1702" cy="-362" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="1286" cy="-314" r="20" fill="black"><title>Zombieman [345D]</title></circle>
+    <circle cx="1286" cy="-410" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="1494" cy="-362" r="20" fill="black"><title>Imp [45 ]</title></circle>
+    <rect x="1190" y="-314" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="1510" y="198" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="1190" y="-410" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="1734" y="-298" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="1734" y="-426" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <circle cx="902" cy="-730" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <rect x="-138" y="-490" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [345 ]</title></rect>
+    <rect x="1126" y="-362" width="20" height="20" fill="red"><title>Red keycard [12345 ]</title></rect>
+    <rect x="-1898" y="-1082" stroke="black" width="20" height="20" fill="aqua"><title>Box of shotgun shells [45 ]</title></rect>
+    <circle cx="-1898" cy="-1130" r="20" fill="black"><title>Imp [12345D]</title></circle>
+    <circle cx="-1546" cy="-2058" r="20" fill="black"><title>Imp [12345D]</title></circle>
+    <circle cx="-1610" cy="-1994" r="20" fill="black"><title>Imp [345D]</title></circle>
+    <circle cx="-1482" cy="-1994" r="20" fill="black"><title>Imp [45D]</title></circle>
+    <circle cx="-1674" cy="-1930" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="-1418" cy="-1930" r="20" fill="black"><title>Zombieman [345D]</title></circle>
+    <circle cx="-1546" cy="-1930" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <rect x="-1770" y="-2026" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <circle cx="-1770" cy="-1834" r="20" fill="black"><title>Imp [45 ]</title></circle>
+    <circle cx="-1322" cy="-1834" r="20" fill="black"><title>Imp [45 ]</title></circle>
+    <circle cx="-1546" cy="-2154" r="20" fill="black"><title>Imp [45 ]</title></circle>
+    <rect x="-1546" y="-1626" stroke="black" width="20" height="20" fill="aqua"><title>Box of shotgun shells [12345 ]</title></rect>
+    <circle cx="-298" cy="-2346" r="20" fill="black"><title>Imp [45 ]</title></circle>
+    <rect x="-1770" y="-1962" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-1770" y="-1898" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-1674" y="-1482" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-1546" y="-1242" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <circle cx="-1802" cy="-714" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="-1802" cy="-650" r="20" fill="black"><title>Zombieman [345D]</title></circle>
+    <circle cx="-1546" cy="-474" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="-1898" cy="-1002" r="20" fill="black"><title>Zombieman [345 ]</title></circle>
+    <circle cx="-1018" cy="-602" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="-1354" cy="-474" r="20" fill="black"><title>Zombieman [345D]</title></circle>
+    <circle cx="-810" cy="-410" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="-970" cy="-938" r="20" fill="black"><title>Zombieman [345D]</title></circle>
+    <circle cx="-554" cy="-1034" r="20" fill="black"><title>Imp [345D]</title></circle>
+    <circle cx="-778" cy="758" r="20" fill="black"><title>Imp [345D]</title></circle>
+    <circle cx="-2122" cy="310" r="20" fill="black"><title>Imp [345 ]</title></circle>
+    <circle cx="-2122" cy="438" r="20" fill="black"><title>Imp [12345 ]</title></circle>
+    <circle cx="-1386" cy="630" r="20" fill="black"><title>Zombieman [12345 ]</title></circle>
+    <circle cx="-1738" cy="502" r="20" fill="black"><title>Zombieman [12345 ]</title></circle>
+    <circle cx="-970" cy="246" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="54" cy="886" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="182" cy="502" r="20" fill="black"><title>Zombieman [345 ]</title></circle>
+    <circle cx="-234" cy="438" r="20" fill="black"><title>Zombieman [345 ]</title></circle>
+    <circle cx="54" cy="1078" r="20" fill="black"><title>Zombieman [345 ]</title></circle>
+    <circle cx="438" cy="566" r="20" fill="black"><title>Zombieman [345 ]</title></circle>
+    <circle cx="-1546" cy="246" r="20" fill="black"><title>Zombieman [345 ]</title></circle>
+    <circle cx="-1642" cy="-106" r="20" fill="black"><title>Zombieman [345 ]</title></circle>
+    <circle cx="-1162" cy="-234" r="20" fill="black"><title>Zombieman [345D]</title></circle>
+    <circle cx="-906" cy="-74" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="-938" cy="310" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="-1770" cy="86" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="-1162" cy="646" r="20" fill="black"><title>Zombieman [45 ]</title></circle>
+    <circle cx="-234" cy="726" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="470" cy="1110" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="118" cy="886" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="-522" cy="182" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <rect x="-1514" y="470" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-1002" y="246" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-1002" y="150" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="-938" y="150" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-42" y="854" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-74" y="694" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="182" y="694" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-42" y="918" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="374" y="502" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="310" y="502" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="438" y="502" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-2154" y="662" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-2154" y="150" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-2154" y="214" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-2154" y="598" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-1066" y="-266" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-1066" y="-202" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <circle cx="-1354" cy="-330" r="20" fill="black"><title>Imp [45D]</title></circle>
+    <rect x="-2250" y="-138" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-2058" y="-138" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-2058" y="-330" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-2314" y="-330" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-2314" y="-586" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-2058" y="-586" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-2058" y="-522" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-2026" y="-554" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <circle cx="-330" cy="-2250" r="20" fill="black"><title>Zombieman [1245D]</title></circle>
+    <circle cx="-330" cy="-2442" r="20" fill="black"><title>Zombieman [1245D]</title></circle>
+    <circle cx="-458" cy="-2346" r="20" fill="black"><title>Zombieman [45D]</title></circle>
+    <circle cx="-426" cy="-2474" r="20" fill="black"><title>Zombieman [345D]</title></circle>
+    <circle cx="-426" cy="-2218" r="20" fill="black"><title>Zombieman [345D]</title></circle>
+    <circle cx="-426" cy="-2346" r="20" fill="black"><title>Imp [345D]</title></circle>
+    <rect x="-586" y="-2250" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <circle cx="-1834" cy="-938" r="20" fill="black"><title>Imp [45D]</title></circle>
+    <circle cx="-1770" cy="-938" r="20" fill="black"><title>Imp [45D]</title></circle>
+    <rect x="-554" y="22" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="-554" y="-1130" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="-1610" y="-2058" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-1482" y="-2058" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <circle cx="-106" cy="-522" r="20" fill="black"><title>Imp [45 ]</title></circle>
+    <circle cx="598" cy="-538" r="20" fill="black"><title>Zombieman [45 ]</title></circle>
+    <rect x="-778" y="-106" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-1130" y="-266" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-634" y="534" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-1770" y="406" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-2090" y="374" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-1450" y="854" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="182" y="454" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-442" y="198" stroke="black" width="20" height="20" fill="aqua"><title>4 shotgun shells [12345 ]</title></rect>
+    <rect x="-122" y="294" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="1510" y="166" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="1462" y="-938" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="726" y="406" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="1398" y="-1018" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 M]</title></rect>
+    <rect x="262" y="-538" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="-554" y="-634" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="-1418" y="-106" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="-2090" y="-554" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="-714" y="-2314" stroke="black" width="20" height="20" fill="aqua"><title>Clip [12345 ]</title></rect>
+    <rect x="982" y="294" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="966" y="-1018" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 M]</title></rect>
+    <rect x="-1178" y="870" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="-538" y="806" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="-442" y="806" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="438" y="1126" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="486" y="454" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="-250" y="550" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="-1338" y="518" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="-1914" y="70" stroke="black" width="20" height="20" fill="aqua"><title>Box of bullets [12345 ]</title></rect>
+    <rect x="-1930" y="-330" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-1898" y="-362" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-1898" y="-298" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="-1882" y="-330" stroke="black" width="20" height="20" fill="green"><title>Armor bonus [12345 ]</title></rect>
+    <rect x="678" y="838" stroke="black" width="20" height="20" fill="aqua"><title>Box of rockets [12345 M]</title></rect>
+    <rect x="630" y="934" stroke="black" width="20" height="20" fill="aqua"><title>Box of rockets [12345 M]</title></rect>
+    <rect x="678" y="934" stroke="black" width="20" height="20" fill="aqua"><title>Box of rockets [12345 M]</title></rect>
+    <rect x="630" y="838" stroke="black" width="20" height="20" fill="aqua"><title>Box of rockets [12345 M]</title></rect>
+    <rect x="-1322" y="-1194" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <rect x="-1402" y="-986" stroke="black" width="20" height="20" fill="green"><title>Health bonus [12345 ]</title></rect>
+    <circle cx="1350" cy="374" r="20" fill="black"><title>Shotgun guy [45D]</title></circle>
+    <circle cx="1542" cy="374" r="20" fill="black"><title>Shotgun guy [45D]</title></circle>
+    <circle cx="1926" cy="-10" r="20" fill="black"><title>Shotgun guy [45D]</title></circle>
+    <circle cx="2246" cy="-362" r="20" fill="black"><title>Shotgun guy [45D]</title></circle>
+    <circle cx="2246" cy="-522" r="20" fill="black"><title>Shotgun guy [45D]</title></circle>
+    <circle cx="2246" cy="-170" r="20" fill="black"><title>Shotgun guy [45D]</title></circle>
+    <circle cx="1862" cy="-842" r="20" fill="black"><title>Shotgun guy [45D]</title></circle>
+    <circle cx="1686" cy="-874" r="20" fill="black"><title>Shotgun guy [45D]</title></circle>
+    <circle cx="-2186" cy="-1050" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+    <circle cx="-2010" cy="-1050" r="20" fill="black"><title>Zombieman [12345D]</title></circle>
+  </g>
+</svg>
