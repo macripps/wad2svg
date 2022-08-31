@@ -107,7 +107,10 @@ var sectorStroke = []string{"black", "black", "black", "black", "red", "red", "u
 var sectorOpacity = []string{"1.0", "1.0", "1.0", "1.0", "0.2", "0.1", "unused", "0.05", "1.0", "0.5", "1.0", "1.0", "1.0", "1.0", "1.0", "unused", "0.2", "1.0"}
 
 func (s *Sector) ToSvgAttributeString() string {
-	return fmt.Sprintf("fill=\"%s\" stroke=\"%s\" fill-opacity=\"%s\" stroke-width=\"1\"", sectorFill[s.SectorType], sectorStroke[s.SectorType], sectorOpacity[s.SectorType])
+	if int(s.SectorType) < len(sectorFill) {
+		return fmt.Sprintf("fill=\"%s\" stroke=\"%s\" fill-opacity=\"%s\" stroke-width=\"1\"", sectorFill[s.SectorType], sectorStroke[s.SectorType], sectorOpacity[s.SectorType])
+	}
+	return "fill=\"white\" stroke=\"black\" fill-opacity=\"1.0\" stroke-width=\"1\""
 }
 
 type Thing struct {
