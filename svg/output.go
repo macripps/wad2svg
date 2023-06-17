@@ -41,19 +41,22 @@ func Render(w io.Writer, m *wad.Map, opts *RenderOpts) {
 			maxY = y
 		}
 	}
+	width := int32(maxX) - int32(minX)
+	height := int32(maxY) - int32(minY)
+	fmt.Fprintf(os.Stderr, "MinX: %d MaxX: %d Width: %d\nMinY: %d MaxY: %d Height: %d\n", minX, maxX,width, minY, maxY, height)
 	fmt.Fprintln(w, "<?xml version=\"1.0\" standalone=\"no\"?>")
-	fmt.Fprintf(w, "<svg width=\"%d\" height=\"%d\" viewBox=\"%d %d %d %d\" xmlns=\"http://www.w3.org/2000/svg\">\n", opts.ImageWidth, opts.ImageHeight, minX, minY, maxX-minX, maxY-minY)
+	fmt.Fprintf(w, "<svg width=\"%d\" height=\"%d\" viewBox=\"%d %d %d %d\" xmlns=\"http://www.w3.org/2000/svg\">\n", opts.ImageWidth, opts.ImageHeight, minX, minY, width, height)
 	fmt.Fprintf(w, "  <title>%s - %s</title>\n", opts.WadName, opts.MapName)
 	fmt.Fprintln(w, "  <g fill-rule=\"evenodd\">")
 
 	sectors := m.Sectors
 	for i, sector := range sectors {
-		fmt.Fprintf(os.Stderr, "Rendering sector #%d/%d\n", i+1, len(sectors))
+// 		fmt.Fprintf(os.Stderr, "Rendering sector #%d/%d\n", i+1, len(sectors))
 		renderSector(w, m, sector, i)
 	}
 	things := m.Things
 	for i, thing := range things {
-		fmt.Fprintf(os.Stderr, "Rendering thing #%d/%d\n", i+1, len(things))
+// 		fmt.Fprintf(os.Stderr, "Rendering thing #%d/%d\n", i+1, len(things))
 		renderThing(w, thing, i, opts)
 	}
 	fmt.Fprintln(w, "  </g>")
