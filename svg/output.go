@@ -14,6 +14,7 @@ type RenderOpts struct {
 	MapName           string
 	ImageWidth        int
 	ImageHeight       int
+	ListMaps          bool
 	RenderArtifacts   bool
 	RenderAmmo        bool
 	RenderKeys        bool

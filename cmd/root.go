@@ -43,6 +43,7 @@ var opts *svg.RenderOpts = &svg.RenderOpts{}
 func init() {
 	rootCmd.PersistentFlags().IntVar(&opts.ImageWidth, "image_width", 1280, "Width of generated SVG image")
 	rootCmd.PersistentFlags().IntVar(&opts.ImageHeight, "image_height", 1024, "Height of generated SVG image")
+	rootCmd.PersistentFlags().BoolVar(&opts.ListMaps, "list_maps", false, "If true, print a list of maps to stderr")
 	rootCmd.PersistentFlags().BoolVar(&opts.RenderAmmo, "show_ammo", true, "Whether or not to show ammunition")
 	rootCmd.PersistentFlags().BoolVar(&opts.RenderArtifacts, "show_artifacts", true, "Whether or not to show items")
 	rootCmd.PersistentFlags().BoolVar(&opts.RenderKeys, "show_keys", true, "Whether or not to show keys")
